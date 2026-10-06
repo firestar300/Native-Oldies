@@ -69,6 +69,20 @@ a.card-website-link {
   gap: 0;
 }
 
+.card-summary {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in oklab, white 35%, transparent) transparent;
+}
+
+.card-summary::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card-summary::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background: color-mix(in oklab, white 35%, transparent);
+}
+
 /* Subtle CRT scanlines in the hero, a nod to the era. */
 .scanlines {
   background:

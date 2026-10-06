@@ -135,8 +135,10 @@ const renderCard = (project) => {
         ${renderCover(project)}
         <!-- Hover / focus overlay (pointer devices) -->
         <div class="absolute inset-0 flex flex-col justify-end gap-3 bg-gradient-to-t from-black/95 via-black/75 to-black/10 p-3 text-white opacity-0 transition duration-200 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:hidden sm:p-4">
-          <p class="line-clamp-4 text-pretty text-sm leading-snug text-white/85">${escapeHtml(project.summary)}</p>
-          <div class="flex gap-2">${renderLinks(project, 'overlay')}</div>
+          <div class="card-summary -mx-1 min-h-0 max-h-[48%] overflow-y-auto overscroll-contain px-1">
+            <p class="line-clamp-4 text-pretty text-sm leading-snug text-white/85 group-hover:line-clamp-none group-focus-within:line-clamp-none">${escapeHtml(project.summary)}</p>
+          </div>
+          <div class="flex shrink-0 gap-2">${renderLinks(project, 'overlay')}</div>
         </div>
       </div>
       <div class="mt-3 flex flex-1 flex-col gap-1.5">
