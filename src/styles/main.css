@@ -1,0 +1,239 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/space-grotesk';
+@import '@fontsource/silkscreen/400.css';
+@import '@fontsource/silkscreen/700.css';
+
+/* Class-based dark mode (toggled on <html>). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: 'Space Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-pixel: 'Silkscreen', ui-monospace, monospace;
+
+  /* Semantic tokens are defined below and swapped per theme. */
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+}
+
+:root {
+  --paper: #f7f3ea;
+  --card: #fffdf8;
+  --ink: #1c1b29;
+  --muted: #5f5d70;
+  --line: #ded7c6;
+  --accent: #d6336c;
+  --accent-2: #5b3df5;
+  color-scheme: light;
+}
+
+.dark {
+  --paper: #0d0c16;
+  --card: #171526;
+  --ink: #efeefa;
+  --muted: #9b99b3;
+  --line: #2a2740;
+  --accent: #ff5c8a;
+  --accent-2: #8f7cff;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Subtle CRT scanlines in the hero, a nod to the era. */
+.scanlines {
+  background:
+    radial-gradient(60rem 28rem at 50% -10%, color-mix(in oklab, var(--accent-2) 22%, transparent), transparent 70%),
+    repeating-linear-gradient(to bottom, transparent 0 3px, color-mix(in oklab, var(--ink) 4%, transparent) 3px 4px);
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Filter toolbar: labelled rows so chip groups stay scannable. */
+.filter-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: color-mix(in oklab, var(--card) 65%, transparent);
+  overflow: hidden;
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.375rem;
+  padding: 0.75rem 1rem;
+  align-items: start;
+}
+
+.filter-row + .filter-row {
+  border-top: 1px solid var(--line);
+}
+
+.filter-row__label {
+  display: flex;
+  align-items: center;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.filter-row__chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+@media (min-width: 640px) {
+  .filter-row {
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+    column-gap: 1rem;
+    row-gap: 0;
+    align-items: start;
+  }
+
+  /* Match chip control height so the label lines up with the first row of pills. */
+  .filter-row__label {
+    min-height: calc(0.35rem * 2 + 1.25rem);
+    padding-right: 0.25rem;
+    text-align: right;
+  }
+}
+
+/* Filter chip: native checkbox/radio kept for keyboard + screen reader support. */
+.chip input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  cursor: pointer;
+}
+
+.chip input + span {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 9999px;
+  background: var(--card);
+  color: var(--muted);
+  padding: 0.35rem 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  white-space: nowrap;
+  transition:
+    background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
+}
+
+.chip:hover input + span {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+
+.chip input:checked + span {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+.chip input:focus-visible + span {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.chip-count {
+  margin-left: 0.4rem;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* Game card entrance. */
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+.status-tag {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 10;
+  border-radius: 9999px;
+  padding: 0.2rem 0.55rem;
+  font-family: var(--font-pixel);
+  font-size: 0.625rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.2;
+  backdrop-filter: blur(6px);
+}
+
+.status-tag--complete {
+  background: color-mix(in oklab, #22c55e 88%, transparent);
+  color: #052e16;
+}
+
+.status-tag--playable {
+  background: color-mix(in oklab, var(--accent-2) 88%, transparent);
+  color: #fff;
+}
+
+.status-tag--wip {
+  background: color-mix(in oklab, #f59e0b 90%, transparent);
+  color: #451a03;
+}
+
+.dark .status-tag--complete {
+  color: #ecfdf5;
+}
+
+.dark .status-tag--wip {
+  color: #fffbeb;
+}
+
+.card-in {
+  animation: card-in 0.35s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .card-in {
+    animation: none;
+  }
+
+  *,
+  ::before,
+  ::after {
+    transition-duration: 0.01ms !important;
+  }
+}
