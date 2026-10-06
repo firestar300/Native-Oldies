@@ -5,6 +5,12 @@ import { projects, STATUSES, STATUS_ORDER } from './data/projects.js'
 /* Static content                                                             */
 /* -------------------------------------------------------------------------- */
 
+/** Intrinsic cover size (px); keep in sync with scripts/fetch-covers.mjs. Reserves space and avoids layout shift. */
+const COVER_SIZE = { width: 480, height: 640 }
+
+/** Number of first visible covers loaded eagerly; the rest is lazy-loaded. */
+const EAGER_COVERS = 10
+
 const coverFiles = import.meta.glob('./assets/covers/*', { eager: true, query: '?url', import: 'default' })
 const coverById = Object.fromEntries(
   Object.entries(coverFiles).map(([path, url]) => [path.split('/').pop().replace(/\.[^.]+$/, ''), url]),
@@ -73,13 +79,13 @@ const renderLinks = (project, variant) => {
   const base =
     'inline-flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent'
   const styles = {
-    primary: `${base} bg-white text-black hover:bg-accent hover:text-white`,
+    primary: `${base} bg-white text-black hover:bg-accent hover:text-on-accent`,
     secondary:
       variant === 'overlay'
         ? `${base} border border-white/40 text-white hover:border-white hover:bg-white/15`
         : `${base} border border-line text-ink hover:border-accent hover:text-accent`,
   }
-  const primaryStyle = variant === 'overlay' ? styles.primary : `${base} bg-ink text-paper hover:bg-accent hover:text-white`
+  const primaryStyle = variant === 'overlay' ? styles.primary : `${base} bg-ink text-paper hover:bg-accent hover:text-on-accent`
 
   const link = (href, style, icon, label) => `
     <a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer" class="${style} flex-1">
@@ -101,10 +107,8 @@ const renderCover = (project) => {
       </div>`
   }
   return `
-    <img src="${url}" alt="" aria-hidden="true" loading="lazy" decoding="async"
-      class="absolute inset-0 size-full scale-125 object-cover opacity-70 blur-2xl" />
-    <img src="${url}" alt="Cover of ${escapeHtml(project.game)}" loading="lazy" decoding="async"
-      class="relative size-full object-contain transition duration-300 group-hover:scale-[1.03] group-focus-within:scale-[1.03]" />`
+    <img src="${url}" alt="Cover of ${escapeHtml(project.game)}" width="${COVER_SIZE.width}" height="${COVER_SIZE.height}" loading="lazy" decoding="async"
+      class="size-full object-cover transition duration-300 group-hover:scale-[1.03] group-focus-within:scale-[1.03]" />`
 }
 
 const renderStatusTag = (project) => {
@@ -112,11 +116,9 @@ const renderStatusTag = (project) => {
   return `<span class="status-tag status-tag--${escapeHtml(project.status)}">${escapeHtml(label)}</span>`
 }
 
-const renderCard = (project, index) => {
+const renderCard = (project) => {
   const item = document.createElement('li')
   item.dataset.id = project.id
-  item.className = 'card-in'
-  item.style.animationDelay = `${Math.min(index, 12) * 30}ms`
   item.innerHTML = `
     <article class="group flex h-full flex-col">
       <div class="relative aspect-[3/4] overflow-hidden rounded-xl border border-line bg-card shadow-sm transition duration-300 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-accent/20 group-focus-within:-translate-y-1 group-focus-within:shadow-xl group-focus-within:shadow-accent/20">
@@ -211,7 +213,7 @@ const initApp = () => {
       normalize([project.game, project.project, project.platform, project.approach, STATUSES[project.status], project.summary].join(' ')),
     ]),
   )
-  const cards = new Map(projects.map((project, index) => [project.id, renderCard(project, index)]))
+  const cards = new Map(projects.map((project) => [project.id, renderCard(project)]))
 
   const matches = (project) => {
     const tokens = normalize(state.query).split(/\s+/).filter(Boolean)
@@ -234,6 +236,12 @@ const initApp = () => {
       const card = cards.get(project.id)
       card.hidden = !visibleIds.has(project.id)
       grid.append(card)
+    })
+
+    // Load the first visible covers right away, keep the rest lazy.
+    visible.forEach((project, index) => {
+      const cover = cards.get(project.id).querySelector('img')
+      if (cover) cover.loading = index < EAGER_COVERS ? 'eager' : 'lazy'
     })
 
     const isFiltered = Boolean(state.query || state.platforms.size || state.approaches.size || state.statuses.size)

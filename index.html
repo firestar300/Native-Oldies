@@ -3,29 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Native Oldies — fan-made native PC ports of classic games</title>
-    <meta
-      name="description"
-      content="A directory of fan-made native PC ports of classic console games: decompilations, recompilations and reimplementations. Search by title, filter by console."
-    />
+    <title>{{TITLE}}</title>
+
+    <!-- SEO -->
+    <meta name="description" content="{{DESCRIPTION}}" />
+    <meta name="author" content="Native Oldies" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="{{SITE_URL}}" />
     <meta name="color-scheme" content="light dark" />
-    <meta property="og:title" content="Native Oldies" />
-    <meta property="og:description" content="Fan-made native PC ports of classic console games, all in one place." />
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0d0c16" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Native Oldies" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="{{SITE_URL}}" />
+    <meta property="og:title" content="{{TITLE}}" />
+    <meta property="og:description" content="{{DESCRIPTION}}" />
+    <meta property="og:image" content="{{SITE_URL}}og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Native Oldies: fan-made native PC ports of classic games, shown with their cover art." />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{TITLE}}" />
+    <meta name="twitter:description" content="{{DESCRIPTION}}" />
+    <meta name="twitter:image" content="{{SITE_URL}}og-image.png" />
+    <meta name="twitter:image:alt" content="Native Oldies: fan-made native PC ports of classic games, shown with their cover art." />
+
+    <!-- Icons and manifest -->
     <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" />
+    <link rel="manifest" href="%BASE_URL%site.webmanifest" />
+
+    <!-- Structured data (generated at build time) -->
+    <!--seo:json-ld-->
     <!-- Apply the saved theme before first paint to avoid a flash. -->
     <script>
       ;(() => {
         const saved = localStorage.getItem('theme')
         const isDark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
         document.documentElement.classList.toggle('dark', isDark)
+        document.documentElement.classList.add('js')
       })()
     </script>
   </head>
   <body class="bg-paper text-ink antialiased">
     <a
       href="#games"
-      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-on-accent"
     >
       Skip to the games
     </a>
@@ -62,14 +91,15 @@
             A hand-picked directory of fan-made ports built from decompilations, recompilations and reimplementations.
             You bring the game files, they bring the framerate.
           </p>
+          <!-- <dt> comes first in the DOM (valid markup); flex-row-reverse shows the number first. -->
           <dl class="mt-8 flex flex-wrap justify-center gap-x-10 gap-y-3 text-sm">
-            <div class="flex items-baseline gap-2">
-              <dd class="font-pixel text-2xl text-ink" id="stat-projects">–</dd>
+            <div class="flex flex-row-reverse items-baseline justify-end gap-2">
               <dt class="text-muted">ports</dt>
+              <dd class="font-pixel text-2xl text-ink" id="stat-projects">{{PORT_COUNT}}</dd>
             </div>
-            <div class="flex items-baseline gap-2">
-              <dd class="font-pixel text-2xl text-ink" id="stat-platforms">–</dd>
+            <div class="flex flex-row-reverse items-baseline justify-end gap-2">
               <dt class="text-muted">consoles</dt>
+              <dd class="font-pixel text-2xl text-ink" id="stat-platforms">{{PLATFORM_COUNT}}</dd>
             </div>
           </dl>
         </div>
@@ -82,7 +112,7 @@
         aria-label="Search and filters"
         class="z-30 -mx-4 lg:sticky lg:top-0 border-b border-line bg-paper/85 px-4 py-4 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8"
       >
-        <div class="flex flex-col gap-3 sm:flex-row">
+        <div class="flex flex-col gap-3 sm:flex-row" role="search">
           <div class="relative flex-1">
             <label for="search" class="sr-only">Search a game or a project</label>
             <svg class="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -94,7 +124,7 @@
               type="search"
               autocomplete="off"
               placeholder="Search a game or a project…"
-              class="h-12 w-full rounded-xl border border-line bg-card pl-12 pr-14 text-base text-ink placeholder:text-muted/80 focus:border-accent focus:outline-none focus:ring-4 focus:ring-accent/20"
+              class="h-12 w-full rounded-xl border border-line bg-card pl-12 pr-14 text-base text-ink placeholder:text-muted focus:border-accent focus:outline-none focus:ring-4 focus:ring-accent/20"
             />
             <kbd
               class="pointer-events-none absolute right-4 top-1/2 hidden -translate-y-1/2 rounded-md border border-line px-2 py-0.5 font-mono text-xs text-muted sm:block"
@@ -136,7 +166,7 @@
       </section>
 
       <div class="mt-6 flex items-center justify-between gap-4">
-        <p id="result-count" class="text-sm text-muted" role="status" aria-live="polite"></p>
+        <p id="result-count" class="min-h-5 text-sm text-muted" role="status" aria-live="polite"></p>
         <button
           id="reset-filters"
           type="button"
@@ -147,12 +177,14 @@
       </div>
 
       <ul id="grid" class="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:gap-x-6 lg:grid-cols-4 xl:grid-cols-5"></ul>
+      <!--seo:noscript-->
 
       <div id="empty-state" class="hidden py-24 text-center" hidden>
         <p class="font-pixel text-4xl text-accent" aria-hidden="true">GAME OVER</p>
         <p class="mt-6 text-lg font-medium">No port matches your search.</p>
         <p class="mt-1 text-muted">Try another keyword, or reset the filters.</p>
       </div>
+      <!--seo:faq-->
     </main>
 
     <footer class="border-t border-line">
@@ -164,6 +196,16 @@
         <p>
           All game titles and cover art belong to their respective owners (Nintendo, Sega, Sony, Konami, Rare, Lucasfilm…)
           and are shown for identification purposes only. Covers are sourced from the Twitch directory (IGDB box art).
+        </p>
+        <p>
+          <a
+            href="https://github.com/firestar300/Native-Oldies"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-medium text-accent underline underline-offset-4 hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            Source code and suggestions on GitHub<span class="sr-only"> (opens in a new tab)</span>
+          </a>
         </p>
       </div>
     </footer>
