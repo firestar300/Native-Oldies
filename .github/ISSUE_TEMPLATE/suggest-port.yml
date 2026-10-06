@@ -1,0 +1,111 @@
+name: Suggest a port
+description: Propose a fan-made native PC port to add to Native Oldies
+title: "[Port] "
+labels:
+  - port suggestion
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the directory. Please only suggest **native PC ports** (decompilation, static recompilation, reimplementation, or native port from another platform)—not emulators or generic frontends.
+
+        Check the [current list](https://firestar300.github.io/Native-Oldies/) first to avoid duplicates.
+
+  - type: input
+    id: game
+    attributes:
+      label: Original game title
+      description: As players know it (e.g. "Super Mario 64").
+      placeholder: Super Mario 64
+    validations:
+      required: true
+
+  - type: input
+    id: project
+    attributes:
+      label: Port / project name
+      description: Name of the fan project (e.g. "Ship of Harkinian").
+      placeholder: Mario 64 PC port
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: Original platform
+      description: Console or system the game was released on (e.g. Nintendo 64, PlayStation, Wii).
+      placeholder: Nintendo 64
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Original release year
+      placeholder: "1996"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: approach
+    attributes:
+      label: Port method
+      options:
+        - Decompilation
+        - Static recompilation
+        - Reimplementation
+        - Native port
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Port status (your best guess)
+      options:
+        - Complete
+        - Playable
+        - WIP
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository URL
+      description: Main source or releases repo for the port.
+      placeholder: https://github.com/org/project
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Project website (optional)
+      placeholder: https://example.com
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-line summary
+      description: Short pitch for the card (widescreen, mods, platforms supported, etc.).
+      placeholder: Native PC port with 60 FPS, widescreen and a mod loader.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context (optional)
+      description: Links to PCGamingWiki, playability notes, ROM requirements, or why it fits the directory.
+      placeholder: Playable on Windows and Linux; requires a US 1.0 ROM.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This runs natively on PC without a classic emulator (e.g. not “open in RetroArch only”).
+          required: true
+        - label: I searched the directory and this port is not already listed.
+          required: true
