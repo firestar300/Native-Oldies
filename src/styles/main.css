@@ -55,6 +55,20 @@ body {
   font-family: var(--font-sans);
 }
 
+.theme-icon {
+  flex-shrink: 0;
+}
+
+/* Icon-only website button: square, same row height as the GitHub link beside it. */
+a.card-website-link {
+  flex: none;
+  align-self: stretch;
+  aspect-ratio: 1;
+  width: auto;
+  padding-inline: 0.5rem;
+  gap: 0;
+}
+
 /* Subtle CRT scanlines in the hero, a nod to the era. */
 .scanlines {
   background:

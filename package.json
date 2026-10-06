@@ -10,6 +10,12 @@
   },
   "type": "module",
   "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "volta": {
+    "node": "24.18.0"
+  },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "sharp": "^0.35.5",
