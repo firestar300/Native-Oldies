@@ -235,6 +235,20 @@ export const projects = [
     status: 'playable',
   },
   {
+    id: 'kings-field-2-verdite3',
+    game: "King's Field II",
+    project: 'Verdite3',
+    platform: 'PlayStation',
+    approach: APPROACHES.recomp,
+    year: 1996,
+    summary:
+      'US King\'s Field II (SLUS-00255) ported with RecompOne: widescreen, twin-stick controls, visual upgrades and mods; playable start to finish.',
+    repo: 'https://github.com/Voicedrew11/verdite3',
+    website: null,
+    twitchBoxArtId: 16958,
+    status: 'playable',
+  },
+  {
     id: 'sonic-3-air',
     game: 'Sonic 3 & Knuckles',
     project: 'Sonic 3 A.I.R.',
