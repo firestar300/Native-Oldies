@@ -12,7 +12,7 @@
  * @property {string}      approach        Technique used (used by the filter chips).
  * @property {number}      year            Release year of the original game.
  * @property {string}      summary         One-line description.
- * @property {string}      repo            GitHub repository URL.
+ * @property {string|null} repo            GitHub repository URL, or null if none is public yet.
  * @property {string|null} website         Official website URL, or null if there is none.
  * @property {number}      twitchBoxArtId  IGDB id used in Twitch box art URLs (`…/ttv-boxart/{id}_IGDB.jpg`).
  * @property {'complete'|'playable'|'wip'} status  Port maturity (PCGamingWiki-style); used for filters and card tags.
@@ -599,5 +599,19 @@ export const projects = [
     website: null,
     twitchBoxArtId: 17586,
     status: 'complete',
+  },
+  {
+    id: 'smash-64-recompiled',
+    game: 'Super Smash Bros.',
+    project: 'Smash 64: Recompiled',
+    platform: 'Nintendo 64',
+    approach: APPROACHES.recomp,
+    year: 1999,
+    summary:
+      'Upcoming native PC port built with N64: Recompiled and RT64; widescreen and modern controls teased in the release trailer.',
+    repo: null,
+    website: 'https://www.youtube.com/watch?v=bjSo3E3ul4k',
+    twitchBoxArtId: 17516,
+    status: 'wip',
   },
 ]

@@ -54,7 +54,7 @@ const renderJsonLd = () => {
             '@type': 'ListItem',
             position: index + 1,
             name: `${project.game} — ${project.project}`,
-            url: project.repo,
+            url: project.repo ?? project.website,
           })),
         },
       },
@@ -99,7 +99,7 @@ const renderNoscript = () => `
           ${projects
             .map(
               (project) =>
-                `<li>${escapeHtml(project.game)} (${escapeHtml(project.platform)}, ${project.year}) — <a class="text-accent underline" href="${escapeHtml(project.repo)}">${escapeHtml(project.project)}</a></li>`,
+                `<li>${escapeHtml(project.game)} (${escapeHtml(project.platform)}, ${project.year}) — <a class="text-accent underline" href="${escapeHtml(project.repo ?? project.website)}">${escapeHtml(project.project)}</a></li>`,
             )
             .join('\n          ')}
         </ul>
