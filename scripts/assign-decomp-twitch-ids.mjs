@@ -32,6 +32,9 @@ const ALIASES_PATH = fileURLToPath(
 const MANUAL_PATH = fileURLToPath(
   new URL('../src/data/decomp-dev-twitch-manual.json', import.meta.url),
 )
+const IGNORE_CATEGORIES_PATH = fileURLToPath(
+  new URL('../src/data/decomp-dev-twitch-ignore-categories.json', import.meta.url),
+)
 
 /** @returns {Promise<Record<string, string>>} */
 const loadAliases = async () => {
@@ -89,6 +92,26 @@ const normalizeName = (name) => {
   return value.replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
+/** @returns {Promise<Set<string>>} normalized Twitch category titles skipped during auto-match */
+const loadIgnoredCategoryKeys = async () => {
+  try {
+    const raw = await readFile(IGNORE_CATEGORIES_PATH, 'utf8')
+    const parsed = JSON.parse(raw)
+    if (!Array.isArray(parsed)) return new Set()
+    return new Set(
+      parsed.map((name) => normalizeName(String(name))).filter((key) => key.length > 0),
+    )
+  } catch {
+    return new Set()
+  }
+}
+
+/** @param {{ name?: string }} row @param {Set<string>} ignoredCategoryKeys */
+const isIgnoredTwitchCategory = (row, ignoredCategoryKeys) => {
+  if (!row?.name) return true
+  return ignoredCategoryKeys.has(normalizeName(row.name))
+}
+
 const processAll = process.env.DECOMP_TWITCH_ALL === '1'
 const parsedLimit = Number.parseInt(process.env.DECOMP_TWITCH_LIMIT ?? '50', 10)
 const batchLimit = parsedLimit > 0 ? parsedLimit : 50
@@ -110,14 +133,15 @@ const normalizeTwitchGameRows = (raw) => {
 }
 
 /** @returns {Promise<{ index: Map<string, { id: string, name: string }>, rows: Array<{ name: string, id: string }> }>} */
-const loadTwitchDirectoryIndex = async () => {
+const loadTwitchDirectoryIndex = async (ignoredCategoryKeys) => {
   await mkdir(fileURLToPath(new URL('../.cache', import.meta.url)), { recursive: true })
 
   try {
     const cached = await readFile(TWITCH_GAMES_CACHE, 'utf8')
     const rows = normalizeTwitchGameRows(JSON.parse(cached))
     if (rows.length > 1000) {
-      return { index: buildIndex(rows), rows }
+      const filtered = rows.filter((row) => !isIgnoredTwitchCategory(row, ignoredCategoryKeys))
+      return { index: buildIndex(filtered), rows: filtered }
     }
   } catch {
     // fetch below
@@ -132,7 +156,8 @@ const loadTwitchDirectoryIndex = async () => {
   if (rows.length < 1000) throw new Error('Twitch games index was unexpectedly small')
 
   await writeFile(TWITCH_GAMES_CACHE, `${JSON.stringify(rows)}\n`)
-  return { index: buildIndex(rows), rows }
+  const filtered = rows.filter((row) => !isIgnoredTwitchCategory(row, ignoredCategoryKeys))
+  return { index: buildIndex(filtered), rows: filtered }
 }
 
 const STOP_TOKENS = new Set([
@@ -191,7 +216,7 @@ const isPlausibleTwitchMatch = (gameName, twitchName) => {
  * @param {string} gameName
  * @param {Array<{ name: string, id: string }>} rows
  */
-const findFuzzyTwitchCategory = (gameName, rows) => {
+const findFuzzyTwitchCategory = (gameName, rows, ignoredCategoryKeys) => {
   const target = normalizeName(gameName)
   if (!target) return null
 
@@ -204,6 +229,7 @@ const findFuzzyTwitchCategory = (gameName, rows) => {
 
   for (const row of rows) {
     if (!row?.name || !row?.id || isWeakTwitchName(row.name)) continue
+    if (isIgnoredTwitchCategory(row, ignoredCategoryKeys)) continue
     const candidate = normalizeName(row.name)
     if (!candidate) continue
 
@@ -242,13 +268,14 @@ const findFuzzyTwitchCategory = (gameName, rows) => {
  * @param {string} gameName
  * @param {Array<{ name: string, id: string }>} rows
  */
-const findUniqueTokenSubsetMatch = (gameName, rows) => {
+const findUniqueTokenSubsetMatch = (gameName, rows, ignoredCategoryKeys) => {
   const targetTokens = significantTokens(normalizeName(gameName))
   if (targetTokens.length < 2) return null
 
   const matches = []
   for (const row of rows) {
     if (!row?.name || !row?.id || isWeakTwitchName(row.name)) continue
+    if (isIgnoredTwitchCategory(row, ignoredCategoryKeys)) continue
     const candidateTokens = significantTokens(normalizeName(row.name))
     if (!candidateTokens.length) continue
 
@@ -295,7 +322,9 @@ for (const project of portProjects) {
   if (key) portByGame.set(key, project.twitchBoxArtId)
 }
 
-const { index: directoryIndex, rows: directoryRows } = await loadTwitchDirectoryIndex()
+const ignoredCategoryKeys = await loadIgnoredCategoryKeys()
+const { index: directoryIndex, rows: directoryRows } =
+  await loadTwitchDirectoryIndex(ignoredCategoryKeys)
 const aliases = await loadAliases()
 const manualIds = await loadManualIds()
 const cache = await loadTwitchCache()
@@ -360,8 +389,8 @@ for (const row of batch) {
 
   const directoryHit =
     fromDirectory ??
-    findUniqueTokenSubsetMatch(aliasTitle ?? gameName, directoryRows) ??
-    findFuzzyTwitchCategory(aliasTitle ?? gameName, directoryRows)
+    findUniqueTokenSubsetMatch(aliasTitle ?? gameName, directoryRows, ignoredCategoryKeys) ??
+    findFuzzyTwitchCategory(aliasTitle ?? gameName, directoryRows, ignoredCategoryKeys)
   if (directoryHit) {
     const twitchBoxArtId = Number.parseInt(directoryHit.id, 10)
     if (!Number.isFinite(twitchBoxArtId)) {

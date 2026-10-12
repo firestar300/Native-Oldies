@@ -78,7 +78,7 @@ npm run sync:decomp-dev
 npm run covers
 ```
 
-Covers use the same Twitch CDN ids as curated ports (`twitchBoxArtId`). No Twitch developer app: run `assign:decomp-twitch` (50 games per batch) to match titles against a public directory list, or set ids manually in `src/data/decomp-dev-twitch-cache.json` (`owner/repo` → `{ "twitchBoxArtId": … }`, id from the Twitch directory box art URL). Optional title overrides: `src/data/decomp-dev-twitch-aliases.json` (`owner/repo` → exact Twitch category name). Confirmed ids: `src/data/decomp-dev-twitch-manual.json` (`owner/repo` → numeric id). Each `assign:decomp-twitch` run advances **50 rows** through the full decomp catalogue (stable order).
+Covers use the same Twitch CDN ids as curated ports (`twitchBoxArtId`). No Twitch developer app: run `assign:decomp-twitch` (50 games per batch) to match titles against a public directory list, or set ids manually in `src/data/decomp-dev-twitch-cache.json` (`owner/repo` → `{ "twitchBoxArtId": … }`, id from the Twitch directory box art URL). Optional title overrides: `src/data/decomp-dev-twitch-aliases.json` (`owner/repo` → exact Twitch category name). Confirmed ids: `src/data/decomp-dev-twitch-manual.json` (`owner/repo` → numeric id). Twitch category titles in `src/data/decomp-dev-twitch-ignore-categories.json` are skipped during auto-match (e.g. generic Pokémon listings that steal fuzzy matches). Each `assign:decomp-twitch` run advances **50 rows** through the full decomp catalogue (stable order).
 
 Caches: `src/data/decomp-dev-metadata-cache.json` (years), `src/data/decomp-dev-twitch-cache.json` (Twitch ids).
 
