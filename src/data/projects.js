@@ -628,4 +628,18 @@ export const projects = [
     twitchBoxArtId: 17516,
     status: 'wip',
   },
+  {
+    id: 'melee-unlocked',
+    game: 'Super Smash Bros. Melee',
+    project: 'Melee Unlocked',
+    platform: 'GameCube',
+    approach: APPROACHES.decomp,
+    year: 2001,
+    summary:
+      'Windows source port from the Melee decompilation with unlocked frame rate, D3D12 rendering and Slippi rollback netplay; static recomp engine included.',
+    repo: 'https://github.com/Hero88go/melee-unlocked',
+    website: null,
+    twitchBoxArtId: 16282,
+    status: 'playable',
+  },
 ]
