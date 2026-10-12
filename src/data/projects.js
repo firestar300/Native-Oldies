@@ -14,6 +14,7 @@
  * @property {string}      summary         One-line description.
  * @property {string|null} repo            GitHub repository URL, or null if none is public yet.
  * @property {string|null} website         Official website URL, or null if there is none.
+ * @property {'decomp.dev'} [catalogSource] External catalogue this row was imported from (see src/data/decomp-dev-source.js).
  * @property {number}      [twitchBoxArtId]  Twitch box art id (`…/ttv-boxart/{id}_IGDB.jpg` on most categories).
  * @property {string}      [twitchCoverUrl]  Full Twitch CDN cover URL when the category does not use the `_IGDB` suffix.
  * @property {'complete'|'playable'|'wip'} status  Port maturity (PCGamingWiki-style); used for filters and card tags.
@@ -36,8 +37,14 @@ export const STATUSES = {
 /** Display order for status filter chips. */
 export const STATUS_ORDER = ['complete', 'playable', 'wip']
 
+import { decompDevProjects } from './decomp-dev-projects.js'
+import { DECOMP_DEV } from './decomp-dev-source.js'
+
+export { DECOMP_DEV }
+
+/** Hand-curated native PC ports (not generated from decomp.dev). */
 /** @type {Project[]} */
-export const projects = [
+export const portProjects = [
   {
     id: 'zelda-oot',
     game: 'The Legend of Zelda: Ocarina of Time',
@@ -391,6 +398,7 @@ export const projects = [
     summary: 'Metroid Prime decompilation (PrimeDecomp) with an in-progress native PC port path.',
     repo: 'https://github.com/PrimeDecomp/Prime',
     website: 'https://decomp.dev/PrimeDecomp/prime',
+    catalogSource: 'decomp.dev',
     twitchBoxArtId: 14198,
     status: 'wip',
   },
@@ -938,3 +946,6 @@ export const projects = [
     status: 'complete',
   },
 ]
+
+/** @type {Project[]} */
+export const projects = [...portProjects, ...decompDevProjects]

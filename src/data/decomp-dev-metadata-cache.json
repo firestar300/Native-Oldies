@@ -1,0 +1,767 @@
+{
+  "Raikaru/Persona4-Decompilation": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Shin_Megami_Tensei_Persona_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "OpenRAC/rac1-decomp": {
+    "year": 2016
+  },
+  "USED255/artonelico2-decomp": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/Ar_tonelico_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "afsenovilla/Tombi-Decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "denzi-gh/crashwoc-decomp-ps2": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wrathofcortex_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "dreamingmoths/mirror-of-alessa": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "dreamingmoths/memory-of-alessa": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ca/Sh3_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Voicedrew11/kfiv-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/King%27s_Field_IV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "dev-camo/shadow-decomp": {
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "year": 2005
+  },
+  "moozilla/boktai3-decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Boktai_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Megami-Decomps/dds-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Shin_Megami_Tensei_-_Digital_Devil_Saga_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "lombyte-project/Lombyte": {
+    "year": 2016
+  },
+  "celophi/so3-decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Sotteotbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "khasinski/parasite-eve-decomp": {
+    "year": 1995,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Parasite_Eve_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "holly-hacker/hp3-gba-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "fuddlesworth/pokebw2": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dd/Pokemon_White_2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "OpokXeno/xsg-i-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Xenosaga1box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "AngheloAlf/puzzleleague64": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Pok%C3%A9mon_Puzzle_League_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "TheMoonPeople/ChronicleTwo": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/Dark_Chronicle_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Pheenoh/khcom": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/KingdomHeartsCoMCover_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ShaffySwitcher/wariowareinc": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Warioware1box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "southcitycapture/hybridheaven-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "TheGh0stShip/BattleTanx-Global-Assault": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/BattleTanx_-_Global_Assault.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "DevOldSchool/conkers-bfd-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "mhvuze/mh4u-decomp": {
+    "year": 2013,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Monster-Hunter_4Boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "zm2283145/syphon-filter-omega-strain-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9d/Syphon_Filter_The_Omega_Strain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "charlieduzstuf/pokesword": {
+    "year": 2019,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "laqieer/fireemblem8u": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "doldecomp/melee": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "CosmicScribe64/tokimemo-ps1-decomp": {
+    "year": 1994,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Tokimeki_Memorial_PC_Engine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "SMGCommunity/Petari": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Xeeynamo/sotn-decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "722rsr/gtadv3-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/GT3_Cover_Art.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "iirg4x/marioparty6": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Mikompilation/Himuro": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "OpenRAC/rac-deadlocked-decomp": {
+    "year": 2005,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/da/Deadlocked.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "OpenRAC/rac2-gc-decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Ratchet_and_clank_gc_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "OpenRAC/rac3-uya-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Ratchetandclank3box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "yannicksuter/mscharged-decomp": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Mario_Strikers_Charged.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "GabeRealB/parasite-eve-2-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Parasite_Eve_II_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "denzi-gh/crashwoc-decomp-gc": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wrathofcortex_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "projectPiki/pik2wii": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "gcsmith/Pilotwings64Decomp": {
+    "year": 1996,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Pilotwings_64_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "dothacktranslate/okamiden-decomp": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Okamiden-title.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "abelbriggs1/tm1_decomp": {
+    "year": 2000
+  },
+  "mitsevox/nflstreet2": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/NFL_Street_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "rjkiv/dc3-decomp": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Dance_Central_3_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "dougchansan/pkmn-colosseum": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d5/Pok%C3%A9mon_Colosseum_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "gustavocanepa/tt-decomp": {
+    "year": 1996,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Tourist_Trophy_%28video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "gustavocanepa/gt4-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/Gran_Turismo_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "kh-recoded-decomp/kh-recoded-decomp": {
+    "year": 2008
+  },
+  "Daniel-McCarthy/SPPS": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Shaun_Palmer%27s_Pro_Snowboarder.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "2Tie/mh1j": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Monster_Hunter_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "anzaldoivan/mmx6": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Mmx6box.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Caesar0007/NFSHS-PSX-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "zeldaret/st": {
+    "year": 2009,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/The_Legend_of_Zelda_Spirit_Tracks_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Jovinull/sonicheroes": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Sonic_Heroes_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "bgsamm/pbr-dtk": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "doldecomp/sms": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "synamaxmusic/bar-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/BAR_gamebox.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Swiftshine/kdc": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/KDCEnglishBoxart1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "TheOnlyZac/sly1": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Xeeynamo/ff7-decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "celophi/lom-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Legend_of_Mana.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ShulkMaster/mk-deception": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/29/MK_Deception_Cover_Artwork.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "roengstrom/ff8-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Final_Fantasy_8_ntsc-front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ser-pounce/rood-reverse": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "punpckhdq/halo": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "lifewillbeokay/moh-rising-sun": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/MOHRSbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Coaltergeist/goldensun-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "SMGCommunity/Garigari": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Super_Mario_Galaxy_2_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "istornz/bowsers-inside-story-decomp": {
+    "year": 2009,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Mario_%26_Luigi_3_NA_Cover.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "sozud/mmx4": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Mega_Man_X4_PSX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Yokimitsuro/khdays-decomp": {
+    "year": 2009,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/KingdomdaysNA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ReGame-Labs/dtbe_decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Digimon_Rumble_Arena_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "shibbo/3DWDecomp": {
+    "year": 2013,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Nintendocustom/Lego-City-Undercover-Decompilation": {
+    "year": 2013,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/LegoCityUndercover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ReGame-Labs/dcb_decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Digimondigitalcardbattle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "testyourmine/kleod": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "anzaldoivan/dino-crisis-2-decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Dino_Crisis_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "anzaldoivan/mmx5": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Mmx5box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "TsilaAllaoui/warioland4": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Wario_Land_4_NA_Box_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "jype0/dw_decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Digimonworld.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "nlopez99/mssb-decomp": {
+    "year": 2005,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "EiscremeWaffle/bubsy3d-decomp": {
+    "year": 1996,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Bubsy_3D.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ladysilverberg/xenogears-decomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Xenogears_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "doldecomp/brawl": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/SSBB_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "plinkr/Wild9-Decompilation": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Wild_9_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ReGame-Labs/dwds_decomp": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Digimon_World_DS_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ReGame-Labs/dw3_decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "projectPiki/pikmin2": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "cdlewis/snowboardkids-decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/Snowboard_Kids_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "T3CHNOLOG1C/BigRed": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/New_Super_Mario_Bros._2_box_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "kyleckroeger/moh-frontline-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/Medal_of_Honor_Frontline_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "zcanann/bfbb": {},
+  "zcanann/FFCC-Decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Final_Fantasy_Crystal_Chronicles_%28box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Tanline666/veryfat-dungeon": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "mitsevox/tw2004": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Tiger_Woods_PGA_Tour_2004_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "hansbonini/psx_tomba": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Drahsid/mischief-makers": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Mischief_Makers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "SomeJakeGuy/lm-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "zeldaret/ph": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "shdecompilations/silent-hill-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "mschienbein/shiren2-decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/Fushigi_no_Dungeon_-_Furai_no_Siren_2_-_Oni_Shurai_Siren-jo_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "2gifts/george-decomp": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d2/George_of_the_Jungle_and_the_Search_for_the_Secret_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "zeldaret/tww": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "GoldieLeGenie/DQIV-DECOMP": {
+    "year": 1990,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Dragon_Quest_IV_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Wyrelade/Digimon-World-2-Decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Digimonworld2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "tclamb/mhp2g-decomp": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/MonsterHunterFreedomUnite.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "AbuN64/battletanx-decomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "1superchip/ty-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/62/Ty_the_Tasmanian_Tiger_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "g-guthrie/mvc2-ps2-decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/19/MVC2_Arcade_Flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "roeming/SA2B": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Sonic_Adventure_2_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "tgsm/pbg": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Piglet%27s_Big_Game_Cover_PS2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "DarkRTA/rb3": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Wyrelade/Armored-Core-Decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/ArmoredCorePS1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "gamemasterplc/bltouch2": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/Bomberman_Land_Touch_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "zcanann/SFA-Decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Star_Fox_Adventures_GCN_Game_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "PattyTrish/unending-occlusion": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Eternal_Darkness_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "projectPiki/pikmin": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "doldecomp/mkw": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Swiftshine/key": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/Kirby%27s_Epic_Yarn_Title.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "brian-oblivion/lsddecomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/LSD_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ricky074game/marioparty9": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Mario_Party_9_US_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "overjt/knidl": {
+    "year": 1993,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kirby%27s_Adventure_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "PascalPixel/alchemy": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "doldecomp/mkdd": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Dream-Atelier/kl-eod-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "CosmicScribe64/eds-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/Yu-Gi-Oh%21_The_Eternal_Duelist_Soul_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "SeekyCt/spm-decomp": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "zeldaret/ss": {
+    "year": 2011,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ShulkMaster/mk-da": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/MK_Deadly_Alliance_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "akiramusic000/Rhae": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Wii_Play_Europe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "SephDB/pokepark-wii-decomp": {
+    "year": 2009,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Pok%C3%A9Park_Wii_NA_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "GRAnimated/MinecraftLCE": {
+    "year": 2012
+  },
+  "LucasPicoli/god-hand-decomp": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/God_Hand_%282006_Playstation_2%29_video_game_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Druthulu/BFM-decomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Brave_Fencer_Musashi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "daanhenke/persona-psx": {
+    "year": 1996,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/Revelations_Persona_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "TheMoonPeople/Chronicle": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Dark_Cloud_PS2_Game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Yotona/twewy": {
+    "year": 2007
+  },
+  "shohamc1/heat2002": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/NASCAR_Heat_2002_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "laqieer/fireemblem8j": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Harskov/stretch-panic-usa": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/aa/Stretch_Panic_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "mitsevox/mvp2005": {
+    "year": 2005,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/MVP_Baseball_2005_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "MonsterDruide1/OdysseyDecomp": {
+    "year": 2017,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "aaaaaaaaaaway/chulip-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Coverchulip.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "aaaaaaaaaaway/kaze-no-notam-decomp": {},
+  "SebaaMG/Kinect-Sports-Decomp": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kinect_Sports.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "Y0oshi/lain-psx-decompiled": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Serial_Experiments_Lain_DVD_vol_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "doldecomp/ttyd": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Paper_Mario_The_Thousand-Year_Door_%28artwork%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "cdlewis/snowboardkids2-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "marijnvdwerf/paperboy-n64": {
+    "year": 1985,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Paperboy_arcadeflyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "chameleonTwistRet/chameleonTwistv1.0-JP": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Chameleon_Twist_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "weirdbeardgame/Mulberry": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Kuon_NA_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "IWILLCRAFT-M0d/dogcomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Dog%27s_Life_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "sabishii-bit/Gauntlet-Dark-Legacy-Decompilation": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Gauntlet_Dark_Legacy_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "marijnvdwerf/gba-beyblade-vforce": {},
+  "NSMBW-Community/NSMBW-Decomp": {
+    "year": 2009
+  },
+  "doldecomp/ogws": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Wii_Sports_Sleeve_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "inspectredc/fzerox": {
+    "year": 1998
+  },
+  "yannicksuter/smstrikers-decomp": {
+    "year": 2005,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "parappadev/parappa2": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/PaRappa_the_Rapper_2_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "cypressru/SonicBattleDecomp": {
+    "year": 2003
+  },
+  "rayanht/fzgx": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/66/F-Zero_GX_box_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "ACreTeam/afe-decomp": {
+    "year": 2001
+  },
+  "ivanno4317/dw4-gc": {
+    "year": 2005
+  },
+  "TeamOrre/xd-decomp": {
+    "year": 2005
+  },
+  "Alice-2010/Decomp": {
+    "year": 2010
+  },
+  "ZounaModding/RatDecomp": {
+    "year": 2007
+  },
+  "karamzov123/fzero-gx-decomp": {
+    "year": 2003
+  },
+  "JRickey/frog-adv-temple-decomp": {
+    "year": 2001
+  },
+  "Eebit/fe11-us": {
+    "year": 2008
+  },
+  "VetriTheRetri/ssb-decomp-re": {
+    "year": 1999
+  },
+  "orangedude27/excite-truck": {
+    "year": 2006
+  },
+  "KidWizardOfTheWeb/SR2": {},
+  "khasinski/rage-racer-decomp": {
+    "year": 1996
+  },
+  "projectPiki/pik1wii": {
+    "year": 2001
+  },
+  "NSMB-Decomp/nsmb": {
+    "year": 2006
+  },
+  "emoluvjd2/thps2-demo-decomp": {},
+  "MatBourgon/Gex64Decomp": {
+    "year": 1998
+  },
+  "Ryan-Myers/Jet-Force-Gemini": {
+    "year": 1999
+  },
+  "ieee802dot11ac/fnv": {
+    "year": 2010
+  },
+  "rjkiv/sonic06": {
+    "year": 2006
+  },
+  "bfbbdecomp/bfbb": {
+    "year": 2003
+  },
+  "ethteck/pokemonsnap": {
+    "year": 1999
+  },
+  "zeldaret/af": {
+    "year": 2001
+  },
+  "wowjinxy/KAR": {
+    "year": 2003
+  },
+  "AngheloAlf/drmario64": {
+    "year": 2001
+  },
+  "NewGBAXL/drmario64-gc": {},
+  "ChimpsAtSea/Reach": {
+    "year": 2010
+  },
+  "ACreTeam/ac-decomp": {
+    "year": 2001
+  },
+  "roeming/mssb-dtk": {
+    "year": 2005
+  },
+  "ThePlayerRolo/Super-Mario-All-Star-Decomp": {
+    "year": 1993
+  },
+  "xbret/xenoblade": {
+    "year": 2010
+  },
+  "bluisblu/cttr": {
+    "year": 2005
+  },
+  "zeldaret/tp": {
+    "year": 2006
+  },
+  "patataofcourse/rhgold": {
+    "year": 2008
+  },
+  "bfbbdecomp/tssm": {
+    "year": 2004
+  },
+  "conhlee/rhf": {
+    "year": 2011
+  },
+  "mariopartyrd/marioparty4": {
+    "year": 2002
+  },
+  "mariopartyrd/marioparty5": {
+    "year": 2003
+  },
+  "LLONSIT-glitch/wonder": {},
+  "jdperos/chrono-cross-decomp": {
+    "year": 1999
+  },
+  "LLONSIT/Wave-Race-64": {
+    "year": 1996
+  },
+  "bigyoshi51/glover-decomp": {
+    "year": 1998
+  },
+  "HaydnTrigg/Castaway": {
+    "year": 2007
+  },
+  "Charlese2/sgr": {
+    "year": 2002
+  },
+  "ThePlayerRolo/LegoCloneWarsWii": {
+    "year": 2011
+  },
+  "LagoLunatic/ooe": {
+    "year": 2008
+  }
+}

@@ -6,7 +6,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "covers": "node scripts/fetch-covers.mjs"
+    "covers": "node scripts/fetch-covers.mjs",
+    "sync:decomp-dev": "node scripts/sync-decomp-dev-projects.mjs",
+    "enrich:decomp-dev": "node scripts/enrich-decomp-dev-metadata.mjs",
+    "assign:decomp-twitch": "node scripts/assign-decomp-twitch-ids.mjs",
+    "assign:decomp-twitch:all": "DECOMP_TWITCH_ALL=1 node scripts/assign-decomp-twitch-ids.mjs"
   },
   "type": "module",
   "private": true,

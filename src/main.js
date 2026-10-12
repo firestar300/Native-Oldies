@@ -113,8 +113,14 @@ const renderLinks = (project, variant) => {
   if (project.website) {
     const soleLink = !project.repo
     const style = soleLink ? primaryStyle : styles.secondary
-    const label = soleLink && isYoutubeUrl(project.website) ? 'Trailer' : 'Website'
-    const hideLabel = label === 'Website'
+    const isDecompDev = project.catalogSource === 'decomp.dev' && /decomp\.dev/i.test(project.website)
+    const label =
+      soleLink && isYoutubeUrl(project.website)
+        ? 'Trailer'
+        : isDecompDev
+          ? 'Progress'
+          : 'Website'
+    const hideLabel = label === 'Website' || label === 'Progress'
     const icon = label === 'Trailer' ? ICONS.youtube : LINK_ICON_HTML
     parts.push(link(project.website, style, icon, label, { hideLabel, website: hideLabel }))
   }
@@ -161,7 +167,7 @@ const renderCard = (project) => {
         <p class="text-sm font-medium text-accent">${escapeHtml(project.project)}</p>
         <p class="mt-auto flex flex-wrap gap-x-2 gap-y-1 pt-1 text-xs text-muted">
           <span>${escapeHtml(project.platform)}</span><span aria-hidden="true">·</span>
-          <span>${project.year}</span><span aria-hidden="true">·</span>
+          <span>${project.year > 0 ? project.year : '—'}</span><span aria-hidden="true">·</span>
           <span>${escapeHtml(project.approach)}</span>
         </p>
         <!-- Touch devices have no hover: links are always visible -->

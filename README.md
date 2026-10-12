@@ -63,6 +63,23 @@ For example: `https://firestar300.github.io/Native-Oldies/`
 
 ## Adding a project
 
-1. Append an entry in `src/data/projects.js` (set `twitchBoxArtId` from the `_IGDB` segment in a Twitch category box art URL).
+1. Append an entry in `src/data/projects.js` inside `portProjects` (set `twitchBoxArtId` from the `_IGDB` segment in a Twitch category box art URL).
 2. Run `npm run covers` and check that the cover matches the game.
 3. Commit the data file and the new file under `src/assets/covers/`. Port count, sitemap, JSON-LD and the no-JS list update automatically at build time.
+
+## decomp.dev catalogue
+
+Matching decompilation projects are also imported from [decomp.dev](https://decomp.dev/) (`src/data/decomp-dev-source.js`). Regenerate the auto-imported list after the upstream feed changes:
+
+```bash
+npm run enrich:decomp-dev     # Wikipedia release years (optional, slow)
+npm run assign:decomp-twitch  # Twitch box art ids, 50 games per run (no Twitch app)
+npm run sync:decomp-dev
+npm run covers
+```
+
+Covers use the same Twitch CDN ids as curated ports (`twitchBoxArtId`). No Twitch developer app: run `assign:decomp-twitch` (50 games per batch) to match titles against a public directory list, or set ids manually in `src/data/decomp-dev-twitch-cache.json` (`owner/repo` → `{ "twitchBoxArtId": … }`, id from the Twitch directory box art URL). Optional title overrides: `src/data/decomp-dev-twitch-aliases.json` (`owner/repo` → exact Twitch category name). Confirmed ids: `src/data/decomp-dev-twitch-manual.json` (`owner/repo` → numeric id). Each `assign:decomp-twitch` run advances **50 rows** through the full decomp catalogue (stable order).
+
+Caches: `src/data/decomp-dev-metadata-cache.json` (years), `src/data/decomp-dev-twitch-cache.json` (Twitch ids).
+
+This writes `src/data/decomp-dev-projects.js` and merges it with `portProjects` in `export const projects`. Non-game rows (emulators, SDKs, expansion kits, system software) and **Windows originals** (`win32` on decomp.dev) are skipped. Imported rows use `catalogSource: 'decomp.dev'`, link to their progress report, and stay `wip` until a native PC port is curated manually in `portProjects`.

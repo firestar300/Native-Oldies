@@ -1,0 +1,906 @@
+{
+  "doldecomp/sms": {
+    "twitchBoxArtId": 6086,
+    "twitchName": "Super Mario Sunshine"
+  },
+  "zeldaret/tww": {
+    "twitchBoxArtId": 16967,
+    "twitchName": "The Legend of Zelda: The Wind Waker"
+  },
+  "Megami-Decomps/dds-decomp": {
+    "twitchBoxArtId": 3644,
+    "twitchName": "Shin Megami Tensei: Digital Devil Saga"
+  },
+  "dev-camo/shadow-decomp": {
+    "twitchBoxArtId": 17794,
+    "twitchName": "Shadow the Hedgehog"
+  },
+  "gustavocanepa/gt4-decomp": {
+    "twitchBoxArtId": 16313,
+    "twitchName": "Gran Turismo 4"
+  },
+  "OpenRAC/rac2-gc-decomp": {
+    "twitchBoxArtId": 4230,
+    "twitchName": "Ratchet & Clank: Going Commando"
+  },
+  "OpenRAC/rac1-decomp": {
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "dreamingmoths/mirror-of-alessa": {
+    "twitchBoxArtId": 2058570718,
+    "twitchName": "Silent Hill 2"
+  },
+  "dreamingmoths/memory-of-alessa": {
+    "twitchBoxArtId": 1459558487,
+    "twitchName": "Silent Hill 3"
+  },
+  "lombyte-project/Lombyte": {
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "celophi/so3-decomp": {
+    "twitchBoxArtId": 11117,
+    "twitchName": "Star Ocean: Till the End of Time"
+  },
+  "khasinski/parasite-eve-decomp": {
+    "twitchBoxArtId": 8464,
+    "twitchName": "Parasite Eve"
+  },
+  "OpokXeno/xsg-i-decomp": {
+    "twitchBoxArtId": 18598,
+    "twitchName": "Xenosaga Episode I: Der Wille zur Macht"
+  },
+  "TheMoonPeople/ChronicleTwo": {
+    "twitchBoxArtId": 9182,
+    "twitchName": "Dark Cloud 2"
+  },
+  "Pheenoh/khcom": {
+    "twitchBoxArtId": 15316,
+    "twitchName": "Kingdom Hearts: Chain of Memories"
+  },
+  "DevOldSchool/conkers-bfd-decomp": {
+    "twitchBoxArtId": 9664,
+    "twitchName": "Conker's Bad Fur Day"
+  },
+  "laqieer/fireemblem8u": {
+    "twitchBoxArtId": 1055,
+    "twitchName": "Fire Emblem: The Sacred Stones"
+  },
+  "doldecomp/melee": {
+    "twitchBoxArtId": 16282,
+    "twitchName": "Super Smash Bros. Melee"
+  },
+  "SMGCommunity/Petari": {
+    "twitchBoxArtId": 14766,
+    "twitchName": "Super Mario Galaxy"
+  },
+  "Xeeynamo/sotn-decomp": {
+    "twitchBoxArtId": 1667555869,
+    "twitchName": "Castlevania: Symphony of the Night"
+  },
+  "Mikompilation/Himuro": {
+    "twitchBoxArtId": 16570,
+    "twitchName": "Fatal Frame"
+  },
+  "OpenRAC/rac-deadlocked-decomp": {
+    "twitchBoxArtId": 17178,
+    "twitchName": "Ratchet: Deadlocked"
+  },
+  "2Tie/mh1j": {
+    "twitchBoxArtId": 12123,
+    "twitchName": "Monster Hunter"
+  },
+  "Jovinull/sonicheroes": {
+    "twitchBoxArtId": 8734,
+    "twitchName": "Sonic Heroes"
+  },
+  "TheOnlyZac/sly1": {
+    "twitchBoxArtId": 14081,
+    "twitchName": "Sly Cooper and the Thievius Raccoonus"
+  },
+  "Xeeynamo/ff7-decomp": {
+    "twitchBoxArtId": 11988,
+    "twitchName": "FINAL FANTASY VII"
+  },
+  "celophi/lom-decomp": {
+    "twitchBoxArtId": 1361157200,
+    "twitchName": "Legend of Mana"
+  },
+  "roengstrom/ff8-decomp": {
+    "twitchBoxArtId": 11282,
+    "twitchName": "FINAL FANTASY VIII"
+  },
+  "punpckhdq/halo": {
+    "twitchBoxArtId": 2397,
+    "twitchName": "Halo: Combat Evolved"
+  },
+  "SMGCommunity/Garigari": {
+    "twitchBoxArtId": 24239,
+    "twitchName": "Super Mario Galaxy 2"
+  },
+  "istornz/bowsers-inside-story-decomp": {
+    "twitchBoxArtId": 21739,
+    "twitchName": "Mario & Luigi: Bowser's Inside Story"
+  },
+  "ACreTeam/ac-decomp": {
+    "twitchBoxArtId": 11849,
+    "twitchName": "Animal Crossing"
+  },
+  "bluisblu/pvz": {
+    "twitchBoxArtId": 23239,
+    "twitchName": "Plants vs. Zombies"
+  },
+  "chameleonTwistRet/chameleonTwistv1.0-JP": {
+    "twitchBoxArtId": 7805,
+    "twitchName": "Chameleon Twist"
+  },
+  "ChimpsAtSea/Reach": {
+    "twitchBoxArtId": 24203,
+    "twitchName": "Halo: Reach"
+  },
+  "dbalatoni13/nfsmw": {
+    "twitchBoxArtId": 495711,
+    "twitchName": "Need for Speed: Most Wanted"
+  },
+  "doldecomp/brawl": {
+    "twitchBoxArtId": 18833,
+    "twitchName": "Super Smash Bros. Brawl"
+  },
+  "doldecomp/mkw": {
+    "twitchBoxArtId": 18871,
+    "twitchName": "Mario Kart Wii"
+  },
+  "doldecomp/ogws": {
+    "twitchBoxArtId": 12232,
+    "twitchName": "Wii Sports"
+  },
+  "doldecomp/ttyd": {
+    "twitchBoxArtId": 2029972667,
+    "twitchName": "Paper Mario: The Thousand-Year Door"
+  },
+  "ieee802dot11ac/fnv": {
+    "twitchBoxArtId": 23453,
+    "twitchName": "Fallout: New Vegas"
+  },
+  "inspectredc/fzerox": {
+    "twitchBoxArtId": 17236,
+    "twitchName": "F-Zero X"
+  },
+  "IWILLCRAFT-M0d/dogcomp": {
+    "twitchBoxArtId": 5366,
+    "twitchName": "Dog's Life"
+  },
+  "karamzov123/fzero-gx-decomp": {
+    "twitchBoxArtId": 18697,
+    "twitchName": "F-Zero GX"
+  },
+  "ladysilverberg/xenogears-decomp": {
+    "twitchBoxArtId": 16782,
+    "twitchName": "Xenogears"
+  },
+  "LagoLunatic/ooe": {
+    "twitchBoxArtId": 18852,
+    "twitchName": "Castlevania: Order of Ecclesia"
+  },
+  "MonsterDruide1/OdysseyDecomp": {
+    "twitchBoxArtId": 493997,
+    "twitchName": "Super Mario Odyssey"
+  },
+  "Nintendocustom/Lego-City-Undercover-Decompilation": {
+    "twitchBoxArtId": 31908,
+    "twitchName": "LEGO City Undercover"
+  },
+  "NSMB-Decomp/nsmb": {
+    "twitchBoxArtId": 7534,
+    "twitchName": "New Super Mario Bros."
+  },
+  "pakompom/SpaceRangersHD_decomp": {
+    "twitchBoxArtId": 66406,
+    "twitchName": "Space Rangers HD: A War Apart"
+  },
+  "PascalPixel/alchemy": {
+    "twitchBoxArtId": 252,
+    "twitchName": "Golden Sun"
+  },
+  "projectPiki/pikmin": {
+    "twitchBoxArtId": 2209,
+    "twitchName": "Pikmin"
+  },
+  "projectPiki/pikmin2": {
+    "twitchBoxArtId": 1193937911,
+    "twitchName": "Pikmin 2"
+  },
+  "rayanht/fzgx": {
+    "twitchBoxArtId": 18697,
+    "twitchName": "F-Zero GX"
+  },
+  "rjkiv/sonic06": {
+    "twitchBoxArtId": 1808330168,
+    "twitchName": "SONIC THE HEDGEHOG"
+  },
+  "SeekyCt/spm-decomp": {
+    "twitchBoxArtId": 11705,
+    "twitchName": "Super Paper Mario"
+  },
+  "shdecompilations/silent-hill-decomp": {
+    "twitchBoxArtId": 3947,
+    "twitchName": "Silent Hill"
+  },
+  "SomeJakeGuy/lm-decomp": {
+    "twitchBoxArtId": 10090,
+    "twitchName": "Luigi's Mansion"
+  },
+  "VetriTheRetri/ssb-decomp-re": {
+    "twitchBoxArtId": 17516,
+    "twitchName": "Super Smash Bros."
+  },
+  "wowjinxy/KAR": {
+    "twitchBoxArtId": 14263,
+    "twitchName": "Kirby Air Ride"
+  },
+  "zcanann/SFA-Decomp": {
+    "twitchBoxArtId": 17424,
+    "twitchName": "Star Fox Adventures"
+  },
+  "zeldaret/ph": {
+    "twitchBoxArtId": 3359,
+    "twitchName": "The Legend of Zelda: Phantom Hourglass"
+  },
+  "zeldaret/ss": {
+    "twitchBoxArtId": 24324,
+    "twitchName": "The Legend of Zelda: Skyward Sword"
+  },
+  "zeldaret/tp": {
+    "twitchBoxArtId": 17828,
+    "twitchName": "The Legend of Zelda: Twilight Princess"
+  },
+  "ZounaModding/RatDecomp": {
+    "twitchBoxArtId": 18584,
+    "twitchName": "Ratatouille"
+  },
+  "dougchansan/pkmn-colosseum": {
+    "twitchBoxArtId": 11879,
+    "twitchName": "Pokémon Colosseum"
+  },
+  "projectPiki/pik2wii": {
+    "twitchBoxArtId": 2277,
+    "twitchName": "Pikmin 2"
+  },
+  "vonhoff/lemball-decomp": {
+    "twitchBoxArtId": 10715,
+    "twitchName": "manual"
+  },
+  "bfbbdecomp/bfbb": {
+    "twitchBoxArtId": 9683,
+    "twitchName": "manual"
+  },
+  "banteg/harvest": {
+    "twitchBoxArtId": 21603,
+    "twitchName": "manual"
+  },
+  "anzaldoivan/dino-crisis-2-decomp": {
+    "twitchBoxArtId": 2146012718,
+    "twitchName": "Dino Crisis"
+  },
+  "GoldieLeGenie/DQIV-DECOMP": {
+    "twitchBoxArtId": 14951,
+    "twitchName": "Dragon Quest"
+  },
+  "jype0/dw_decomp": {
+    "twitchBoxArtId": 22663,
+    "twitchName": "Digimon World Data Squad"
+  },
+  "openblack/bw1-decomp": {
+    "twitchBoxArtId": 27602,
+    "twitchName": "Pokémon Black/White"
+  },
+  "pakompom/SpaceRangers1_decomp": {
+    "twitchBoxArtId": 66406,
+    "twitchName": "Space Rangers HD: A War Apart"
+  },
+  "xbret/xenoblade": {
+    "twitchBoxArtId": 1885725941,
+    "twitchName": "Xenoblade Chronicles X: Definitive Edition"
+  },
+  "yannicksuter/smstrikers-decomp": {
+    "twitchBoxArtId": 266042723,
+    "twitchName": "Super Mario"
+  },
+  "charlieduzstuf/pokesword": {
+    "twitchBoxArtId": 497451,
+    "twitchName": "Pokémon Sword/Shield"
+  },
+  "DarkRTA/rb3": {
+    "twitchBoxArtId": 489136,
+    "twitchName": "Rock Band 4"
+  },
+  "GabeRealB/parasite-eve-2-decomp": {
+    "twitchBoxArtId": 8464,
+    "twitchName": "Parasite Eve"
+  },
+  "kh-recoded-decomp/kh-recoded-decomp": {
+    "twitchBoxArtId": 10081,
+    "twitchName": "Kingdom Hearts"
+  },
+  "ShaffySwitcher/wariowareinc": {
+    "twitchBoxArtId": 13223,
+    "twitchName": "WarioWare, Inc.: Mega Microgame$!"
+  },
+  "ShulkMaster/mk-deception": {
+    "twitchBoxArtId": 14439,
+    "twitchName": "Mortal Kombat"
+  },
+  "TheMoonPeople/Chronicle": {
+    "twitchBoxArtId": 1705,
+    "twitchName": "Dark Cloud 2"
+  },
+  "Wyrelade/Armored-Core-Decomp": {
+    "twitchBoxArtId": 686119195,
+    "twitchName": "Armored Core VI: Fires of Rubicon"
+  },
+  "zcanann/bfbb": {
+    "twitchBoxArtId": 513020,
+    "twitchName": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"
+  },
+  "mhvuze/mh4u-decomp": {
+    "twitchBoxArtId": 494141,
+    "twitchName": "Monster Hunter Generations Ultimate"
+  },
+  "1superchip/ty-decomp": {
+    "twitchBoxArtId": 12086,
+    "twitchName": "Ty the Tasmanian Tiger"
+  },
+  "2gifts/george-decomp": {
+    "twitchBoxArtId": 19045,
+    "twitchName": "George of the Jungle and the Search for the Secret"
+  },
+  "722rsr/gtadv3-decomp": {
+    "twitchBoxArtId": 12478,
+    "twitchName": "GT Advance 3: Pro Concept Racing"
+  },
+  "aaaaaaaaaaway/chulip-decomp": {
+    "twitchBoxArtId": 1279,
+    "twitchName": "Chulip"
+  },
+  "aaaaaaaaaaway/kaze-no-notam-decomp": {
+    "twitchBoxArtId": 2850,
+    "twitchName": "Kaze no NOTAM"
+  },
+  "AARosson48/SummonerDecomp": {
+    "twitchBoxArtId": 18156,
+    "twitchName": "Summoner"
+  },
+  "abelbriggs1/tm1_decomp": {
+    "twitchBoxArtId": 11316,
+    "twitchName": "Twisted Metal"
+  },
+  "AbuN64/battletanx-decomp": {
+    "twitchBoxArtId": 3369,
+    "twitchName": "BattleTanx"
+  },
+  "akiramusic000/Rhae": {
+    "twitchBoxArtId": 8660,
+    "twitchName": "Wii Play"
+  },
+  "Alice-2010/Decomp": {
+    "twitchBoxArtId": 3294,
+    "twitchName": "Alice in Wonderland"
+  },
+  "AngheloAlf/drmario64": {
+    "twitchBoxArtId": 984,
+    "twitchName": "Dr. Mario 64"
+  },
+  "AngheloAlf/puzzleleague64": {
+    "twitchBoxArtId": 7382,
+    "twitchName": "Pokémon Puzzle League"
+  },
+  "anzaldoivan/mmx5": {
+    "twitchBoxArtId": 8230,
+    "twitchName": "Mega Man X5"
+  },
+  "anzaldoivan/mmx6": {
+    "twitchBoxArtId": 1497,
+    "twitchName": "Mega Man X6"
+  },
+  "banteg/crimson": {
+    "twitchBoxArtId": 10792,
+    "twitchName": "Crimsonland"
+  },
+  "banteg/snail": {
+    "twitchBoxArtId": 15225,
+    "twitchName": "Snail Mail"
+  },
+  "bfbbdecomp/tssm": {
+    "twitchBoxArtId": 503749,
+    "twitchName": "The Spongebob Squarepants Movie"
+  },
+  "bgsamm/pbr-dtk": {
+    "twitchBoxArtId": 17540,
+    "twitchName": "Pokémon Battle Revolution"
+  },
+  "bigyoshi51/glover-decomp": {
+    "twitchBoxArtId": 1304,
+    "twitchName": "Glover"
+  },
+  "bluisblu/cttr": {
+    "twitchBoxArtId": 19499,
+    "twitchName": "Crash Tag Team Racing"
+  },
+  "brian-oblivion/lsddecomp": {
+    "twitchBoxArtId": 512637,
+    "twitchName": "LSD: Dream Emulator"
+  },
+  "Caesar0007/NFSHS-PSX-decomp": {
+    "twitchBoxArtId": 418,
+    "twitchName": "Need for Speed: High Stakes"
+  },
+  "cdlewis/snowboardkids-decomp": {
+    "twitchBoxArtId": 16564,
+    "twitchName": "Snowboard Kids"
+  },
+  "cdlewis/snowboardkids2-decomp": {
+    "twitchBoxArtId": 16890,
+    "twitchName": "Snowboard Kids 2"
+  },
+  "Coaltergeist/goldensun-decomp": {
+    "twitchBoxArtId": 252,
+    "twitchName": "Golden Sun"
+  },
+  "conhlee/rhf": {
+    "twitchBoxArtId": 31931,
+    "twitchName": "Rhythm Heaven Fever"
+  },
+  "CosmicScribe64/eds-decomp": {
+    "twitchBoxArtId": 7142,
+    "twitchName": "Yu-Gi-Oh! The Eternal Duelist Soul"
+  },
+  "CosmicScribe64/tokimemo-ps1-decomp": {
+    "twitchBoxArtId": 13963,
+    "twitchName": "Tokimeki Memorial: Forever With You"
+  },
+  "cypressru/SonicBattleDecomp": {
+    "twitchBoxArtId": 9156,
+    "twitchName": "Sonic Battle"
+  },
+  "Daniel-McCarthy/SPPS": {
+    "twitchBoxArtId": 22704,
+    "twitchName": "Shaun Palmer's Pro Snowboarder"
+  },
+  "denzi-gh/crashwoc-decomp-gc": {
+    "twitchBoxArtId": 69,
+    "twitchName": "Crash Bandicoot: The Wrath of Cortex"
+  },
+  "denzi-gh/crashwoc-decomp-ps2": {
+    "twitchBoxArtId": 69,
+    "twitchName": "Crash Bandicoot: The Wrath of Cortex"
+  },
+  "doldecomp/mkdd": {
+    "twitchBoxArtId": 17189,
+    "twitchName": "Mario Kart: Double Dash!!"
+  },
+  "dothacktranslate/okamiden-decomp": {
+    "twitchBoxArtId": 25256,
+    "twitchName": "Okamiden"
+  },
+  "Drahsid/mischief-makers": {
+    "twitchBoxArtId": 3520,
+    "twitchName": "Mischief Makers"
+  },
+  "Dream-Atelier/kl-eod-decomp": {
+    "twitchBoxArtId": 14345,
+    "twitchName": "Klonoa: Empire of Dreams"
+  },
+  "Druthulu/BFM-decomp": {
+    "twitchBoxArtId": 8042,
+    "twitchName": "Brave Fencer Musashi"
+  },
+  "Eebit/fe11-us": {
+    "twitchBoxArtId": 19001,
+    "twitchName": "Fire Emblem: Shadow Dragon and the Blade of Light"
+  },
+  "EiscremeWaffle/bubsy3d-decomp": {
+    "twitchBoxArtId": 14294,
+    "twitchName": "Bubsy 3D"
+  },
+  "ethteck/pokemonsnap": {
+    "twitchBoxArtId": 9192,
+    "twitchName": "Pokémon Snap"
+  },
+  "EuclidVsGauss/HazardRevenge": {
+    "twitchBoxArtId": 502571,
+    "twitchName": "Hazard"
+  },
+  "g-guthrie/mvc2-ps2-decomp": {
+    "twitchBoxArtId": 2400,
+    "twitchName": "Marvel vs. Capcom 2: New Age of Heroes"
+  },
+  "gamemasterplc/bltouch2": {
+    "twitchBoxArtId": 21518,
+    "twitchName": "Bomberman Land Touch! 2"
+  },
+  "gcsmith/Pilotwings64Decomp": {
+    "twitchBoxArtId": 106,
+    "twitchName": "Pilotwings 64"
+  },
+  "hansbonini/psx_tomba": {
+    "twitchBoxArtId": 7343,
+    "twitchName": "Tomba!"
+  },
+  "Harskov/stretch-panic-usa": {
+    "twitchBoxArtId": 6477,
+    "twitchName": "Stretch Panic"
+  },
+  "HaydnTrigg/Castaway": {
+    "twitchBoxArtId": 20349,
+    "twitchName": "The Sims 2: Castaway"
+  },
+  "HaydnTrigg/Homeworld2Classic": {
+    "twitchBoxArtId": 8688,
+    "twitchName": "Homeworld 2"
+  },
+  "holly-hacker/hp3-gba-decomp": {
+    "twitchBoxArtId": 3470,
+    "twitchName": "Harry Potter and the Prisoner of Azkaban"
+  },
+  "iirg4x/marioparty6": {
+    "twitchBoxArtId": 7673,
+    "twitchName": "Mario Party 6"
+  },
+  "ivanno4317/dw4-gc": {
+    "twitchBoxArtId": 19713,
+    "twitchName": "Digimon World 4"
+  },
+  "jdperos/chrono-cross-decomp": {
+    "twitchBoxArtId": 3963,
+    "twitchName": "Chrono Cross"
+  },
+  "JRickey/frog-adv-temple-decomp": {
+    "twitchBoxArtId": 9063,
+    "twitchName": "Frogger's Adventures: Temple of the Frog"
+  },
+  "khasinski/rage-racer-decomp": {
+    "twitchBoxArtId": 8186,
+    "twitchName": "Rage Racer"
+  },
+  "KidWizardOfTheWeb/SR2": {
+    "twitchBoxArtId": 18809,
+    "twitchName": "Sonic Riders: Zero Gravity"
+  },
+  "kyleckroeger/moh-frontline-decomp": {
+    "twitchBoxArtId": 4475,
+    "twitchName": "Medal of Honor: Frontline"
+  },
+  "lifewillbeokay/moh-rising-sun": {
+    "twitchBoxArtId": 15358,
+    "twitchName": "Medal of Honor: Rising Sun"
+  },
+  "LLONSIT-glitch/wonder": {
+    "twitchBoxArtId": 1567194260,
+    "twitchName": "Wonder Project J2: Josette of the Corlo Forest"
+  },
+  "LLONSIT/Wave-Race-64": {
+    "twitchBoxArtId": 10992,
+    "twitchName": "Wave Race 64"
+  },
+  "LucasPicoli/god-hand-decomp": {
+    "twitchBoxArtId": 5396,
+    "twitchName": "God Hand"
+  },
+  "marijnvdwerf/gba-beyblade-vforce": {
+    "twitchBoxArtId": 32536,
+    "twitchName": "Beyblade VForce: Ultimate Blader Jam"
+  },
+  "marijnvdwerf/legoland": {
+    "twitchBoxArtId": 10456,
+    "twitchName": "LEGOLAND"
+  },
+  "marijnvdwerf/paperboy-n64": {
+    "twitchBoxArtId": 3132,
+    "twitchName": "Paperboy"
+  },
+  "mariopartyrd/marioparty4": {
+    "twitchBoxArtId": 4267,
+    "twitchName": "Mario Party 4"
+  },
+  "mariopartyrd/marioparty5": {
+    "twitchBoxArtId": 3130,
+    "twitchName": "Mario Party 5"
+  },
+  "MatBourgon/Gex64Decomp": {
+    "twitchBoxArtId": 10436,
+    "twitchName": "Gex: Enter the Gecko"
+  },
+  "MidacoYT/HarryPotterAndTheHalfBloodPrince-Decompilation": {
+    "twitchBoxArtId": 20646,
+    "twitchName": "Harry Potter and the Half-Blood Prince"
+  },
+  "mitsevox/mvp2005": {
+    "twitchBoxArtId": 9149,
+    "twitchName": "MVP Baseball 2005"
+  },
+  "mitsevox/nflstreet2": {
+    "twitchBoxArtId": 3578,
+    "twitchName": "NFL Street 2"
+  },
+  "mitsevox/tw2004": {
+    "twitchBoxArtId": 11097,
+    "twitchName": "Tiger Woods PGA Tour 2004"
+  },
+  "moozilla/boktai3-decomp": {
+    "twitchBoxArtId": 10704,
+    "twitchName": "Shin Bokura no Taiyou: Gyakushuu no Sabata"
+  },
+  "nlopez99/mssb-decomp": {
+    "twitchBoxArtId": 753,
+    "twitchName": "Mario Superstar Baseball"
+  },
+  "NSMBW-Community/NSMBW-Decomp": {
+    "twitchBoxArtId": 24238,
+    "twitchName": "New Super Mario Bros. Wii"
+  },
+  "OpenRAC/rac3-uya-decomp": {
+    "twitchBoxArtId": 4540,
+    "twitchName": "Ratchet & Clank: Up Your Arsenal"
+  },
+  "orangedude27/excite-truck": {
+    "twitchBoxArtId": 12525,
+    "twitchName": "Excite Truck"
+  },
+  "pablocpas/CMR2Decomp": {
+    "twitchBoxArtId": 12955,
+    "twitchName": "Colin McRae Rally 2.0"
+  },
+  "parappadev/parappa2": {
+    "twitchBoxArtId": 9216,
+    "twitchName": "PaRappa the Rapper 2"
+  },
+  "patataofcourse/rhgold": {
+    "twitchBoxArtId": 19426,
+    "twitchName": "Rhythm Heaven"
+  },
+  "PattyTrish/unending-occlusion": {
+    "twitchBoxArtId": 6888,
+    "twitchName": "Eternal Darkness: Sanity's Requiem"
+  },
+  "plinkr/Wild9-Decompilation": {
+    "twitchBoxArtId": 548,
+    "twitchName": "Wild 9"
+  },
+  "Raikaru/Persona4-Decompilation": {
+    "twitchBoxArtId": 19504,
+    "twitchName": "Persona 4"
+  },
+  "ReGame-Labs/dcb_decomp": {
+    "twitchBoxArtId": 11088,
+    "twitchName": "Digimon Digital Card Battle"
+  },
+  "ReGame-Labs/dtbe_decomp": {
+    "twitchBoxArtId": 16859,
+    "twitchName": "Digimon Rumble Arena"
+  },
+  "ReGame-Labs/dw3_decomp": {
+    "twitchBoxArtId": 3549,
+    "twitchName": "Digimon World 3"
+  },
+  "ReGame-Labs/dwds_decomp": {
+    "twitchBoxArtId": 19948,
+    "twitchName": "Digimon World DS"
+  },
+  "ricky074game/marioparty9": {
+    "twitchBoxArtId": 31911,
+    "twitchName": "Mario Party 9"
+  },
+  "rjkiv/dc3-decomp": {
+    "twitchBoxArtId": 65946,
+    "twitchName": "Dance Central 3"
+  },
+  "roeming/mssb-dtk": {
+    "twitchBoxArtId": 753,
+    "twitchName": "Mario Superstar Baseball"
+  },
+  "Ryan-Myers/Jet-Force-Gemini": {
+    "twitchBoxArtId": 11665,
+    "twitchName": "Jet Force Gemini"
+  },
+  "sabishii-bit/Gauntlet-Dark-Legacy-Decompilation": {
+    "twitchBoxArtId": 12837,
+    "twitchName": "Gauntlet Dark Legacy"
+  },
+  "SebaaMG/Kinect-Sports-Decomp": {
+    "twitchBoxArtId": 28552,
+    "twitchName": "Kinect Sports"
+  },
+  "SephDB/pokepark-wii-decomp": {
+    "twitchBoxArtId": 28024,
+    "twitchName": "PokéPark Wii: Pikachu's Adventure"
+  },
+  "ser-pounce/rood-reverse": {
+    "twitchBoxArtId": 10001,
+    "twitchName": "Vagrant Story"
+  },
+  "shibbo/3DWDecomp": {
+    "twitchBoxArtId": 369590,
+    "twitchName": "Super Mario 3D World"
+  },
+  "shohamc1/heat2002": {
+    "twitchBoxArtId": 1332,
+    "twitchName": "NASCAR Heat 2002"
+  },
+  "ShulkMaster/mk-da": {
+    "twitchBoxArtId": 6036,
+    "twitchName": "Mortal Kombat: Deadly Alliance"
+  },
+  "southcitycapture/hybridheaven-decomp": {
+    "twitchBoxArtId": 15574,
+    "twitchName": "Hybrid Heaven"
+  },
+  "sozud/mmx4": {
+    "twitchBoxArtId": 18519,
+    "twitchName": "Mega Man X4"
+  },
+  "Swiftshine/key": {
+    "twitchBoxArtId": 28568,
+    "twitchName": "Kirby's Epic Yarn"
+  },
+  "synamaxmusic/bar-decomp": {
+    "twitchBoxArtId": 9900,
+    "twitchName": "Beetle Adventure Racing!"
+  },
+  "T3CHNOLOG1C/BigRed": {
+    "twitchBoxArtId": 34158,
+    "twitchName": "New Super Mario Bros. 2"
+  },
+  "Tanline666/veryfat-dungeon": {
+    "twitchBoxArtId": 24254,
+    "twitchName": "Wii Fit Plus"
+  },
+  "TeamOrre/xd-decomp": {
+    "twitchBoxArtId": 11912,
+    "twitchName": "Pokémon XD: Gale of Darkness"
+  },
+  "testyourmine/kleod": {
+    "twitchBoxArtId": 14345,
+    "twitchName": "Klonoa: Empire of Dreams"
+  },
+  "TheGh0stShip/BattleTanx-Global-Assault": {
+    "twitchBoxArtId": 16434,
+    "twitchName": "BattleTanx: Global Assault"
+  },
+  "ThePlayerRolo/LegoCloneWarsWii": {
+    "twitchBoxArtId": 27036,
+    "twitchName": "LEGO Star Wars III: The Clone Wars"
+  },
+  "TsilaAllaoui/warioland4": {
+    "twitchBoxArtId": 3940,
+    "twitchName": "Wario Land 4"
+  },
+  "USED255/artonelico2-decomp": {
+    "twitchBoxArtId": 932762519,
+    "twitchName": "Ar Tonelico 2: Melody of Metafalica"
+  },
+  "Veradictus/Thief3-Decomp": {
+    "twitchBoxArtId": 2147,
+    "twitchName": "Thief: Deadly Shadows"
+  },
+  "weirdbeardgame/Mulberry": {
+    "twitchBoxArtId": 13850,
+    "twitchName": "Kuon"
+  },
+  "Wyrelade/Digimon-World-2-Decomp": {
+    "twitchBoxArtId": 16480,
+    "twitchName": "Digimon World 2"
+  },
+  "Y0oshi/lain-psx-decompiled": {
+    "twitchBoxArtId": 33032,
+    "twitchName": "Serial Experiments Lain"
+  },
+  "yannicksuter/mscharged-decomp": {
+    "twitchBoxArtId": 6143,
+    "twitchName": "Mario Strikers Charged"
+  },
+  "Yokimitsuro/khdays-decomp": {
+    "twitchBoxArtId": 19535,
+    "twitchName": "Kingdom Hearts 358/2 Days"
+  },
+  "Yotona/twewy": {
+    "twitchBoxArtId": 18897,
+    "twitchName": "The World Ends with You"
+  },
+  "zcanann/FFCC-Decomp": {
+    "twitchBoxArtId": 14373,
+    "twitchName": "Final Fantasy: Crystal Chronicles"
+  },
+  "zeldaret/st": {
+    "twitchBoxArtId": 23195,
+    "twitchName": "The Legend of Zelda: Spirit Tracks"
+  },
+  "zm2283145/syphon-filter-omega-strain-decomp": {
+    "twitchBoxArtId": 12238,
+    "twitchName": "Syphon Filter: The Omega Strain"
+  },
+  "lemiur/AVP2-Reconstructed": {
+    "twitchBoxArtId": 1379,
+    "twitchName": "manual"
+  },
+  "tgsm/pbg": {
+    "twitchBoxArtId": 17879,
+    "twitchName": "manual"
+  },
+  "laqieer/fireemblem8j": {
+    "twitchBoxArtId": 1055,
+    "twitchName": "manual"
+  },
+  "mschienbein/shiren2-decomp": {
+    "twitchBoxArtId": 921590112,
+    "twitchName": "manual"
+  },
+  "Voicedrew11/kfiv-decomp": {
+    "twitchBoxArtId": 572,
+    "twitchName": "manual"
+  },
+  "wasdhjklxyz/lbtvg": {
+    "twitchBoxArtId": 19020,
+    "twitchName": "manual"
+  },
+  "fuddlesworth/pokebw2": {
+    "twitchBoxArtId": 33734,
+    "twitchName": "manual"
+  },
+  "roeming/SA2B": {
+    "twitchBoxArtId": 17464,
+    "twitchName": "manual"
+  },
+  "emoluvjd2/oregontrail-win32-decomp": {
+    "twitchBoxArtId": 3538,
+    "twitchName": "manual"
+  },
+  "projectPiki/pik1wii": {
+    "twitchBoxArtId": 2209,
+    "twitchName": "manual"
+  },
+  "tclamb/mhp2g-decomp": {
+    "twitchBoxArtId": 18495,
+    "twitchName": "manual"
+  },
+  "GRAnimated/MinecraftLCE": {
+    "twitchBoxArtId": 27471,
+    "twitchName": "manual"
+  },
+  "newgbaxl-drmario64-gc": {
+    "twitchBoxArtId": 984,
+    "twitchName": "manual"
+  },
+  "Charlese2/sgr": {
+    "twitchBoxArtId": 9761,
+    "twitchName": "manual"
+  },
+  "daanhenke/persona-psx": {
+    "twitchBoxArtId": 6003,
+    "twitchName": "manual"
+  },
+  "emoluvjd2/thps2-demo-decomp": {
+    "twitchBoxArtId": 914,
+    "twitchName": "manual"
+  },
+  "ACreTeam/afe-decomp": {
+    "twitchBoxArtId": 1928945701,
+    "twitchName": "manual"
+  },
+  "NewGBAXL/drmario64-gc": {
+    "twitchBoxArtId": 984,
+    "twitchName": "manual"
+  },
+  "zeldaret/af": {
+    "twitchBoxArtId": 1059816474,
+    "twitchName": "manual"
+  },
+  "afsenovilla/Tombi-Decomp": {
+    "twitchBoxArtId": 7343,
+    "twitchName": "manual"
+  },
+  "gustavocanepa/tt-decomp": {
+    "twitchBoxArtId": 1665162763,
+    "twitchName": "manual"
+  }
+}
