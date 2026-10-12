@@ -105,8 +105,8 @@
       <!-- Sticky toolbar: search, sort and filters -->
       <section aria-label="Search and filters"
         class="z-30 -mx-4 lg:sticky lg:top-0 border-b border-line bg-paper/85 px-4 py-4 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-        <div class="flex flex-col gap-3 sm:flex-row" role="search">
-          <div class="relative flex-1">
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-center" role="search">
+          <div class="relative min-w-0 flex-1">
             <label for="search" class="sr-only">Search a game or a project</label>
             <svg class="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-muted"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -136,9 +136,17 @@
               <path d="m6 9 6 6 6-6" />
             </svg>
           </div>
+          <button id="filter-toggle" type="button" aria-controls="filter-panel" aria-expanded="false"
+            class="inline-flex h-12 w-full shrink-0 cursor-pointer items-center justify-center gap-2 rounded-xl border border-line bg-card px-4 text-sm font-medium text-ink transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:w-auto sm:justify-start">
+            <svg class="size-4 shrink-0 text-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M4 6h16M7 12h10M10 18h4" />
+            </svg>
+            <span id="filter-toggle-label">Show filters</span>
+          </button>
         </div>
 
-        <div class="filter-panel mt-4">
+        <div id="filter-panel" class="filter-panel mt-3 hidden" hidden>
           <div class="filter-row" role="group" aria-labelledby="filter-label-console">
             <span id="filter-label-console" class="filter-row__label">Console</span>
             <div id="platform-filters" class="filter-row__chips"></div>

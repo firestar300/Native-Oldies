@@ -3,7 +3,7 @@
  * (same box art as on twitch.tv/directory, sourced via IGDB), then resizes and
  * compresses it so the site stays light.
  *
- * Set twitchBoxArtId on each project (see the `_IGDB` segment in the box art URL on Twitch).
+ * Set twitchBoxArtId (or twitchCoverUrl when the Twitch category uses a legacy CDN path).
  *
  * Usage: npm run covers [-- --force]
  */
@@ -23,15 +23,17 @@ const COVER_WIDTH = 480
 const COVER_HEIGHT = 640
 const WEBP_QUALITY = 78
 
-/** @param {number} igdbId */
-const twitchBoxArtUrl = (igdbId) => `https://static-cdn.jtvnw.net/ttv-boxart/${igdbId}_IGDB.jpg`
+/** @param {import('../src/data/projects.js').projects[number]} project */
+const resolveCoverUrl = (project) => {
+  if (project.twitchCoverUrl) return project.twitchCoverUrl
+  if (project.twitchBoxArtId == null) throw new Error('missing twitchBoxArtId or twitchCoverUrl')
+  return `https://static-cdn.jtvnw.net/ttv-boxart/${project.twitchBoxArtId}_IGDB.jpg`
+}
 
 const existingCover = (id) => readdirSync(OUT_DIR).find((file) => file.startsWith(`${id}.`))
 
 const downloadCover = async (project) => {
-  if (project.twitchBoxArtId == null) throw new Error('missing twitchBoxArtId')
-
-  const url = twitchBoxArtUrl(project.twitchBoxArtId)
+  const url = resolveCoverUrl(project)
   const response = await fetch(url, { headers: HEADERS, redirect: 'follow' })
   if (!response.ok) throw new Error(`image responded ${response.status}`)
 

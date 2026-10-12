@@ -233,6 +233,16 @@ const initApp = () => {
   const resultCount = $('#result-count')
   const emptyState = $('#empty-state')
   const resetButton = $('#reset-filters')
+  const filterPanel = $('#filter-panel')
+  const filterToggle = $('#filter-toggle')
+  const filterToggleLabel = $('#filter-toggle-label')
+
+  const setFiltersPanelOpen = (isOpen) => {
+    filterPanel.hidden = !isOpen
+    filterPanel.classList.toggle('hidden', !isOpen)
+    filterToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false')
+    filterToggleLabel.textContent = isOpen ? 'Hide filters' : 'Show filters'
+  }
 
   const searchIndex = new Map(
     projects.map((project) => [
@@ -280,6 +290,13 @@ const initApp = () => {
     resetButton.classList.toggle('hidden', !isFiltered)
     writeStateToUrl(state)
   }
+
+  const hasChipFilters = Boolean(state.platforms.size || state.approaches.size || state.statuses.size)
+  setFiltersPanelOpen(hasChipFilters)
+
+  filterToggle.addEventListener('click', () => {
+    setFiltersPanelOpen(filterPanel.hidden)
+  })
 
   renderChips($('#platform-filters'), 'console', countBy(projects, (p) => p.platform), state.platforms, update)
   renderChips($('#approach-filters'), 'type', countBy(projects, (p) => p.approach), state.approaches, update)
