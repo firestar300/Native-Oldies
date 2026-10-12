@@ -15,7 +15,12 @@ import {
   isDecompDevExcludedRepo,
 } from '../src/data/decomp-dev-source.js'
 import { portProjects } from '../src/data/projects.js'
-import { inferYearFromGameName, isDecompDevGame, loadMetadataCache } from './decomp-dev-metadata.mjs'
+import {
+  cleanGameTitle,
+  inferYearFromGameName,
+  isDecompDevGame,
+  loadMetadataCache,
+} from './decomp-dev-metadata.mjs'
 import { loadTwitchCache } from './decomp-dev-twitch-cache.mjs'
 
 const OUT = fileURLToPath(new URL('../src/data/decomp-dev-projects.js', import.meta.url))
@@ -79,8 +84,9 @@ for (const remote of remoteProjects) {
   const repo = remote.repo
   if (!owner || !repo) continue
 
-  const gameName = remote.name ?? `${owner}/${repo}`
-  if (!isDecompDevGame(gameName, repo)) {
+  const rawName = remote.name ?? `${owner}/${repo}`
+  const gameName = cleanGameTitle(rawName)
+  if (!isDecompDevGame(rawName, repo)) {
     skippedNonGame += 1
     continue
   }

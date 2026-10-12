@@ -36,6 +36,7 @@ export const isDecompDevGame = (name, _repo) => {
 /** @param {string} title */
 export const cleanGameTitle = (title) =>
   title
+    .replace(/\s*\(Fork:\s*[^)]+\)\s*/gi, ' ')
     .replace(/\s*\([^)]*\bv\d+(?:\.\d+)*[^)]*\)\s*/gi, ' ')
     .replace(/\s*\((?:PAL|NTSC|USA|EUR|Europe|Japan|JP|En,[^)]+|\d{4})[^)]*\)\s*/gi, ' ')
     .replace(/\s+/g, ' ')
