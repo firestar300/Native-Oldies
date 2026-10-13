@@ -949,3 +949,9 @@ export const portProjects = [
 
 /** @type {Project[]} */
 export const projects = [...portProjects, ...decompDevProjects]
+
+if (import.meta.hot) {
+  import.meta.hot.accept('./decomp-dev-projects.js', () => {
+    import.meta.hot.invalidate()
+  })
+}

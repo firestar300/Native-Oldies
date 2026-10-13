@@ -371,7 +371,9 @@
     "year": 2002,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/Medal_of_Honor_Frontline_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
-  "zcanann/bfbb": {},
+  "zcanann/bfbb": {
+    "year": 2003
+  },
   "zcanann/FFCC-Decomp": {
     "year": 2003,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Final_Fantasy_Crystal_Chronicles_%28box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
@@ -574,7 +576,9 @@
     "year": 2002,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Coverchulip.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
-  "aaaaaaaaaaway/kaze-no-notam-decomp": {},
+  "aaaaaaaaaaway/kaze-no-notam-decomp": {
+    "year": 1997
+  },
   "SebaaMG/Kinect-Sports-Decomp": {
     "year": 2010,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kinect_Sports.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
@@ -611,7 +615,9 @@
     "year": 1999,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Gauntlet_Dark_Legacy_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
-  "marijnvdwerf/gba-beyblade-vforce": {},
+  "marijnvdwerf/gba-beyblade-vforce": {
+    "year": 2003
+  },
   "NSMBW-Community/NSMBW-Decomp": {
     "year": 2009
   },
@@ -667,7 +673,9 @@
   "orangedude27/excite-truck": {
     "year": 2006
   },
-  "KidWizardOfTheWeb/SR2": {},
+  "KidWizardOfTheWeb/SR2": {
+    "year": 2008
+  },
   "khasinski/rage-racer-decomp": {
     "year": 1996
   },
@@ -677,7 +685,9 @@
   "NSMB-Decomp/nsmb": {
     "year": 2006
   },
-  "emoluvjd2/thps2-demo-decomp": {},
+  "emoluvjd2/thps2-demo-decomp": {
+    "year": 2000
+  },
   "MatBourgon/Gex64Decomp": {
     "year": 1998
   },
@@ -705,7 +715,9 @@
   "AngheloAlf/drmario64": {
     "year": 2001
   },
-  "NewGBAXL/drmario64-gc": {},
+  "NewGBAXL/drmario64-gc": {
+    "year": 2003
+  },
   "ChimpsAtSea/Reach": {
     "year": 2010
   },
@@ -742,7 +754,9 @@
   "mariopartyrd/marioparty5": {
     "year": 2003
   },
-  "LLONSIT-glitch/wonder": {},
+  "LLONSIT-glitch/wonder": {
+    "year": 1996
+  },
   "jdperos/chrono-cross-decomp": {
     "year": 1999
   },
@@ -763,5 +777,20 @@
   },
   "LagoLunatic/ooe": {
     "year": 2008
+  },
+  "Etrainquandt17/Whippy": {
+    "year": 2011
+  },
+  "RedShyGuy/acnl-decomp": {
+    "year": 2012
+  },
+  "coalslav/hmbtn-decomp": {
+    "year": 1999
+  },
+  "jwfeniello/scott-pilgrim-switch-decomp": {
+    "year": 2010
+  },
+  "mikegoforth/summoner-2-decomp": {
+    "year": 2002
   }
 }

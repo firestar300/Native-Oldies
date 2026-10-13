@@ -9,6 +9,10 @@ npm ci
 npm run dev
 ```
 
+After `git pull` or `npm run sync:decomp-dev`, restart the dev server so the catalogue reloads (several Vite instances may be bound to ports 5173, 5174, … if old servers were left running). The live site at [Native Oldies on GitHub Pages](https://firestar300.github.io/Native-Oldies/) is built from `main`; local `npm run dev` should show the same project count as the **ports** stat on that page.
+
+On **localhost** (or `npm run dev` only), extra catalogue tools appear under **Show filters → Dev**: chips to list only projects without a cover file or without a release year, and sort modes that float incomplete rows to the top. These controls are omitted on GitHub Pages (`import.meta.env.DEV` is false and the hostname is not localhost).
+
 Build for production (root base path, e.g. local preview):
 
 ```bash

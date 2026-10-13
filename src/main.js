@@ -1,5 +1,11 @@
 import './styles/main.css'
 import { projects, STATUSES, STATUS_ORDER } from './data/projects.js'
+import {
+  hasCatalogCover,
+  hasCatalogYear,
+  isCatalogIncomplete,
+  isLocalCatalogDev,
+} from './catalog-dev.js'
 import { LINK_ICON_HTML, bindAnimatedLinkIcon } from './link-icon.js'
 import { mountThemeIcons, startThemeIconLoops } from './theme-icons.js'
 
@@ -207,30 +213,67 @@ const renderChips = (container, name, counts, selected, onChange, { orderedKeys 
 /* App                                                                        */
 /* -------------------------------------------------------------------------- */
 
-const readStateFromUrl = () => {
-  const params = new URLSearchParams(location.search)
-  const list = (key) => new Set((params.get(key) ?? '').split(',').filter(Boolean))
-  return {
-    query: params.get('q') ?? '',
-    platforms: list('console'),
-    approaches: list('type'),
-    statuses: list('status'),
-    sort: Object.keys(SORTERS).includes(params.get('sort')) ? params.get('sort') : 'title',
-  }
-}
-
-const writeStateToUrl = (state) => {
-  const params = new URLSearchParams()
-  if (state.query) params.set('q', state.query)
-  if (state.platforms.size) params.set('console', [...state.platforms].join(','))
-  if (state.approaches.size) params.set('type', [...state.approaches].join(','))
-  if (state.statuses.size) params.set('status', [...state.statuses].join(','))
-  if (state.sort !== 'title') params.set('sort', state.sort)
-  const search = params.toString()
-  history.replaceState(null, '', search ? `?${search}` : location.pathname)
-}
-
 const initApp = () => {
+  const catalogDev = isLocalCatalogDev()
+
+  /** @param {typeof SORTERS.title} titleSorter */
+  const buildDevSorters = (titleSorter) => ({
+    'missing-cover': (a, b) => {
+      const aHas = hasCatalogCover(a, coverById)
+      const bHas = hasCatalogCover(b, coverById)
+      if (aHas !== bHas) return aHas ? 1 : -1
+      return titleSorter(a, b)
+    },
+    'missing-year': (a, b) => {
+      const aHas = hasCatalogYear(a)
+      const bHas = hasCatalogYear(b)
+      if (aHas !== bHas) return aHas ? 1 : -1
+      return titleSorter(a, b)
+    },
+    'incomplete-first': (a, b) => {
+      const aIncomplete = isCatalogIncomplete(a, coverById)
+      const bIncomplete = isCatalogIncomplete(b, coverById)
+      if (aIncomplete !== bIncomplete) return aIncomplete ? -1 : 1
+      return titleSorter(a, b)
+    },
+  })
+
+  const devSorters = catalogDev ? buildDevSorters(SORTERS.title) : {}
+  const validSorts = new Set([...Object.keys(SORTERS), ...Object.keys(devSorters)])
+
+  const readStateFromUrl = () => {
+    const params = new URLSearchParams(location.search)
+    const list = (key) => new Set((params.get(key) ?? '').split(',').filter(Boolean))
+    const sortParam = params.get('sort')
+    const devFlags = catalogDev ? list('dev') : new Set()
+    return {
+      query: params.get('q') ?? '',
+      platforms: list('console'),
+      approaches: list('type'),
+      statuses: list('status'),
+      sort: sortParam && validSorts.has(sortParam) ? sortParam : 'title',
+      devNoCover: devFlags.has('nocover'),
+      devNoYear: devFlags.has('noyear'),
+    }
+  }
+
+  const writeStateToUrl = (state) => {
+    const params = new URLSearchParams()
+    if (state.query) params.set('q', state.query)
+    if (state.platforms.size) params.set('console', [...state.platforms].join(','))
+    if (state.approaches.size) params.set('type', [...state.approaches].join(','))
+    if (state.statuses.size) params.set('status', [...state.statuses].join(','))
+    if (state.sort !== 'title') params.set('sort', state.sort)
+    if (catalogDev) {
+      const dev = []
+      if (state.devNoCover) dev.push('nocover')
+      if (state.devNoYear) dev.push('noyear')
+      if (dev.length) params.set('dev', dev.join(','))
+    }
+    const search = params.toString()
+    history.replaceState(null, '', search ? `?${search}` : location.pathname)
+  }
+
   const state = readStateFromUrl()
 
   const grid = $('#grid')
@@ -261,6 +304,8 @@ const initApp = () => {
   const matches = (project) => {
     const tokens = normalize(state.query).split(/\s+/).filter(Boolean)
     const haystack = searchIndex.get(project.id)
+    if (catalogDev && state.devNoCover && hasCatalogCover(project, coverById)) return false
+    if (catalogDev && state.devNoYear && hasCatalogYear(project)) return false
     return (
       tokens.every((token) => haystack.includes(token)) &&
       (!state.platforms.size || state.platforms.has(project.platform)) &&
@@ -269,8 +314,10 @@ const initApp = () => {
     )
   }
 
+  const resolveSorter = () => devSorters[state.sort] ?? SORTERS[state.sort] ?? SORTERS.title
+
   const update = () => {
-    const ordered = [...projects].sort(SORTERS[state.sort])
+    const ordered = [...projects].sort(resolveSorter())
     const visible = ordered.filter(matches)
     const visibleIds = new Set(visible.map((project) => project.id))
 
@@ -287,7 +334,13 @@ const initApp = () => {
       if (cover) cover.loading = index < EAGER_COVERS ? 'eager' : 'lazy'
     })
 
-    const isFiltered = Boolean(state.query || state.platforms.size || state.approaches.size || state.statuses.size)
+    const isFiltered = Boolean(
+      state.query ||
+        state.platforms.size ||
+        state.approaches.size ||
+        state.statuses.size ||
+        (catalogDev && (state.devNoCover || state.devNoYear)),
+    )
     resultCount.textContent = isFiltered
       ? `${visible.length} of ${projects.length} ports`
       : `${projects.length} ports`
@@ -297,8 +350,49 @@ const initApp = () => {
     writeStateToUrl(state)
   }
 
-  const hasChipFilters = Boolean(state.platforms.size || state.approaches.size || state.statuses.size)
+  const hasChipFilters = Boolean(
+    state.platforms.size || state.approaches.size || state.statuses.size || state.devNoCover || state.devNoYear,
+  )
   setFiltersPanelOpen(hasChipFilters)
+
+  if (catalogDev) {
+    const devOptions = [
+      { value: 'missing-cover', label: 'Dev: no cover first' },
+      { value: 'missing-year', label: 'Dev: no year first' },
+      { value: 'incomplete-first', label: 'Dev: incomplete first' },
+    ]
+    for (const { value, label } of devOptions) {
+      const option = document.createElement('option')
+      option.value = value
+      option.textContent = label
+      sortSelect.append(option)
+    }
+
+    const devRow = document.createElement('div')
+    devRow.className = 'filter-row'
+    devRow.setAttribute('role', 'group')
+    devRow.setAttribute('aria-labelledby', 'filter-label-dev')
+    devRow.innerHTML = `
+      <span id="filter-label-dev" class="filter-row__label">Dev</span>
+      <div class="filter-row__chips">
+        <label class="chip relative">
+          <input type="checkbox" name="dev-catalog" value="nocover" ${state.devNoCover ? 'checked' : ''} />
+          <span>No cover</span>
+        </label>
+        <label class="chip relative">
+          <input type="checkbox" name="dev-catalog" value="noyear" ${state.devNoYear ? 'checked' : ''} />
+          <span>No year</span>
+        </label>
+      </div>`
+    filterPanel.append(devRow)
+    devRow.addEventListener('change', (event) => {
+      const input = event.target
+      if (input?.name !== 'dev-catalog') return
+      if (input.value === 'nocover') state.devNoCover = input.checked
+      if (input.value === 'noyear') state.devNoYear = input.checked
+      update()
+    })
+  }
 
   filterToggle.addEventListener('click', () => {
     setFiltersPanelOpen(filterPanel.hidden)
@@ -326,7 +420,11 @@ const initApp = () => {
     state.platforms.clear()
     state.approaches.clear()
     state.statuses.clear()
+    state.devNoCover = false
+    state.devNoYear = false
+    state.sort = 'title'
     searchInput.value = ''
+    sortSelect.value = 'title'
     document.querySelectorAll('.chip input').forEach((input) => (input.checked = false))
     update()
     searchInput.focus()

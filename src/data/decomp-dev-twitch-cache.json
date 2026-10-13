@@ -340,7 +340,7 @@
     "twitchName": "Armored Core VI: Fires of Rubicon"
   },
   "zcanann/bfbb": {
-    "twitchBoxArtId": 513020,
+    "twitchBoxArtId": 9683,
     "twitchName": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"
   },
   "mhvuze/mh4u-decomp": {
@@ -901,6 +901,26 @@
   },
   "gustavocanepa/tt-decomp": {
     "twitchBoxArtId": 1665162763,
+    "twitchName": "manual"
+  },
+  "Etrainquandt17/Whippy": {
+    "twitchBoxArtId": 31937,
+    "twitchName": "manual"
+  },
+  "RedShyGuy/acnl-decomp": {
+    "twitchBoxArtId": 28587,
+    "twitchName": "manual"
+  },
+  "coalslav/hmbtn-decomp": {
+    "twitchBoxArtId": 6324,
+    "twitchName": "manual"
+  },
+  "jwfeniello/scott-pilgrim-switch-decomp": {
+    "twitchBoxArtId": 26599,
+    "twitchName": "manual"
+  },
+  "mikegoforth/summoner-2-decomp": {
+    "twitchBoxArtId": 9761,
     "twitchName": "manual"
   }
 }
