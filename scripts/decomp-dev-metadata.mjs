@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url'
 const CACHE_PATH = fileURLToPath(new URL('../src/data/decomp-dev-metadata-cache.json', import.meta.url))
 const WIKI_HEADERS = { 'User-Agent': 'native-oldies/1.0 (decomp.dev metadata; github.com)' }
 
-/** @typedef {{ year?: number }} DecompDevMetadata */
+/** @typedef {{ year?: number, platformLabel?: string }} DecompDevMetadata */
 
 const NON_GAME_NAME_RULES = [
   /\bexpansion kit\b/i,

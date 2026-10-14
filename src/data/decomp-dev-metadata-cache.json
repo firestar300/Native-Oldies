@@ -301,6 +301,7 @@
   },
   "Nintendocustom/Lego-City-Undercover-Decompilation": {
     "year": 2013,
+    "platformLabel": "Wii U",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/LegoCityUndercover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   "ReGame-Labs/dcb_decomp": {
@@ -531,7 +532,7 @@
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Pok%C3%A9Park_Wii_NA_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   "GRAnimated/MinecraftLCE": {
-    "year": 2012
+    "year": 2017
   },
   "LucasPicoli/god-hand-decomp": {
     "year": 2006,
@@ -788,7 +789,7 @@
     "year": 1999
   },
   "jwfeniello/scott-pilgrim-switch-decomp": {
-    "year": 2010
+    "year": 2026
   },
   "mikegoforth/summoner-2-decomp": {
     "year": 2002

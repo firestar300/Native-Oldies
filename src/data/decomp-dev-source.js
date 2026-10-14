@@ -29,6 +29,7 @@ export const DECOMP_DEV_PLATFORM_LABELS = {
   psp: 'PlayStation Portable',
   switch: 'Switch',
   wii: 'Wii',
+  wiiu: 'Wii U',
   win32: 'Windows',
   xbox: 'Xbox',
   xbox360: 'Xbox 360',

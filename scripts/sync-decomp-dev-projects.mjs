@@ -108,7 +108,13 @@ for (const remote of remoteProjects) {
   if (usedIds.has(id)) continue
   usedIds.add(id)
 
-  const platform = DECOMP_DEV_PLATFORM_LABELS[remote.platform] ?? remote.platform ?? 'Unknown'
+  const cacheKey = `${owner}/${repo}`
+  const cachedMeta = metadataCache[cacheKey]
+  const platform =
+    cachedMeta?.platformLabel ??
+    DECOMP_DEV_PLATFORM_LABELS[remote.platform] ??
+    remote.platform ??
+    'Unknown'
   const progressUrl = decompDevProjectUrl(owner, repo)
 
   /** @type {import('../src/data/projects.js').Project} */
@@ -126,9 +132,8 @@ for (const remote of remoteProjects) {
     status: 'wip',
   }
 
-  const cached = metadataCache[`${owner}/${repo}`]
   const inferredYear = inferYearFromGameName(gameName)
-  entry.year = cached?.year ?? inferredYear ?? 0
+  entry.year = cachedMeta?.year ?? inferredYear ?? 0
 
   const twitch = twitchCache[`${owner}/${repo}`]
   if (twitch?.twitchBoxArtId) entry.twitchBoxArtId = twitch.twitchBoxArtId
