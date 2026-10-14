@@ -7,7 +7,7 @@
  *
  * Usage: npm run covers [-- --force]
  */
-import { readdirSync } from 'node:fs'
+import { readFileSync, readdirSync } from 'node:fs'
 import { mkdir, unlink, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -17,6 +17,16 @@ import { projects } from '../src/data/projects.js'
 const OUT_DIR = fileURLToPath(new URL('../src/assets/covers/', import.meta.url))
 const HEADERS = { 'User-Agent': 'native-oldies/1.0 (fan-port directory; cover fetcher)' }
 const isForced = process.argv.includes('--force')
+
+/** Project ids with a hand-picked cover in src/assets/covers/ (see decomp-dev-cover-pins.json). */
+const pinnedCoverIds = new Set(
+  JSON.parse(
+    readFileSync(
+      fileURLToPath(new URL('../src/data/decomp-dev-cover-pins.json', import.meta.url)),
+      'utf8',
+    ),
+  ),
+)
 
 /** Covers are displayed at most ~240 CSS px wide: 480 px covers 2x screens. Keep in sync with COVER_SIZE in src/main.js. */
 const COVER_WIDTH = 480
@@ -82,6 +92,10 @@ await mkdir(OUT_DIR, { recursive: true })
 
 let failures = 0
 for (const project of projects) {
+  if (pinnedCoverIds.has(project.id)) {
+    console.log(`* ${project.id} (pinned cover)`)
+    continue
+  }
   if (project.twitchBoxArtId == null && !project.twitchCoverUrl) {
     console.log(`- ${project.id} (no cover id)`)
     continue

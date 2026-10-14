@@ -1874,7 +1874,7 @@ export const decompDevProjects = [
   },
   {
     "id": "fuddlesworth-pokebw2",
-    "game": "Pokémon Black 2 and White 2",
+    "game": "Pokémon Black 2 / White 2",
     "project": "pokebw2",
     "platform": "Nintendo DS",
     "approach": "Decompilation",

@@ -8,4 +8,10 @@ const base = process.env.BASE_PATH ?? '/'
 export default defineConfig({
   base,
   plugins: [tailwindcss(), seoPlugin()],
+  server: {
+    watch: {
+      // Bulk cover downloads touch hundreds of files; ignore them so dev HMR stays stable.
+      ignored: ['**/src/assets/covers/**'],
+    },
+  },
 })
