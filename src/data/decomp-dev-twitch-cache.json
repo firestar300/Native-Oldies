@@ -922,5 +922,9 @@
   "mikegoforth/summoner-2-decomp": {
     "twitchBoxArtId": 9761,
     "twitchName": "manual"
+  },
+  "sturmds/advance-wars-dual-strike-decomp": {
+    "twitchBoxArtId": 10966,
+    "twitchName": "manual"
   }
 }
