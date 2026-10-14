@@ -930,5 +930,17 @@
   "RonyxDumb/mkds": {
     "twitchBoxArtId": 5993,
     "twitchName": "manual"
+  },
+  "gustavocanepa/gt3-decomp": {
+    "twitchBoxArtId": 11895,
+    "twitchName": "manual"
+  },
+  "JohnSoellnerDev/mlss-decomp": {
+    "twitchBoxArtId": 8543,
+    "twitchName": "manual"
+  },
+  "pbr-ret/pbr-decomp": {
+    "twitchBoxArtId": 17540,
+    "twitchName": "manual"
   }
 }
