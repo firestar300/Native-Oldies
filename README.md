@@ -86,4 +86,4 @@ Covers use the same Twitch CDN ids as curated ports (`twitchBoxArtId`). No Twitc
 
 Caches: `src/data/decomp-dev-metadata-cache.json` (years), `src/data/decomp-dev-twitch-cache.json` (Twitch ids).
 
-This writes `src/data/decomp-dev-projects.js` and merges it with `portProjects` in `export const projects`. Non-game rows (emulators, SDKs, expansion kits, system software) and **Windows originals** (`win32` on decomp.dev) are skipped. Imported rows use `catalogSource: 'decomp.dev'`, link to their progress report, and stay `wip` until a native PC port is curated manually in `portProjects`.
+This writes `src/data/decomp-dev-projects.js` and merges it with `portProjects` and any rows in `src/data/decomp-dev-extra-projects.js` (manual decomps when a repo is not on decomp.dev). Non-game rows (emulators, SDKs, expansion kits, system software) and **Windows originals** (`win32` on decomp.dev) are skipped. Imported rows use `catalogSource: 'decomp.dev'`, link to their progress report, and stay `wip` until a native PC port is curated manually in `portProjects`.

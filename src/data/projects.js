@@ -37,6 +37,7 @@ export const STATUSES = {
 /** Display order for status filter chips. */
 export const STATUS_ORDER = ['complete', 'playable', 'wip']
 
+import { decompDevExtraProjects } from './decomp-dev-extra-projects.js'
 import { decompDevProjects } from './decomp-dev-projects.js'
 import { DECOMP_DEV } from './decomp-dev-source.js'
 
@@ -948,4 +949,4 @@ export const portProjects = [
 ]
 
 /** @type {Project[]} */
-export const projects = [...portProjects, ...decompDevProjects]
+export const projects = [...portProjects, ...decompDevProjects, ...decompDevExtraProjects]
