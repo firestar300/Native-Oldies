@@ -369,7 +369,11 @@ const initApp = () => {
   }
 
   const hasChipFilters = Boolean(
-    state.platforms.size || state.approaches.size || state.statuses.size || state.devNoCover || state.devNoYear,
+    state.platforms.size ||
+      state.approaches.size ||
+      state.statuses.size ||
+      state.devNoCover ||
+      state.devNoYear,
   )
   setFiltersPanelOpen(hasChipFilters)
 

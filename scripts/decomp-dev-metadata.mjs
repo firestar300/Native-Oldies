@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url'
 const CACHE_PATH = fileURLToPath(new URL('../src/data/decomp-dev-metadata-cache.json', import.meta.url))
 const WIKI_HEADERS = { 'User-Agent': 'native-oldies/1.0 (decomp.dev metadata; github.com)' }
 
-/** @typedef {{ year?: number, platformLabel?: string }} DecompDevMetadata */
+/** @typedef {{ year?: number, platformLabel?: string, gameTitle?: string }} DecompDevMetadata */
 
 const NON_GAME_NAME_RULES = [
   /\bexpansion kit\b/i,
@@ -34,6 +34,22 @@ export const isDecompDevGame = (name, _repo) => {
 }
 
 /** @param {string} title */
+/** @param {string | undefined} game */
+/** @param {string | undefined} project */
+export const isSlugGameTitle = (game, project) => {
+  const g = (game ?? '').trim()
+  const p = (project ?? '').trim()
+  if (!g || !p) return false
+  return g.toLowerCase() === p.toLowerCase()
+}
+
+/** @param {string | undefined} twitchName */
+export const gameTitleFromTwitchName = (twitchName) => {
+  const name = (twitchName ?? '').trim()
+  if (!name || name === 'manual' || name === 'baseline') return undefined
+  return name
+}
+
 export const cleanGameTitle = (title) =>
   title
     .replace(/\s*\(Fork:\s*[^)]+\)\s*/gi, ' ')
@@ -158,6 +174,17 @@ export const lookupDecompDevMetadata = async (searchTitle, options = {}) => {
   }
 
   return result
+}
+
+/**
+ * @param {Record<string, DecompDevMetadata>} cache
+ * @param {string} ownerRepo `owner/repo` (any casing)
+ */
+export const getMetadataCacheEntry = (cache, ownerRepo) => {
+  if (cache[ownerRepo]) return cache[ownerRepo]
+  const lower = ownerRepo.toLowerCase()
+  const key = Object.keys(cache).find((entry) => entry.toLowerCase() === lower)
+  return key ? cache[key] : undefined
 }
 
 /** @returns {Promise<Record<string, DecompDevMetadata>>} */

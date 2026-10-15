@@ -1,818 +1,1532 @@
 {
-  "Raikaru/Persona4-Decompilation": {
+  "1superchip/ty-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/62/Ty_the_Tasmanian_Tiger_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "TY the Tasmanian Tiger"
+  },
+  "2gifts/george-decomp": {
     "year": 2008,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Shin_Megami_Tensei_Persona_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "OpenRAC/rac1-decomp": {
-    "year": 2016
-  },
-  "USED255/artonelico2-decomp": {
-    "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/Ar_tonelico_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "afsenovilla/Tombi-Decomp": {
-    "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "denzi-gh/crashwoc-decomp-ps2": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wrathofcortex_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "dreamingmoths/mirror-of-alessa": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "dreamingmoths/memory-of-alessa": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ca/Sh3_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Voicedrew11/kfiv-decomp": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/King%27s_Field_IV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "dev-camo/shadow-decomp": {
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "year": 2005
-  },
-  "moozilla/boktai3-decomp": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Boktai_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Megami-Decomps/dds-decomp": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Shin_Megami_Tensei_-_Digital_Devil_Saga_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "lombyte-project/Lombyte": {
-    "year": 2016
-  },
-  "celophi/so3-decomp": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Sotteotbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "khasinski/parasite-eve-decomp": {
-    "year": 1995,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Parasite_Eve_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "holly-hacker/hp3-gba-decomp": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "fuddlesworth/pokebw2": {
-    "year": 2012,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f9/Pok%C3%A9mon_Black_2_and_White_2_Combined_Cover_Art.png"
-  },
-  "OpokXeno/xsg-i-decomp": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Xenosaga1box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "AngheloAlf/puzzleleague64": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Pok%C3%A9mon_Puzzle_League_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "TheMoonPeople/ChronicleTwo": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/Dark_Chronicle_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Pheenoh/khcom": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/KingdomHeartsCoMCover_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "ShaffySwitcher/wariowareinc": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Warioware1box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "southcitycapture/hybridheaven-decomp": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "TheGh0stShip/BattleTanx-Global-Assault": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/BattleTanx_-_Global_Assault.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "DevOldSchool/conkers-bfd-decomp": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "mhvuze/mh4u-decomp": {
-    "year": 2013,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Monster-Hunter_4Boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "zm2283145/syphon-filter-omega-strain-decomp": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9d/Syphon_Filter_The_Omega_Strain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "charlieduzstuf/pokesword": {
-    "year": 2019,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "laqieer/fireemblem8u": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "doldecomp/melee": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "CosmicScribe64/tokimemo-ps1-decomp": {
-    "year": 1994,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Tokimeki_Memorial_PC_Engine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "SMGCommunity/Petari": {
-    "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Xeeynamo/sotn-decomp": {
-    "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "722rsr/gtadv3-decomp": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/GT3_Cover_Art.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "iirg4x/marioparty6": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Mikompilation/Himuro": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "OpenRAC/rac-deadlocked-decomp": {
-    "year": 2005,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/da/Deadlocked.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "OpenRAC/rac2-gc-decomp": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Ratchet_and_clank_gc_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "OpenRAC/rac3-uya-decomp": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Ratchetandclank3box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "yannicksuter/mscharged-decomp": {
-    "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Mario_Strikers_Charged.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "GabeRealB/parasite-eve-2-decomp": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Parasite_Eve_II_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "denzi-gh/crashwoc-decomp-gc": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wrathofcortex_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "projectPiki/pik2wii": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "gcsmith/Pilotwings64Decomp": {
-    "year": 1996,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Pilotwings_64_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "dothacktranslate/okamiden-decomp": {
-    "year": 2010,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Okamiden-title.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "abelbriggs1/tm1_decomp": {
-    "year": 2000
-  },
-  "mitsevox/nflstreet2": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/NFL_Street_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "rjkiv/dc3-decomp": {
-    "year": 2012,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Dance_Central_3_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "dougchansan/pkmn-colosseum": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d5/Pok%C3%A9mon_Colosseum_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "gustavocanepa/tt-decomp": {
-    "year": 1996,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Tourist_Trophy_%28video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "gustavocanepa/gt4-decomp": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/Gran_Turismo_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "kh-recoded-decomp/kh-recoded-decomp": {
-    "year": 2008
-  },
-  "Daniel-McCarthy/SPPS": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Shaun_Palmer%27s_Pro_Snowboarder.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "PlayStation 2",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d2/George_of_the_Jungle_and_the_Search_for_the_Secret_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "gameTitle": "George of the Jungle and the Search for the Secret"
   },
   "2Tie/mh1j": {
     "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Monster_Hunter_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Monster_Hunter_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Monster Hunter"
+  },
+  "722rsr/gtadv3-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/GT3_Cover_Art.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "GT Advance 3: Pro Concept Racing"
+  },
+  "aaaaaaaaaaway/chulip-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Coverchulip.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Chulip"
+  },
+  "aaaaaaaaaaway/kaze-no-notam-decomp": {
+    "year": 1997,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Kaze no Notam"
+  },
+  "AARosson48/SummonerDecomp": {
+    "gameTitle": "Summoner",
+    "year": 2001,
+    "platformLabel": "PlayStation 2"
+  },
+  "abelbriggs1/tm1_decomp": {
+    "year": 2000,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Twisted Metal"
+  },
+  "AbuN64/battletanx-decomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "BattleTanx"
+  },
+  "ACreTeam/ac-decomp": {
+    "year": 2001,
+    "platformLabel": "GameCube",
+    "gameTitle": "Animal Crossing"
+  },
+  "ACreTeam/afe-decomp": {
+    "year": 2001,
+    "platformLabel": "GameCube",
+    "gameTitle": "どうぶつの森 e+"
+  },
+  "ACreTeam/cf-decomp": {
+    "year": 2008,
+    "platformLabel": "Wii"
+  },
+  "Adubbz/DCDecomp": {
+    "year": 2000,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Dark Cloud"
+  },
+  "afsenovilla/Tombi-Decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Tombi!"
+  },
+  "akiramusic000/Rhae": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Wii_Play_Europe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Wii Play"
+  },
+  "Alice-2010/Decomp": {
+    "year": 2010,
+    "platformLabel": "Wii",
+    "gameTitle": "Alice in Wonderland"
+  },
+  "Almamu/CrashBandicootXS-decomp": {
+    "year": 2002,
+    "platformLabel": "Game Boy Advance"
+  },
+  "AngheloAlf/drmario64": {
+    "year": 2001,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Dr. Mario 64"
+  },
+  "AngheloAlf/puzzleleague64": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Pok%C3%A9mon_Puzzle_League_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Pokémon Puzzle League"
+  },
+  "anzaldoivan/dino-crisis-2-decomp": {
+    "year": 2000,
+    "platformLabel": "PlayStation",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Dino_Crisis_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "gameTitle": "Dino Crisis 2"
+  },
+  "anzaldoivan/mmx5": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Mmx5box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Mega Man X5"
   },
   "anzaldoivan/mmx6": {
     "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Mmx6box.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Mmx6box.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Mega Man X6"
   },
-  "Caesar0007/NFSHS-PSX-decomp": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "AshfordFamily/recvx-decomp": {
+    "year": 2000,
+    "platformLabel": "Dreamcast",
+    "gameTitle": "Resident Evil Code: Veronica"
   },
-  "zeldaret/st": {
-    "year": 2009,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/The_Legend_of_Zelda_Spirit_Tracks_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Jovinull/sonicheroes": {
+  "banteg/crimson": {
     "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Sonic_Heroes_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "Windows",
+    "gameTitle": "Crimsonland"
+  },
+  "banteg/harvest": {
+    "year": 2008,
+    "platformLabel": "Windows",
+    "gameTitle": "Harvest: Massive Encounter"
+  },
+  "banteg/snail": {
+    "gameTitle": "Snail Mail",
+    "year": 2004,
+    "platformLabel": "Windows"
+  },
+  "bfbbdecomp/bfbb": {
+    "year": 2003,
+    "platformLabel": "GameCube",
+    "gameTitle": "SpongeBob SquarePants: Battle for Bikini Bottom"
+  },
+  "bfbbdecomp/tssm": {
+    "year": 2004,
+    "platformLabel": "GameCube",
+    "gameTitle": "The SpongeBob SquarePants Movie"
   },
   "bgsamm/pbr-dtk": {
     "year": 2006,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
-  "doldecomp/sms": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "bigyoshi51/1080-decomp": {
+    "year": 1998,
+    "platformLabel": "Nintendo 64"
   },
-  "synamaxmusic/bar-decomp": {
+  "bigyoshi51/glover-decomp": {
+    "year": 1998,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Glover"
+  },
+  "bluisblu/cttr": {
+    "year": 2005,
+    "platformLabel": "GameCube",
+    "gameTitle": "Crash Tag Team Racing"
+  },
+  "bluisblu/pvz": {
+    "gameTitle": "Plants vs. Zombies",
+    "year": 2009,
+    "platformLabel": "Windows"
+  },
+  "brian-oblivion/lsddecomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/LSD_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "LSD: Dream Emulator"
+  },
+  "Caesar0007/NFSHS-PSX-decomp": {
     "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/BAR_gamebox.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Need for Speed: High Stakes"
   },
-  "Swiftshine/kdc": {
-    "year": 2012,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/KDCEnglishBoxart1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "TheOnlyZac/sly1": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Xeeynamo/ff7-decomp": {
+  "cdlewis/snowboardkids-decomp": {
     "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/Snowboard_Kids_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Snowboard Kids"
+  },
+  "cdlewis/snowboardkids2-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Snowboard Kids 2"
   },
   "celophi/lom-decomp": {
     "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Legend_of_Mana.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Legend_of_Mana.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Legend of Mana"
   },
-  "ShulkMaster/mk-deception": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/29/MK_Deception_Cover_Artwork.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "roengstrom/ff8-decomp": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Final_Fantasy_8_ntsc-front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "ser-pounce/rood-reverse": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "punpckhdq/halo": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "lifewillbeokay/moh-rising-sun": {
+  "celophi/so3-decomp": {
     "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/MOHRSbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Sotteotbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Star Ocean: Till the End of Time"
+  },
+  "chameleonTwistRet/chameleonTwistv1.0-JP": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Chameleon_Twist_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Chameleon Twist"
+  },
+  "Charlese2/sgr": {
+    "year": 2002,
+    "platformLabel": "GameCube",
+    "gameTitle": "Summoner: A Goddess Reborn"
+  },
+  "charlieduzstuf/pokesword": {
+    "year": 2019,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Switch",
+    "gameTitle": "Pokémon Sword"
+  },
+  "ChimpsAtSea/Reach": {
+    "year": 2010,
+    "platformLabel": "Xbox 360",
+    "gameTitle": "Halo Reach"
+  },
+  "coalslav/hmbtn-decomp": {
+    "year": 1999,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Harvest Moon: Back to the Nature"
   },
   "Coaltergeist/goldensun-decomp": {
     "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Golden Sun: The Broken Seal"
   },
-  "SMGCommunity/Garigari": {
+  "conhlee/rhf": {
+    "year": 2011,
+    "platformLabel": "Wii",
+    "gameTitle": "Rhythm Heaven Fever"
+  },
+  "CosmicScribe64/eds-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/Yu-Gi-Oh%21_The_Eternal_Duelist_Soul_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Yu-Gi-Oh! The Eternal Duelist Soul"
+  },
+  "CosmicScribe64/tokimemo-ps1-decomp": {
+    "year": 1994,
+    "platformLabel": "PlayStation",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Tokimeki_Memorial_PC_Engine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "gameTitle": "Tokimeki Memorial: Forever with You"
+  },
+  "ctrl-cheeb-del/pokeheartgold": {
+    "year": 2009
+  },
+  "cypressru/SonicBattleDecomp": {
+    "year": 2003,
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Sonic Battle"
+  },
+  "daanhenke/persona-psx": {
+    "year": 1996,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/Revelations_Persona_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Megami Ibunroku Persona"
+  },
+  "Daniel-McCarthy/SPPS": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Shaun_Palmer%27s_Pro_Snowboarder.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Shaun Palmer's Pro Snowboarder"
+  },
+  "DarkRTA/rb3": {
     "year": 2010,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Super_Mario_Galaxy_2_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Rock Band 3"
+  },
+  "dbalatoni13/nfsmw": {
+    "year": 2005,
+    "platformLabel": "GameCube",
+    "gameTitle": "Need for Speed: Most Wanted"
+  },
+  "denzi-gh/crashwoc-decomp": {
+    "year": 2001,
+    "platformLabel": "GameCube"
+  },
+  "denzi-gh/crashwoc-decomp-gc": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wrathofcortex_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Crash Bandicoot: The Wrath of Cortex"
+  },
+  "denzi-gh/crashwoc-decomp-ps2": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wrathofcortex_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Crash Bandicoot: The Wrath of Cortex"
+  },
+  "dev-camo/shadow-decomp": {
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "year": 2005,
+    "platformLabel": "GameCube",
+    "gameTitle": "Shadow the Hedgehog"
+  },
+  "DevOldSchool/conkers-bfd-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Conker's Bad Fur Day"
+  },
+  "doldecomp/brawl": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/SSBB_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Super Smash Bros. Brawl"
+  },
+  "doldecomp/melee": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Super Smash Bros. Melee"
+  },
+  "doldecomp/mkdd": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Kart: Double Dash!!"
+  },
+  "doldecomp/mkw": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Mario Kart Wii"
+  },
+  "doldecomp/ogws": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Wii_Sports_Sleeve_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Wii Sports"
+  },
+  "doldecomp/sms": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Super Mario Sunshine"
+  },
+  "doldecomp/ttyd": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Paper_Mario_The_Thousand-Year_Door_%28artwork%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Paper Mario: The Thousand-Year Door"
+  },
+  "dothacktranslate/okamiden-decomp": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Okamiden-title.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Ōkamiden"
+  },
+  "dougchansan/pkmn-colosseum": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d5/Pok%C3%A9mon_Colosseum_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Pokemon Colosseum"
+  },
+  "Drahsid/mischief-makers": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Mischief_Makers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Mischief Makers"
+  },
+  "Dream-Atelier/kl-eod-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Klonoa: Empire of Dreams"
+  },
+  "dreamingmoths/memory-of-alessa": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ca/Sh3_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Silent Hill 3"
+  },
+  "dreamingmoths/mirror-of-alessa": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Silent Hill 2"
+  },
+  "dreamsailing59-ops/PaintStudioDecomp": {
+    "year": 1999,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Mario Artist: Paint Studio"
+  },
+  "Druthulu/BFM-decomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Brave_Fencer_Musashi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Brave Fencer Musashi"
+  },
+  "Eebit/fe11-us": {
+    "year": 2008,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Fire Emblem: Shadow Dragon"
+  },
+  "EiscremeWaffle/bubsy3d-decomp": {
+    "year": 1996,
+    "platformLabel": "PlayStation",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Bubsy_3D.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "gameTitle": "Bubsy 3D - Furbitten Planet"
+  },
+  "emoluvjd2/oregontrail-win32-decomp": {
+    "year": 1996,
+    "platformLabel": "Windows",
+    "gameTitle": "The Oregon Trail II"
+  },
+  "emoluvjd2/thps2-demo-decomp": {
+    "year": 2000,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Tony Hawk's Pro Skater 2 (Competition Demo)"
+  },
+  "ethteck/pokemonsnap": {
+    "year": 1999,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Pokemon Snap"
+  },
+  "Etrainquandt17/Whippy": {
+    "year": 2011,
+    "platformLabel": "Wii",
+    "gameTitle": "Kirby's Return to Dream Land"
+  },
+  "EuclidVsGauss/HazardRevenge": {
+    "gameTitle": "Hazard",
+    "year": 2000,
+    "platformLabel": "Windows"
+  },
+  "ExpansionPak/PaintStudioDecomp": {
+    "year": 1999,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Mario Artist: Paint Studio"
+  },
+  "fmil95/recvx-decomp": {
+    "year": 2000,
+    "platformLabel": "Dreamcast",
+    "gameTitle": "Resident Evil Code: Veronica"
+  },
+  "fmil95/recvx-gc-decomp": {
+    "year": 2003,
+    "platformLabel": "GameCube",
+    "gameTitle": "Resident Evil Code: Veronica X"
+  },
+  "fmil95/soul-re": {
+    "year": 1999,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Legacy of Kain: Soul Reaver"
+  },
+  "FortuneStreetModding/boom-street-decomp": {
+    "year": 2011,
+    "platformLabel": "Wii"
+  },
+  "fuddlesworth/pokebw2": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f9/Pok%C3%A9mon_Black_2_and_White_2_Combined_Cover_Art.png",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Pokémon Black 2 / White 2"
+  },
+  "Fuuzetsu/tenchu-decomp": {
+    "year": 1998,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Tenchu: Stealth Assassins"
+  },
+  "g-guthrie/mvc2-ps2-decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/19/MVC2_Arcade_Flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Marvel vs. Capcom 2: New Age of Heroes"
+  },
+  "GabeRealB/parasite-eve-2-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Parasite_Eve_II_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Parasite Eve II"
+  },
+  "gamemasterplc/bltouch2": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/Bomberman_Land_Touch_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Bomberman Land Touch 2"
+  },
+  "gcsmith/Pilotwings64Decomp": {
+    "year": 1996,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Pilotwings_64_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Pilotwings 64"
+  },
+  "GoldieLeGenie/DQIV-DECOMP": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Dragon_Quest_IV_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Dragon Quest IV"
+  },
+  "gradenGnostic/pokemoon": {
+    "year": 2016,
+    "platformLabel": "Nintendo 3DS",
+    "gameTitle": "Pokémon Moon"
+  },
+  "GRAnimated/MinecraftLCE": {
+    "year": 2017,
+    "platformLabel": "Switch",
+    "gameTitle": "Minecraft: Nintendo Switch Edition"
+  },
+  "gustavocanepa/gt3-decomp": {
+    "year": 2001,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Gran Turismo 3: A-Spec"
+  },
+  "gustavocanepa/gt4-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/Gran_Turismo_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Gran Turismo 4"
+  },
+  "gustavocanepa/tt-decomp": {
+    "year": 1996,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Tourist_Trophy_%28video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Tourist Trophy"
+  },
+  "hansbonini/psx_tomba": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Tomba!"
+  },
+  "Harskov/stretch-panic-usa": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/aa/Stretch_Panic_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Stretch Panic"
+  },
+  "HaydnTrigg/Castaway": {
+    "year": 2007,
+    "platformLabel": "Wii",
+    "gameTitle": "The Sims 2: Castaway"
+  },
+  "HaydnTrigg/Freelancer": {
+    "year": 2003,
+    "platformLabel": "Windows",
+    "gameTitle": "Freelancer"
+  },
+  "HaydnTrigg/Homeworld2Classic": {
+    "gameTitle": "Homeworld 2",
+    "year": 2003,
+    "platformLabel": "Windows"
+  },
+  "holly-hacker/hp3-gba-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Harry Potter and the Prisoner of Azkaban"
+  },
+  "ieee802dot11ac/fnv": {
+    "year": 2010,
+    "platformLabel": "Xbox 360",
+    "gameTitle": "Fallout: New Vegas"
+  },
+  "iirg4x/marioparty6": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Party 6"
+  },
+  "inspectredc/fzerox": {
+    "year": 1998,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "F-Zero X"
   },
   "istornz/bowsers-inside-story-decomp": {
     "year": 2009,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Mario_%26_Luigi_3_NA_Cover.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "Nintendo DS",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Mario_%26_Luigi_3_NA_Cover.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "gameTitle": "Mario & Luigi: Bowser's Inside Story"
   },
-  "sozud/mmx4": {
-    "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Mega_Man_X4_PSX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "ivanno4317/dw4-gc": {
+    "year": 2005,
+    "platformLabel": "GameCube",
+    "gameTitle": "Digimon World 4"
   },
-  "Yokimitsuro/khdays-decomp": {
-    "year": 2009,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/KingdomdaysNA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "IWILLCRAFT-M0d/dogcomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Dog%27s_Life_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Dog's Life"
   },
-  "ReGame-Labs/dtbe_decomp": {
+  "jdperos/chrono-cross-decomp": {
+    "year": 1999,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Chrono Cross"
+  },
+  "JohnSoellnerDev/mlss-decomp": {
+    "year": 2003,
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Mario & Luigi: Superstar Saga"
+  },
+  "Jovinull/sonicheroes": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Sonic_Heroes_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Sonic Heroes"
+  },
+  "JRickey/frog-adv-temple-decomp": {
     "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Digimon_Rumble_Arena_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Frogger's Adventures: Temple of the Frog"
   },
-  "shibbo/3DWDecomp": {
-    "year": 2021,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "juandav/dw3_decomp": {
+    "year": 2002,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Digimon World 3"
+  },
+  "jwfeniello/scott-pilgrim-switch-decomp": {
+    "year": 2026,
+    "platformLabel": "Switch",
+    "gameTitle": "Scott Pilgrim vs. The World™: The Game – Complete Edition"
+  },
+  "jype0/dw_decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Digimonworld.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Digimon World"
+  },
+  "karamzov123/fzero-gx-decomp": {
+    "year": 2003,
+    "platformLabel": "GameCube",
+    "gameTitle": "F-Zero GX"
+  },
+  "kh-recoded-decomp/kh-recoded-decomp": {
+    "year": 2008,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Kingdom Hearts Re:coded"
+  },
+  "khasinski/parasite-eve-decomp": {
+    "year": 1995,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Parasite_Eve_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Parasite Eve"
+  },
+  "khasinski/rage-racer-decomp": {
+    "year": 1996,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Rage Racer"
+  },
+  "KidWizardOfTheWeb/SR2": {
+    "year": 2008,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Sonic Riders: Zero Gravity (PS2 Prototype)"
+  },
+  "kyleckroeger/moh-frontline-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/Medal_of_Honor_Frontline_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Medal of Honor: Frontline"
+  },
+  "ladysilverberg/xenogears-decomp": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Xenogears_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Xenogears"
+  },
+  "LagoLunatic/ooe": {
+    "year": 2008,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Castlevania: Order of Ecclesia"
+  },
+  "laqieer/fireemblem8j": {
+    "year": 2004,
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Fire Emblem: The Sacred Stones",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "laqieer/fireemblem8u": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Fire Emblem: The Sacred Stones"
+  },
+  "lemiur/AVP2-Reconstructed": {
+    "year": 2001,
+    "platformLabel": "Windows"
+  },
+  "lifewillbeokay/moh-rising-sun": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/MOHRSbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Medal of Honor: Rising Sun"
+  },
+  "LLONSIT-glitch/wonder": {
+    "year": 1996,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Wonder Project J2: Josette of the Corlo Forest"
+  },
+  "LLONSIT/Wave-Race-64": {
+    "year": 1996,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Wave Race 64"
+  },
+  "lombyte-project/Lombyte": {
+    "year": 2016,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank"
+  },
+  "LucasPicoli/god-hand-decomp": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/God_Hand_%282006_Playstation_2%29_video_game_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "God Hand"
+  },
+  "Lynder063/rac1-decomp": {
+    "year": 2002,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank"
+  },
+  "marijnvdwerf/gba-beyblade-vforce": {
+    "year": 2003,
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Beyblade VForce: Ultimate Blader Jam"
+  },
+  "marijnvdwerf/legoland": {
+    "gameTitle": "LEGOLAND",
+    "year": 1999,
+    "platformLabel": "Windows"
+  },
+  "marijnvdwerf/paperboy-n64": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Paperboy_arcadeflyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Paperboy"
+  },
+  "mariopartyrd/marioparty4": {
+    "year": 2002,
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Party 4"
+  },
+  "mariopartyrd/marioparty5": {
+    "year": 2003,
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Party 5"
+  },
+  "MatBourgon/Gex64Decomp": {
+    "year": 1998,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Gex: Enter the Gecko"
+  },
+  "mateuszklysz/Lombyte": {
+    "year": 2002,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank"
+  },
+  "Megami-Decomps/dds-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Shin_Megami_Tensei_-_Digital_Devil_Saga_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Shin Megami Tensei: Digital Devil Saga"
+  },
+  "melalawi/battletanx-decomp": {
+    "year": 1998,
+    "platformLabel": "Nintendo 64"
+  },
+  "melalawi/ragewars-decomp": {
+    "year": 1998,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Rage Wars"
+  },
+  "mhvuze/mh4u-decomp": {
+    "year": 2013,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Monster-Hunter_4Boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 3DS",
+    "gameTitle": "Monster Hunter 4 Ultimate"
+  },
+  "MidacoYT/HarryPotterAndTheHalfBloodPrince-Decompilation": {
+    "year": 2009,
+    "platformLabel": "Windows"
+  },
+  "mikegoforth/summoner-2-decomp": {
+    "year": 2002,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Summoner 2"
+  },
+  "Mikompilation/Himuro": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Fatal Frame"
+  },
+  "mitsevox/mvp2005": {
+    "year": 2005,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/MVP_Baseball_2005_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "MVP Baseball 2005"
+  },
+  "mitsevox/nflstreet2": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/NFL_Street_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "NFL Street 2"
+  },
+  "mitsevox/tw2004": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Tiger_Woods_PGA_Tour_2004_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Tiger Woods PGA Tour 2004"
+  },
+  "Moddimation/GoVacation-Decompilation": {
+    "year": 2011,
+    "platformLabel": "Wii",
+    "gameTitle": "Go Vacation"
+  },
+  "Moddimation/Yasiki": {
+    "year": 2001,
+    "platformLabel": "GameCube",
+    "gameTitle": "Luigi's Mansion"
+  },
+  "MokhaLeee/FireEmblem7J": {
+    "year": 2003,
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Fire Emblem: The Blazing Blade"
+  },
+  "MonsterDruide1/OdysseyDecomp": {
+    "year": 2017,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Switch",
+    "gameTitle": "Super Mario Odyssey"
+  },
+  "moozilla/boktai3-decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Boktai_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Shin Bokura no Taiyou: Gyakushuu no Sabata"
+  },
+  "mschienbein/shiren2-decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/Fushigi_no_Dungeon_-_Furai_no_Siren_2_-_Oni_Shurai_Siren-jo_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō!"
+  },
+  "natebag/Sims2DECOMP": {
+    "year": 2004,
+    "platformLabel": "Windows",
+    "gameTitle": "The Sims 2"
+  },
+  "NewGBAXL/drmario64-gc": {
+    "year": 2003,
+    "platformLabel": "GameCube",
+    "gameTitle": "Nintendo Puzzle Collection: Dr. Mario 64"
   },
   "Nintendocustom/Lego-City-Undercover-Decompilation": {
     "year": 2013,
     "platformLabel": "Wii U",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/LegoCityUndercover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "ReGame-Labs/dcb_decomp": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Digimondigitalcardbattle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "testyourmine/kleod": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "anzaldoivan/dino-crisis-2-decomp": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Dino_Crisis_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "anzaldoivan/mmx5": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Mmx5box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "TsilaAllaoui/warioland4": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Wario_Land_4_NA_Box_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "jype0/dw_decomp": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Digimonworld.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/LegoCityUndercover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "gameTitle": "LEGO City Undercover"
   },
   "nlopez99/mssb-decomp": {
     "year": 2005,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Superstar Baseball"
   },
-  "EiscremeWaffle/bubsy3d-decomp": {
-    "year": 1996,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Bubsy_3D.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "NSMB-Decomp/nsmb": {
+    "year": 2006,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "New Super Mario Bros."
   },
-  "ladysilverberg/xenogears-decomp": {
-    "year": 1998,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Xenogears_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "NSMBW-Community/NSMBW-Decomp": {
+    "year": 2009,
+    "platformLabel": "Wii",
+    "gameTitle": "New Super Mario Bros. Wii"
   },
-  "doldecomp/brawl": {
+  "oohweee/sh2-proto-decomp": {
+    "year": 2001,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Silent Hill 2"
+  },
+  "openblack/bw1-decomp": {
+    "year": 2001,
+    "platformLabel": "Windows"
+  },
+  "OpenRAC/rac-deadlocked-decomp": {
+    "year": 2005,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/da/Deadlocked.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet: Deadlocked"
+  },
+  "OpenRAC/rac1-decomp": {
+    "year": 2016,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank"
+  },
+  "OpenRAC/rac2-gc-decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Ratchet_and_clank_gc_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank: Going Commando"
+  },
+  "OpenRAC/rac3-uya-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Ratchetandclank3box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank: Up Your Arsenal"
+  },
+  "OpokXeno/xsg-i-decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Xenosaga1box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Xenosaga Episode I: Der Wille zur Macht"
+  },
+  "orangedude27/excite-truck": {
+    "year": 2006,
+    "platformLabel": "Wii",
+    "gameTitle": "Excite Truck"
+  },
+  "overjt/knidl": {
+    "year": 1993,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kirby%27s_Adventure_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Kirby: Nightmare in Dream Land"
+  },
+  "pakompom/SpaceRangers1_decomp": {
+    "year": 2002,
+    "platformLabel": "Windows",
+    "gameTitle": "Space Rangers"
+  },
+  "pakompom/SpaceRangersHD_decomp": {
+    "year": 2013,
+    "platformLabel": "Windows",
+    "gameTitle": "Space Rangers HD: A War Apart"
+  },
+  "parappadev/parappa2": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/PaRappa_the_Rapper_2_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "PaRappa the Rapper 2"
+  },
+  "PascalPixel/alchemy": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Golden Sun"
+  },
+  "patataofcourse/rhgold": {
     "year": 2008,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/SSBB_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Rhythm Heaven"
+  },
+  "PattyTrish/unending-occlusion": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Eternal_Darkness_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Eternal Darkness: Sanity's Requiem"
+  },
+  "pbr-ret/pbr-decomp": {
+    "year": 2006,
+    "platformLabel": "Wii",
+    "gameTitle": "Pokémon Battle Revolution"
+  },
+  "Pheenoh/khcom": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/KingdomHeartsCoMCover_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Kingdom Hearts: Chain of Memories"
   },
   "plinkr/Wild9-Decompilation": {
     "year": 1998,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Wild_9_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Wild_9_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Wild 9"
   },
-  "ReGame-Labs/dwds_decomp": {
-    "year": 2006,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Digimon_World_DS_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "pret/pokeheartgold": {
+    "year": 2009
   },
-  "ReGame-Labs/dw3_decomp": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "PrimeDecomp/echoes": {
+    "year": 2004,
+    "platformLabel": "GameCube",
+    "gameTitle": "Metroid Prime 2: Echoes"
+  },
+  "projectPiki/pik1wii": {
+    "year": 2001,
+    "platformLabel": "Wii",
+    "gameTitle": "New Play Control! Pikmin"
+  },
+  "projectPiki/pik2wii": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "New Play Control! Pikmin 2"
+  },
+  "projectPiki/pikmin": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Pikmin"
   },
   "projectPiki/pikmin2": {
     "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Pikmin 2"
   },
-  "cdlewis/snowboardkids-decomp": {
+  "punpckhdq/halo": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Xbox",
+    "gameTitle": "Halo: Combat Evolved"
+  },
+  "Raikaru/Persona4-Decompilation": {
+    "year": 2008,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Shin_Megami_Tensei_Persona_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Shin Megami Tensei: Persona 4"
+  },
+  "Rainchus/marioparty4": {
+    "year": 2002,
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Party 4"
+  },
+  "rayanht/fzgx": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/66/F-Zero_GX_box_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "F-Zero GX"
+  },
+  "rbxrootx/MissionFleet": {
+    "year": 2003,
+    "platformLabel": "Windows",
+    "gameTitle": "Navy Field"
+  },
+  "RedShyGuy/acnl-decomp": {
+    "year": 2012,
+    "platformLabel": "Nintendo 3DS",
+    "gameTitle": "Animal Crossing New Leaf - Welcome Amiibo"
+  },
+  "ReGame-Labs/dcb_decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Digimondigitalcardbattle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Digimon: Digital Card Battle"
+  },
+  "ReGame-Labs/dtbe_decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Digimon_Rumble_Arena_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Digimon Rumble Arena"
+  },
+  "ReGame-Labs/dw3_decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Digimon World 3"
+  },
+  "ReGame-Labs/dwds_decomp": {
+    "year": 2006,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Digimon_World_DS_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Digimon World DS"
+  },
+  "regratka/mkp": {
+    "year": 2008,
+    "platformLabel": "Wii",
+    "gameTitle": "Mario Kart Wii"
+  },
+  "ricky074game/marioparty9": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Mario_Party_9_US_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Mario Party 9"
+  },
+  "riidefi/mkw": {
+    "year": 2008,
+    "platformLabel": "Wii",
+    "gameTitle": "Mario Kart Wii"
+  },
+  "rjkiv/dc3-decomp": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Dance_Central_3_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Xbox 360",
+    "gameTitle": "Dance Central 3"
+  },
+  "rjkiv/sonic06": {
+    "year": 2006,
+    "platformLabel": "Xbox 360",
+    "gameTitle": "Sonic the Hedgehog"
+  },
+  "roeming/mssb-dtk": {
+    "year": 2005,
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Superstar Baseball"
+  },
+  "roeming/SA2B": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Sonic_Adventure_2_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Sonic Adventure 2: Battle"
+  },
+  "roengstrom/ff8-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Final_Fantasy_8_ntsc-front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Final Fantasy VIII"
+  },
+  "RonyxDumb/mkds": {
+    "year": 2005,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Mario Kart DS"
+  },
+  "Ryan-Myers/Jet-Force-Gemini": {
+    "year": 1999,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Jet Force Gemini"
+  },
+  "sabishii-bit/Gauntlet-Dark-Legacy-Decompilation": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Gauntlet_Dark_Legacy_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Gauntlet: Dark Legacy"
+  },
+  "SebaaMG/Kinect-Sports-Decomp": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kinect_Sports.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Xbox 360",
+    "gameTitle": "Kinect Sports"
+  },
+  "SeekyCt/spm-decomp": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Super Paper Mario"
+  },
+  "SephDB/pokepark-wii-decomp": {
+    "year": 2009,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Pok%C3%A9Park_Wii_NA_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "PokéPark Wii: Pikachu's Adventure"
+  },
+  "ser-pounce/rood-reverse": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Vagrant Story"
+  },
+  "ShaffySwitcher/wariowareinc": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Warioware1box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "WarioWare, Inc.: Mega Microgames!"
+  },
+  "shdecompilations/silent-hill-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Silent Hill"
+  },
+  "shibbo/3DWDecomp": {
+    "year": 2021,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Switch",
+    "gameTitle": "Super Mario 3D World + Bowser's Fury"
+  },
+  "shohamc1/heat2002": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/NASCAR_Heat_2002_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "NASCAR Heat 2002"
+  },
+  "ShulkMaster/mk-da": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/MK_Deadly_Alliance_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Mortal Kombat: Deadly Alliance"
+  },
+  "ShulkMaster/mk-deception": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/29/MK_Deception_Cover_Artwork.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Mortal Kombat: Deception"
+  },
+  "skylaralbers/mkd-decomp-local-": {
+    "year": 2005,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Mario Kart DS"
+  },
+  "SMGCommunity/Garigari": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Super_Mario_Galaxy_2_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Super Mario Galaxy 2"
+  },
+  "SMGCommunity/Petari": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Super Mario Galaxy"
+  },
+  "SomeJakeGuy/lm-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Luigi's Mansion"
+  },
+  "southcitycapture/hybridheaven-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Hybrid Heaven"
+  },
+  "sozud/mmx4": {
     "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/Snowboard_Kids_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Mega_Man_X4_PSX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Mega Man X4"
+  },
+  "spongeis5/ToS-Decomp": {
+    "year": 2003,
+    "platformLabel": "GameCube",
+    "gameTitle": "Tales of Symphonia"
+  },
+  "sturmds/advance-wars-dual-strike-decomp": {
+    "year": 2005,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Advance Wars: Dual Strike"
+  },
+  "SwareJonge/mkdd": {
+    "year": 2003,
+    "platformLabel": "GameCube",
+    "gameTitle": "Mario Kart: Double Dash!!"
+  },
+  "Swiftshine/kdc": {
+    "year": 2012,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/KDCEnglishBoxart1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Kirby's Dream Collection Special Edition"
+  },
+  "Swiftshine/key": {
+    "year": 2010,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/Kirby%27s_Epic_Yarn_Title.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Kirby's Epic Yarn"
+  },
+  "synamaxmusic/bar-decomp": {
+    "year": 1999,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/BAR_gamebox.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Beetle Adventure Racing!"
   },
   "T3CHNOLOG1C/BigRed": {
     "year": 2012,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/New_Super_Mario_Bros._2_box_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
-  "kyleckroeger/moh-frontline-decomp": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/Medal_of_Honor_Frontline_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "zcanann/bfbb": {
-    "year": 2003
-  },
-  "zcanann/FFCC-Decomp": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Final_Fantasy_Crystal_Chronicles_%28box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "tangosdev/sm64ds-decomp": {
+    "year": 2004,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Super Mario 64 DS"
   },
   "Tanline666/veryfat-dungeon": {
     "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "mitsevox/tw2004": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Tiger_Woods_PGA_Tour_2004_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "hansbonini/psx_tomba": {
-    "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Drahsid/mischief-makers": {
-    "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Mischief_Makers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "SomeJakeGuy/lm-decomp": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "zeldaret/ph": {
-    "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "shdecompilations/silent-hill-decomp": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "mschienbein/shiren2-decomp": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/Fushigi_no_Dungeon_-_Furai_no_Siren_2_-_Oni_Shurai_Siren-jo_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "2gifts/george-decomp": {
-    "year": 2008,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d2/George_of_the_Jungle_and_the_Search_for_the_Secret_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "zeldaret/tww": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "GoldieLeGenie/DQIV-DECOMP": {
-    "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Dragon_Quest_IV_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Wyrelade/Digimon-World-2-Decomp": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Digimonworld2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Wii Fit Plus"
   },
   "tclamb/mhp2g-decomp": {
     "year": 2008,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/MonsterHunterFreedomUnite.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/MonsterHunterFreedomUnite.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation Portable",
+    "gameTitle": "Monster Hunter Portable 2nd G"
   },
-  "AbuN64/battletanx-decomp": {
-    "year": 1998,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "TeamOrre/xd-decomp": {
+    "year": 2005,
+    "platformLabel": "GameCube",
+    "gameTitle": "Pokémon XD: Gale of Darkness"
   },
-  "1superchip/ty-decomp": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/62/Ty_the_Tasmanian_Tiger_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "g-guthrie/mvc2-ps2-decomp": {
-    "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/19/MVC2_Arcade_Flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "roeming/SA2B": {
+  "testyourmine/kleod": {
     "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Sonic_Adventure_2_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Klonoa: Empire of Dreams"
   },
   "tgsm/pbg": {
     "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Piglet%27s_Big_Game_Cover_PS2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Piglet%27s_Big_Game_Cover_PS2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Disney's Piglet's Big Game"
   },
-  "DarkRTA/rb3": {
-    "year": 2010,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Wyrelade/Armored-Core-Decomp": {
-    "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/ArmoredCorePS1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "gamemasterplc/bltouch2": {
-    "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/Bomberman_Land_Touch_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "zcanann/SFA-Decomp": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Star_Fox_Adventures_GCN_Game_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "PattyTrish/unending-occlusion": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Eternal_Darkness_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "projectPiki/pikmin": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "doldecomp/mkw": {
-    "year": 2008,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Swiftshine/key": {
-    "year": 2010,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/Kirby%27s_Epic_Yarn_Title.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "brian-oblivion/lsddecomp": {
-    "year": 1998,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/LSD_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "ricky074game/marioparty9": {
-    "year": 2012,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Mario_Party_9_US_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "overjt/knidl": {
-    "year": 1993,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kirby%27s_Adventure_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "PascalPixel/alchemy": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "doldecomp/mkdd": {
-    "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Dream-Atelier/kl-eod-decomp": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "CosmicScribe64/eds-decomp": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/Yu-Gi-Oh%21_The_Eternal_Duelist_Soul_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "SeekyCt/spm-decomp": {
-    "year": 2007,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "zeldaret/ss": {
-    "year": 2011,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "ShulkMaster/mk-da": {
-    "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/MK_Deadly_Alliance_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "akiramusic000/Rhae": {
-    "year": 2006,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Wii_Play_Europe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "SephDB/pokepark-wii-decomp": {
-    "year": 2009,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Pok%C3%A9Park_Wii_NA_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "GRAnimated/MinecraftLCE": {
-    "year": 2017
-  },
-  "LucasPicoli/god-hand-decomp": {
-    "year": 2006,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/God_Hand_%282006_Playstation_2%29_video_game_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Druthulu/BFM-decomp": {
-    "year": 1998,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Brave_Fencer_Musashi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "daanhenke/persona-psx": {
-    "year": 1996,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/Revelations_Persona_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "TheGh0stShip/BattleTanx-Global-Assault": {
+    "year": 1999,
+    "platformLabel": "Nintendo 64",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/BattleTanx_-_Global_Assault.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "gameTitle": "BattleTanx: Global Assault"
   },
   "TheMoonPeople/Chronicle": {
     "year": 2000,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Dark_Cloud_PS2_Game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Dark_Cloud_PS2_Game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Dark Cloud"
   },
-  "Yotona/twewy": {
-    "year": 2007
-  },
-  "shohamc1/heat2002": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/NASCAR_Heat_2002_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "laqieer/fireemblem8j": {
-    "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "Harskov/stretch-panic-usa": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/aa/Stretch_Panic_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "mitsevox/mvp2005": {
-    "year": 2005,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/MVP_Baseball_2005_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "MonsterDruide1/OdysseyDecomp": {
-    "year": 2017,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "aaaaaaaaaaway/chulip-decomp": {
+  "TheMoonPeople/ChronicleTwo": {
     "year": 2002,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Coverchulip.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/Dark_Chronicle_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Dark Cloud 2"
   },
-  "aaaaaaaaaaway/kaze-no-notam-decomp": {
-    "year": 1997
+  "TheOnlyZac/sly1": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Sly Cooper and the Thievius Raccoonus"
   },
-  "SebaaMG/Kinect-Sports-Decomp": {
-    "year": 2010,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kinect_Sports.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "ThePlayerRolo/LegoCloneWarsWii": {
+    "year": 2011,
+    "platformLabel": "Wii",
+    "gameTitle": "Lego Star Wars III: The Clone Wars"
   },
-  "Y0oshi/lain-psx-decompiled": {
-    "year": 1998,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Serial_Experiments_Lain_DVD_vol_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "ThePlayerRolo/lm-decomp": {
+    "year": 2001,
+    "platformLabel": "GameCube",
+    "gameTitle": "Luigi's Mansion"
   },
-  "doldecomp/ttyd": {
+  "ThePlayerRolo/Super-Mario-All-Star-Decomp": {
+    "year": 1993,
+    "platformLabel": "Wii",
+    "gameTitle": "Super Mario All-Stars 25th Anniversary Edition"
+  },
+  "TsilaAllaoui/warioland4": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Wario_Land_4_NA_Box_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Game Boy Advance",
+    "gameTitle": "Wario Land 4"
+  },
+  "USED255/artonelico2-decomp": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/Ar_tonelico_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ar tonelico II: Melody of Metafalica"
+  },
+  "Vatuu/silent-hill-decomp": {
+    "year": 1999,
+    "platformLabel": "PlayStation",
+    "gameTitle": "Silent Hill"
+  },
+  "Veradictus/Thief3-Decomp": {
     "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Paper_Mario_The_Thousand-Year_Door_%28artwork%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "Windows",
+    "gameTitle": "Thief: Deadly Shadows"
   },
-  "cdlewis/snowboardkids2-decomp": {
+  "VetriTheRetri/ssb-decomp-re": {
     "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Super Smash Bros."
   },
-  "marijnvdwerf/paperboy-n64": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Paperboy_arcadeflyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "vetusmagnus/ratchet-uya-decomp": {
+    "year": 2004,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank: Up Your Arsenal"
   },
-  "chameleonTwistRet/chameleonTwistv1.0-JP": {
-    "year": 1997,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Chameleon_Twist_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "Voicedrew11/kfiv-decomp": {
+    "year": 2001,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/King%27s_Field_IV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "King's Field: The Ancient City"
+  },
+  "vonhoff/lemball-decomp": {
+    "year": 1996,
+    "platformLabel": "Windows",
+    "gameTitle": "Lemmings Paintball"
   },
   "weirdbeardgame/Mulberry": {
     "year": 2004,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Kuon_NA_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Kuon_NA_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Kuon"
   },
-  "IWILLCRAFT-M0d/dogcomp": {
+  "wowjinxy/KAR": {
     "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Dog%27s_Life_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "GameCube",
+    "gameTitle": "Kirby Air Ride"
   },
-  "sabishii-bit/Gauntlet-Dark-Legacy-Decompilation": {
-    "year": 1999,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Gauntlet_Dark_Legacy_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "Wyrelade/Armored-Core-Decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/ArmoredCorePS1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Armored Core"
   },
-  "marijnvdwerf/gba-beyblade-vforce": {
-    "year": 2003
+  "Wyrelade/Digimon-World-2-Decomp": {
+    "year": 2000,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Digimonworld2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Digimon World 2"
   },
-  "NSMBW-Community/NSMBW-Decomp": {
-    "year": 2009
+  "Wyrelade/OpenWINGS": {
+    "year": 1996,
+    "platformLabel": "DOS",
+    "gameTitle": "Wings"
   },
-  "doldecomp/ogws": {
-    "year": 2006,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Wii_Sports_Sleeve_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "xbret/xenoblade": {
+    "year": 2010,
+    "platformLabel": "Wii",
+    "gameTitle": "Xenoblade Chronicles"
   },
-  "inspectredc/fzerox": {
-    "year": 1998
+  "Xeeynamo/ff7-decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Final Fantasy VII"
+  },
+  "Xeeynamo/sotn-decomp": {
+    "year": 1997,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Castlevania: Symphony of the Night"
+  },
+  "Y0oshi/lain-psx-decompiled": {
+    "year": 1998,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Serial_Experiments_Lain_DVD_vol_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation",
+    "gameTitle": "Serial Experiments Lain"
+  },
+  "Yanis002/st-archive": {
+    "year": 2009,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "The Legend of Zelda: Spirit Tracks"
+  },
+  "yannicksuter/mscharged-decomp": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Mario_Strikers_Charged.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "Mario Strikers Charged"
   },
   "yannicksuter/smstrikers-decomp": {
     "year": 2005,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Super Mario Strikers"
   },
-  "parappadev/parappa2": {
-    "year": 2001,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/PaRappa_the_Rapper_2_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "Yokimitsuro/khdays-decomp": {
+    "year": 2009,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/KingdomdaysNA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Kingdom Hearts 358/2 Days"
   },
-  "cypressru/SonicBattleDecomp": {
-    "year": 2003
+  "Yokimitsuro/khrecoded-decomp": {
+    "year": 2010,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "Kingdom Hearts Re:coded"
   },
-  "rayanht/fzgx": {
+  "Yotona/twewy": {
+    "year": 2007,
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "The World Ends With You"
+  },
+  "zcanann/bfbb": {
     "year": 2003,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/66/F-Zero_GX_box_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "platformLabel": "GameCube",
+    "gameTitle": "Battle for Bikini Bottom"
   },
-  "ACreTeam/afe-decomp": {
-    "year": 2001
+  "zcanann/FFCC-Decomp": {
+    "year": 2003,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Final_Fantasy_Crystal_Chronicles_%28box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Final Fantasy Crystal Chronicles"
   },
-  "ivanno4317/dw4-gc": {
-    "year": 2005
-  },
-  "TeamOrre/xd-decomp": {
-    "year": 2005
-  },
-  "Alice-2010/Decomp": {
-    "year": 2010
-  },
-  "ZounaModding/RatDecomp": {
-    "year": 2007
-  },
-  "karamzov123/fzero-gx-decomp": {
-    "year": 2003
-  },
-  "JRickey/frog-adv-temple-decomp": {
-    "year": 2001
-  },
-  "Eebit/fe11-us": {
-    "year": 2008
-  },
-  "VetriTheRetri/ssb-decomp-re": {
-    "year": 1999
-  },
-  "orangedude27/excite-truck": {
-    "year": 2006
-  },
-  "KidWizardOfTheWeb/SR2": {
-    "year": 2008
-  },
-  "khasinski/rage-racer-decomp": {
-    "year": 1996
-  },
-  "projectPiki/pik1wii": {
-    "year": 2001
-  },
-  "NSMB-Decomp/nsmb": {
-    "year": 2006
-  },
-  "emoluvjd2/thps2-demo-decomp": {
-    "year": 2000
-  },
-  "MatBourgon/Gex64Decomp": {
-    "year": 1998
-  },
-  "Ryan-Myers/Jet-Force-Gemini": {
-    "year": 1999
-  },
-  "ieee802dot11ac/fnv": {
-    "year": 2010
-  },
-  "rjkiv/sonic06": {
-    "year": 2006
-  },
-  "bfbbdecomp/bfbb": {
-    "year": 2003
-  },
-  "ethteck/pokemonsnap": {
-    "year": 1999
+  "zcanann/SFA-Decomp": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Star_Fox_Adventures_GCN_Game_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "Star Fox Adventures"
   },
   "zeldaret/af": {
-    "year": 2001
+    "year": 2001,
+    "platformLabel": "Nintendo 64",
+    "gameTitle": "Animal Forest"
   },
-  "wowjinxy/KAR": {
-    "year": 2003
+  "zeldaret/ph": {
+    "year": 2007,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "The Legend of Zelda: Phantom Hourglass"
   },
-  "AngheloAlf/drmario64": {
-    "year": 2001
+  "zeldaret/ss": {
+    "year": 2011,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Wii",
+    "gameTitle": "The Legend of Zelda: Skyward Sword"
   },
-  "NewGBAXL/drmario64-gc": {
-    "year": 2003
-  },
-  "ChimpsAtSea/Reach": {
-    "year": 2010
-  },
-  "ACreTeam/ac-decomp": {
-    "year": 2001
-  },
-  "roeming/mssb-dtk": {
-    "year": 2005
-  },
-  "ThePlayerRolo/Super-Mario-All-Star-Decomp": {
-    "year": 1993
-  },
-  "xbret/xenoblade": {
-    "year": 2010
-  },
-  "bluisblu/cttr": {
-    "year": 2005
+  "zeldaret/st": {
+    "year": 2009,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/The_Legend_of_Zelda_Spirit_Tracks_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "Nintendo DS",
+    "gameTitle": "The Legend of Zelda: Spirit Tracks"
   },
   "zeldaret/tp": {
-    "year": 2006
+    "year": 2006,
+    "platformLabel": "GameCube",
+    "gameTitle": "The Legend of Zelda: Twilight Princess"
   },
-  "patataofcourse/rhgold": {
-    "year": 2008
+  "zeldaret/tww": {
+    "year": 2002,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "GameCube",
+    "gameTitle": "The Legend of Zelda: The Wind Waker"
   },
-  "bfbbdecomp/tssm": {
-    "year": 2004
+  "zm2283145/syphon-filter-omega-strain-decomp": {
+    "year": 2004,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9d/Syphon_Filter_The_Omega_Strain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Syphon Filter: The Omega Strain"
   },
-  "conhlee/rhf": {
-    "year": 2011
+  "ZounaDecomp/RatDecomp": {
+    "year": 2002,
+    "platformLabel": "PlayStation 2",
+    "gameTitle": "Ratchet & Clank"
   },
-  "mariopartyrd/marioparty4": {
-    "year": 2002
-  },
-  "mariopartyrd/marioparty5": {
-    "year": 2003
-  },
-  "LLONSIT-glitch/wonder": {
-    "year": 1996
-  },
-  "jdperos/chrono-cross-decomp": {
-    "year": 1999
-  },
-  "LLONSIT/Wave-Race-64": {
-    "year": 1996
-  },
-  "bigyoshi51/glover-decomp": {
-    "year": 1998
-  },
-  "HaydnTrigg/Castaway": {
-    "year": 2007
-  },
-  "Charlese2/sgr": {
-    "year": 2002
-  },
-  "ThePlayerRolo/LegoCloneWarsWii": {
-    "year": 2011
-  },
-  "LagoLunatic/ooe": {
-    "year": 2008
-  },
-  "Etrainquandt17/Whippy": {
-    "year": 2011
-  },
-  "RedShyGuy/acnl-decomp": {
-    "year": 2012
-  },
-  "coalslav/hmbtn-decomp": {
-    "year": 1999
-  },
-  "jwfeniello/scott-pilgrim-switch-decomp": {
-    "year": 2026
-  },
-  "mikegoforth/summoner-2-decomp": {
-    "year": 2002
-  },
-  "sturmds/advance-wars-dual-strike-decomp": {
-    "year": 2005
-  },
-  "RonyxDumb/mkds": {
-    "year": 2005
-  },
-  "gustavocanepa/gt3-decomp": {
-    "year": 2001
-  },
-  "JohnSoellnerDev/mlss-decomp": {
-    "year": 2003
-  },
-  "pbr-ret/pbr-decomp": {
-    "year": 2006
-  },
-  "ctrl-cheeb-del/pokeheartgold": {
-    "year": 2009
-  },
-  "pret/pokeheartgold": {
-    "year": 2009
+  "ZounaModding/RatDecomp": {
+    "year": 2007,
+    "platformLabel": "GameCube",
+    "gameTitle": "Ratatouille"
   }
 }

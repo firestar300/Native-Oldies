@@ -4,11 +4,7 @@
  *
  * Usage: npm run enrich:decomp-dev
  */
-import {
-  DECOMP_DEV,
-  DECOMP_DEV_EXCLUDED_PLATFORMS,
-  isDecompDevExcludedRepo,
-} from '../src/data/decomp-dev-source.js'
+import { DECOMP_DEV_EXCLUDED_PLATFORMS, isDecompDevExcludedRepo } from '../src/data/decomp-dev-source.js'
 import { portProjects } from '../src/data/projects.js'
 import {
   inferYearFromGameName,
@@ -17,6 +13,7 @@ import {
   lookupDecompDevMetadata,
   saveMetadataCache,
 } from './decomp-dev-metadata.mjs'
+import { loadDecompDevRemoteProjects } from './decomp-dev-feed.mjs'
 
 const normalizeRepo = (url) =>
   url?.replace(/\.git$/i, '').replace(/\/$/, '').toLowerCase() ?? ''
@@ -24,12 +21,7 @@ const normalizeRepo = (url) =>
 const delayMs = Number.parseInt(process.env.DECOMP_ENRICH_DELAY_MS ?? '3500', 10)
 const enrichLimit = Number.parseInt(process.env.DECOMP_ENRICH_LIMIT ?? '0', 10)
 
-const response = await fetch(DECOMP_DEV.projectsFeedUrl, {
-  headers: { 'User-Agent': 'native-oldies/1.0 (decomp.dev enrich)' },
-})
-if (!response.ok) throw new Error(`decomp.dev feed responded ${response.status}`)
-
-const { projects: remoteProjects } = await response.json()
+const { projects: remoteProjects } = await loadDecompDevRemoteProjects()
 const existingRepos = new Set(
   portProjects.map((project) => normalizeRepo(project.repo)).filter(Boolean),
 )
@@ -42,20 +34,21 @@ for (const remote of remoteProjects) {
   const repoUrl = remote.repo_url?.trim()
   if (!repoUrl || existingRepos.has(normalizeRepo(repoUrl))) continue
   const gameName = remote.name ?? `${remote.owner}/${remote.repo}`
-  if (!isDecompDevGame(gameName, remote.repo)) {
-    delete cache[`${remote.owner}/${remote.repo}`]
+  const repo = remote.repo ?? remote.repository
+  if (!isDecompDevGame(gameName, repo)) {
+    delete cache[`${remote.owner}/${repo}`]
     continue
   }
   if (remote.platform && DECOMP_DEV_EXCLUDED_PLATFORMS.has(remote.platform)) {
-    delete cache[`${remote.owner}/${remote.repo}`]
+    delete cache[`${remote.owner}/${repo}`]
     continue
   }
-  if (isDecompDevExcludedRepo(remote.owner, remote.repo)) {
-    delete cache[`${remote.owner}/${remote.repo}`]
+  if (isDecompDevExcludedRepo(remote.owner, repo)) {
+    delete cache[`${remote.owner}/${repo}`]
     continue
   }
 
-  const key = `${remote.owner}/${remote.repo}`
+  const key = `${remote.owner}/${repo}`
   const current = cache[key] ?? {}
   if (current.year) continue
   if (enrichLimit > 0 && updated >= enrichLimit) break

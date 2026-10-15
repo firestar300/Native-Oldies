@@ -269,7 +269,7 @@
   },
   "vonhoff/lemball-decomp": {
     "twitchBoxArtId": 10715,
-    "twitchName": "manual"
+    "twitchName": "Lemmings Paintball"
   },
   "bfbbdecomp/bfbb": {
     "twitchBoxArtId": 9683,
@@ -277,11 +277,11 @@
   },
   "banteg/harvest": {
     "twitchBoxArtId": 21603,
-    "twitchName": "manual"
+    "twitchName": "Harvest: Massive Encounter"
   },
   "anzaldoivan/dino-crisis-2-decomp": {
-    "twitchBoxArtId": 2146012718,
-    "twitchName": "Dino Crisis"
+    "twitchBoxArtId": 3685,
+    "twitchName": "Dino Crisis 2"
   },
   "GoldieLeGenie/DQIV-DECOMP": {
     "twitchBoxArtId": 14951,
@@ -292,12 +292,36 @@
     "twitchName": "Digimon World Data Squad"
   },
   "openblack/bw1-decomp": {
-    "twitchBoxArtId": 27602,
-    "twitchName": "Pokémon Black/White"
+    "twitchBoxArtId": 17076,
+    "twitchName": "Black & White"
+  },
+  "bigyoshi51/1080-decomp": {
+    "twitchBoxArtId": 17356,
+    "twitchName": "1080° Snowboarding"
+  },
+  "melalawi/battletanx-decomp": {
+    "twitchBoxArtId": 3369,
+    "twitchName": "BattleTanx"
+  },
+  "FortuneStreetModding/boom-street-decomp": {
+    "twitchBoxArtId": 31934,
+    "twitchName": "Fortune Street"
+  },
+  "ACreTeam/cf-decomp": {
+    "twitchBoxArtId": 19261,
+    "twitchName": "Animal Crossing: City Folk"
+  },
+  "Almamu/CrashBandicootXS-decomp": {
+    "twitchBoxArtId": 7009,
+    "twitchName": "Crash Bandicoot: The Huge Adventure"
+  },
+  "denzi-gh/crashwoc-decomp": {
+    "twitchBoxArtId": 69,
+    "twitchName": "Crash Bandicoot: The Wrath of Cortex"
   },
   "pakompom/SpaceRangers1_decomp": {
-    "twitchBoxArtId": 66406,
-    "twitchName": "Space Rangers HD: A War Apart"
+    "twitchBoxArtId": 17204,
+    "twitchName": "Space Rangers"
   },
   "xbret/xenoblade": {
     "twitchBoxArtId": 1885725941,
@@ -476,6 +500,10 @@
     "twitchName": "Crash Bandicoot: The Wrath of Cortex"
   },
   "doldecomp/mkdd": {
+    "twitchBoxArtId": 17189,
+    "twitchName": "Mario Kart: Double Dash!!"
+  },
+  "SwareJonge/mkdd": {
     "twitchBoxArtId": 17189,
     "twitchName": "Mario Kart: Double Dash!!"
   },
@@ -691,6 +719,10 @@
     "twitchBoxArtId": 31911,
     "twitchName": "Mario Party 9"
   },
+  "Rainchus/marioparty4": {
+    "twitchBoxArtId": 4267,
+    "twitchName": "Mario Party 4"
+  },
   "rjkiv/dc3-decomp": {
     "twitchBoxArtId": 65946,
     "twitchName": "Dance Central 3"
@@ -730,6 +762,10 @@
   "ShulkMaster/mk-da": {
     "twitchBoxArtId": 6036,
     "twitchName": "Mortal Kombat: Deadly Alliance"
+  },
+  "tangosdev/sm64ds-decomp": {
+    "twitchBoxArtId": 1483136307,
+    "twitchName": "Super Mario 64 DS"
   },
   "southcitycapture/hybridheaven-decomp": {
     "twitchBoxArtId": 15574,
@@ -853,7 +889,7 @@
   },
   "emoluvjd2/oregontrail-win32-decomp": {
     "twitchBoxArtId": 3538,
-    "twitchName": "manual"
+    "twitchName": "Oregon Trail II"
   },
   "projectPiki/pik1wii": {
     "twitchBoxArtId": 2209,
@@ -942,5 +978,133 @@
   "pbr-ret/pbr-decomp": {
     "twitchBoxArtId": 17540,
     "twitchName": "manual"
+  },
+  "MokhaLeee/FireEmblem7J": {
+    "twitchBoxArtId": 1396,
+    "twitchName": "Fire Emblem: The Blazing Blade"
+  },
+  "HaydnTrigg/Freelancer": {
+    "twitchBoxArtId": 5105,
+    "twitchName": "Freelancer"
+  },
+  "Moddimation/GoVacation-Decompilation": {
+    "twitchBoxArtId": 31946,
+    "twitchName": "Go Vacation"
+  },
+  "Yokimitsuro/khrecoded-decomp": {
+    "twitchBoxArtId": 1996252514,
+    "twitchName": "Kingdom Hearts"
+  },
+  "fmil95/soul-re": {
+    "twitchBoxArtId": 5728,
+    "twitchName": "Legacy of Kain: Soul Reaver"
+  },
+  "ThePlayerRolo/lm-decomp": {
+    "twitchBoxArtId": 10090,
+    "twitchName": "Luigi's Mansion"
+  },
+  "mateuszklysz/Lombyte": {
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "Moddimation/Yasiki": {
+    "twitchBoxArtId": 10090,
+    "twitchName": "Luigi's Mansion"
+  },
+  "PrimeDecomp/echoes": {
+    "twitchBoxArtId": 1459,
+    "twitchName": "Metroid Prime 2: Echoes"
+  },
+  "rbxrootx/MissionFleet": {
+    "twitchBoxArtId": 20919,
+    "twitchName": "Navy Field"
+  },
+  "skylaralbers/mkd-decomp-local-": {
+    "twitchBoxArtId": 5993,
+    "twitchName": "Mario Kart DS"
+  },
+  "regratka/mkp": {
+    "twitchBoxArtId": 18871,
+    "twitchName": "Mario Kart Wii"
+  },
+  "riidefi/mkw": {
+    "twitchBoxArtId": 18871,
+    "twitchName": "Mario Kart Wii"
+  },
+  "Wyrelade/OpenWINGS": {
+    "twitchBoxArtId": 2355,
+    "twitchName": "Wings"
+  },
+  "dreamsailing59-ops/PaintStudioDecomp": {
+    "twitchBoxArtId": 19342,
+    "twitchName": "Mario Artist: Paint Studio"
+  },
+  "ExpansionPak/PaintStudioDecomp": {
+    "twitchBoxArtId": 19342,
+    "twitchName": "Mario Artist: Paint Studio"
+  },
+  "gradenGnostic/pokemoon": {
+    "twitchBoxArtId": 491599,
+    "twitchName": "Pokémon Sun/Moon"
+  },
+  "Lynder063/rac1-decomp": {
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "melalawi/ragewars-decomp": {
+    "twitchBoxArtId": 133415,
+    "twitchName": "Rage Wars"
+  },
+  "vetusmagnus/ratchet-uya-decomp": {
+    "twitchBoxArtId": 4540,
+    "twitchName": "Ratchet & Clank: Up Your Arsenal"
+  },
+  "ZounaDecomp/RatDecomp": {
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "AshfordFamily/recvx-decomp": {
+    "twitchBoxArtId": 12789,
+    "twitchName": "Resident Evil Code: Veronica"
+  },
+  "fmil95/recvx-decomp": {
+    "twitchBoxArtId": 12789,
+    "twitchName": "Resident Evil Code: Veronica"
+  },
+  "fmil95/recvx-gc-decomp": {
+    "twitchBoxArtId": 12789,
+    "twitchName": "Resident Evil Code: Veronica"
+  },
+  "oohweee/sh2-proto-decomp": {
+    "twitchBoxArtId": 9891,
+    "twitchName": "Silent Hill 2"
+  },
+  "Vatuu/silent-hill-decomp": {
+    "twitchBoxArtId": 3947,
+    "twitchName": "Silent Hill"
+  },
+  "natebag/Sims2DECOMP": {
+    "twitchBoxArtId": 2274,
+    "twitchName": "The Sims 2"
+  },
+  "Fuuzetsu/tenchu-decomp": {
+    "twitchBoxArtId": 14671,
+    "twitchName": "Tenchu: Stealth Assassins"
+  },
+  "spongeis5/ToS-Decomp": {
+    "twitchBoxArtId": 19369,
+    "twitchName": "Tales of Symphonia"
+  },
+  "Adubbz/DCDecomp": {
+    "twitchBoxArtId": 1705,
+    "twitchName": "Dark Cloud"
+  },
+  "juandav/dw3_decomp": {
+    "twitchBoxArtId": 3549,
+    "twitchName": "Digimon World 3"
+  },
+  "Yanis002/st-archive": {
+    "twitchBoxArtId": 23195,
+    "twitchName": "The Legend of Zelda: Spirit Tracks"
   }
 }

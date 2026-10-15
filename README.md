@@ -73,7 +73,7 @@ For example: `https://firestar300.github.io/Native-Oldies/`
 
 ## decomp.dev catalogue
 
-Matching decompilation projects are also imported from [decomp.dev](https://decomp.dev/) (`src/data/decomp-dev-source.js`). Regenerate the auto-imported list after the upstream feed changes:
+Matching decompilation projects are also imported from [decomp.dev](https://decomp.dev/) (`src/data/decomp-dev-source.js`). The public `projects.json` index may return HTTP 410; scripts then use the archived index at [labs.parkrelics.com/decomp.dev](https://labs.parkrelics.com/decomp.dev/projects) (`/api/projects`, same per-project reports as decomp.dev). Regenerate the auto-imported list when the upstream feed or mirror changes:
 
 ```bash
 npm run enrich:decomp-dev     # Wikipedia release years (optional, slow)
@@ -82,8 +82,19 @@ npm run sync:decomp-dev
 npm run covers
 ```
 
+If a sync wiped good platform/year/Twitch fields, restore from the last Git baseline (default `HEAD`), then re-sync:
+
+```bash
+npm run reconcile:decomp-baseline
+DECOMP_DEV_SKIP_REPORTS=1 npm run sync:decomp-dev
+```
+
+`sync:decomp-dev` fetches progress metrics from each project’s `owner/repo.json` report when using the mirror (set `DECOMP_DEV_SKIP_REPORTS=1` for a faster catalogue-only pass).
+
 Covers use the same Twitch CDN ids as curated ports (`twitchBoxArtId`). No Twitch developer app: run `assign:decomp-twitch` (50 games per batch) to match titles against a public directory list, or set ids manually in `src/data/decomp-dev-twitch-cache.json` (`owner/repo` → `{ "twitchBoxArtId": … }`, id from the Twitch directory box art URL). Optional title overrides: `src/data/decomp-dev-twitch-aliases.json` (`owner/repo` → exact Twitch category name). Confirmed ids: `src/data/decomp-dev-twitch-manual.json` (`owner/repo` → numeric id). Twitch category titles in `src/data/decomp-dev-twitch-ignore-categories.json` are skipped during auto-match (e.g. generic Pokémon listings that steal fuzzy matches). Each `assign:decomp-twitch` run advances **50 rows** through the full decomp catalogue (stable order).
 
-Caches: `src/data/decomp-dev-metadata-cache.json` (years), `src/data/decomp-dev-twitch-cache.json` (Twitch ids).
+Caches: `src/data/decomp-dev-metadata-cache.json` (years, `platformLabel`, optional `gameTitle`), `src/data/decomp-dev-twitch-cache.json` (Twitch ids). Rows dropped from the upstream feed but kept locally: `src/data/decomp-dev-preserved-projects.json` (filled by `reconcile:decomp-baseline`).
 
-This writes `src/data/decomp-dev-projects.js` and merges it with `portProjects` and any rows in `src/data/decomp-dev-extra-projects.js` (manual decomps when a repo is not on decomp.dev). Set `aiAssisted: true` on a project when its codebase is predominantly AI-generated (shows an **AI** badge on the card). Non-game rows (emulators, SDKs, expansion kits, system software) and **Windows originals** (`win32` on decomp.dev) are skipped. Imported rows use `catalogSource: 'decomp.dev'`, link to their progress report, and stay `wip` until a native PC port is curated manually in `portProjects`.
+Per-repo catalogue patches (display title, `aiAssisted`, etc.): `src/data/decomp-dev-project-overrides.json` (`owner/repo` → fields), applied when building the merged `projects` list.
+
+This writes `src/data/decomp-dev-projects.js` and merges it with `portProjects` and any rows in `src/data/decomp-dev-extra-projects.js` (manual decomps when a repo is not on decomp.dev). Set `aiAssisted: true` in overrides when a codebase is predominantly AI-generated (shows an **AI** badge on the card). Imported rows may include `catalogPublishedAt` (first listing on decomp.dev, from the mirror feed). Non-game rows (emulators, SDKs, expansion kits, system software) and **Windows originals** (`win32` on decomp.dev) are skipped. Imported rows use `catalogSource: 'decomp.dev'`, link to their progress report, and stay `wip` until a native PC port is curated manually in `portProjects`.

@@ -25,3 +25,14 @@ export const loadTwitchCache = async () => {
 export const saveTwitchCache = async (cache) => {
   await writeFile(CACHE_PATH, `${JSON.stringify(cache, null, 2)}\n`)
 }
+
+/**
+ * @param {Record<string, DecompDevTwitchCacheEntry>} cache
+ * @param {string} ownerRepo
+ */
+export const getTwitchCacheEntry = (cache, ownerRepo) => {
+  if (cache[ownerRepo]) return cache[ownerRepo]
+  const lower = ownerRepo.toLowerCase()
+  const key = Object.keys(cache).find((entry) => entry.toLowerCase() === lower)
+  return key ? cache[key] : undefined
+}

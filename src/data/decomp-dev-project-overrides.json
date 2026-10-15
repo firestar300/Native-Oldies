@@ -1,0 +1,63 @@
+{
+  "bigyoshi51/1080-decomp": {
+    "game": "1080° Snowboarding",
+    "aiAssisted": true
+  },
+  "melalawi/battletanx-decomp": {
+    "game": "BattleTanx"
+  },
+  "thegh0stship/battletanx-global-assault": {
+    "game": "BattleTanx: Global Assault",
+    "platform": "Nintendo 64"
+  },
+  "fortunestreetmodding/boom-street-decomp": {
+    "game": "Fortune Street"
+  },
+  "openblack/bw1-decomp": {
+    "game": "Black & White"
+  },
+  "acreteam/cf-decomp": {
+    "game": "Animal Crossing: City Folk"
+  },
+  "almamu/crashbandicootxs-decomp": {
+    "game": "Crash Bandicoot XS",
+    "aiAssisted": true
+  },
+  "denzi-gh/crashwoc-decomp": {
+    "aiAssisted": true
+  },
+  "denzi-gh/crashwoc-decomp-gc": {
+    "aiAssisted": true
+  },
+  "denzi-gh/crashwoc-decomp-ps2": {
+    "aiAssisted": true
+  },
+  "istornz/bowsers-inside-story-decomp": {
+    "game": "Mario & Luigi: Bowser's Inside Story",
+    "platform": "Nintendo DS"
+  },
+  "midacoyt/harrypotterandthehalfbloodprince-decompilation": {
+    "game": "Harry Potter and the Half-Blood Prince",
+    "platform": "Windows"
+  },
+  "eiscremewaffle/bubsy3d-decomp": {
+    "game": "Bubsy 3D",
+    "platform": "PlayStation"
+  },
+  "dev-camo/shadow-decomp": {
+    "game": "Shadow the Hedgehog",
+    "platform": "GameCube"
+  },
+  "cosmicscribe64/tokimemo-ps1-decomp": {
+    "game": "Tokimeki Memorial",
+    "platform": "PlayStation"
+  },
+  "anzaldoivan/dino-crisis-2-decomp": {
+    "game": "Dino Crisis 2",
+    "platform": "PlayStation"
+  },
+  "2gifts/george-decomp": {
+    "game": "George of the Jungle and the Search for the Secret",
+    "platform": "PlayStation 2"
+  }
+}

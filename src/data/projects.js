@@ -19,7 +19,10 @@
  * @property {string}      [twitchCoverUrl]  Full Twitch CDN cover URL when the category does not use the `_IGDB` suffix.
  * @property {'complete'|'playable'|'wip'} status  Port maturity (PCGamingWiki-style); used for filters and card tags.
  * @property {boolean}   [aiAssisted]    When true, shows an "AI" badge (codebase predominantly AI-generated).
+ * @property {string}    [catalogPublishedAt] ISO date (YYYY-MM-DD) when the project first appeared on decomp.dev.
  */
+
+import decompDevProjectOverrides from './decomp-dev-project-overrides.json' with { type: 'json' }
 
 export const APPROACHES = {
   decomp: 'Decompilation',
@@ -38,6 +41,7 @@ export const STATUSES = {
 /** Display order for status filter chips. */
 export const STATUS_ORDER = ['complete', 'playable', 'wip']
 
+import decompDevPreservedProjects from './decomp-dev-preserved-projects.json' with { type: 'json' }
 import { decompDevExtraProjects } from './decomp-dev-extra-projects.js'
 import { decompDevProjects } from './decomp-dev-projects.js'
 import { DECOMP_DEV } from './decomp-dev-source.js'
@@ -949,5 +953,25 @@ export const portProjects = [
   },
 ]
 
+/** @param {string | null | undefined} repoUrl */
+const decompOverrideKey = (repoUrl) => {
+  const normalized = repoUrl?.replace(/\.git$/i, '').replace(/\/$/, '')
+  const match = normalized?.match(/github\.com\/([^/]+)\/([^/]+)$/i)
+  return match ? `${match[1]}/${match[2]}`.toLowerCase() : null
+}
+
+/** @param {Project} project */
+const applyDecompDevOverrides = (project) => {
+  const key = decompOverrideKey(project.repo)
+  if (!key) return project
+  const patch = decompDevProjectOverrides[key]
+  return patch ? { ...project, ...patch } : project
+}
+
 /** @type {Project[]} */
-export const projects = [...portProjects, ...decompDevProjects, ...decompDevExtraProjects]
+export const projects = [
+  ...portProjects,
+  ...decompDevProjects,
+  ...decompDevPreservedProjects,
+  ...decompDevExtraProjects,
+].map(applyDecompDevOverrides)

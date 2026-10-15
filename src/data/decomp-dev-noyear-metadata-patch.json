@@ -1,0 +1,414 @@
+{
+  "MokhaLeee/FireEmblem7J": {
+    "meta": {
+      "year": 2003,
+      "platformLabel": "Game Boy Advance",
+      "gameTitle": "Fire Emblem: The Blazing Blade"
+    },
+    "twitchBoxArtId": 1396,
+    "twitchName": "Fire Emblem: The Blazing Blade"
+  },
+  "HaydnTrigg/Freelancer": {
+    "meta": {
+      "year": 2003,
+      "platformLabel": "Windows",
+      "gameTitle": "Freelancer"
+    },
+    "twitchBoxArtId": 5105,
+    "twitchName": "Freelancer"
+  },
+  "Moddimation/GoVacation-Decompilation": {
+    "meta": {
+      "year": 2011,
+      "platformLabel": "Wii",
+      "gameTitle": "Go Vacation"
+    },
+    "twitchBoxArtId": 31946,
+    "twitchName": "Go Vacation"
+  },
+  "banteg/harvest": {
+    "meta": {
+      "year": 2008,
+      "platformLabel": "Windows",
+      "gameTitle": "Harvest: Massive Encounter"
+    },
+    "twitchBoxArtId": 21603,
+    "twitchName": "Harvest: Massive Encounter"
+  },
+  "EuclidVsGauss/HazardRevenge": {
+    "meta": {
+      "year": 2000,
+      "platformLabel": "Windows",
+      "gameTitle": "Hazard"
+    },
+    "twitchBoxArtId": 502571,
+    "twitchName": "Hazard"
+  },
+  "HaydnTrigg/Homeworld2Classic": {
+    "meta": {
+      "year": 2003,
+      "platformLabel": "Windows",
+      "gameTitle": "Homeworld 2"
+    },
+    "twitchBoxArtId": 8688,
+    "twitchName": "Homeworld 2"
+  },
+  "Yokimitsuro/khrecoded-decomp": {
+    "meta": {
+      "year": 2010,
+      "platformLabel": "Nintendo DS",
+      "gameTitle": "Kingdom Hearts Re:coded"
+    },
+    "twitchBoxArtId": 1996252514,
+    "twitchName": "Kingdom Hearts"
+  },
+  "fmil95/soul-re": {
+    "meta": {
+      "year": 1999,
+      "platformLabel": "PlayStation",
+      "gameTitle": "Legacy of Kain: Soul Reaver"
+    },
+    "twitchBoxArtId": 5728,
+    "twitchName": "Legacy of Kain: Soul Reaver"
+  },
+  "marijnvdwerf/legoland": {
+    "meta": {
+      "year": 1999,
+      "platformLabel": "Windows",
+      "gameTitle": "LEGOLAND"
+    },
+    "twitchBoxArtId": 10456,
+    "twitchName": "LEGOLAND"
+  },
+  "vonhoff/lemball-decomp": {
+    "meta": {
+      "year": 1996,
+      "platformLabel": "Windows",
+      "gameTitle": "Lemmings Paintball"
+    },
+    "twitchBoxArtId": 10715,
+    "twitchName": "Lemmings Paintball"
+  },
+  "ThePlayerRolo/lm-decomp": {
+    "meta": {
+      "year": 2001,
+      "platformLabel": "GameCube",
+      "gameTitle": "Luigi's Mansion"
+    },
+    "twitchBoxArtId": 10090,
+    "twitchName": "Luigi's Mansion"
+  },
+  "mateuszklysz/Lombyte": {
+    "meta": {
+      "year": 2002,
+      "platformLabel": "PlayStation 2",
+      "gameTitle": "Ratchet & Clank"
+    },
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "Moddimation/Yasiki": {
+    "meta": {
+      "year": 2001,
+      "platformLabel": "GameCube",
+      "gameTitle": "Luigi's Mansion"
+    },
+    "twitchBoxArtId": 10090,
+    "twitchName": "Luigi's Mansion"
+  },
+  "PrimeDecomp/echoes": {
+    "meta": {
+      "year": 2004,
+      "platformLabel": "GameCube",
+      "gameTitle": "Metroid Prime 2: Echoes"
+    },
+    "twitchBoxArtId": 1459,
+    "twitchName": "Metroid Prime 2: Echoes"
+  },
+  "rbxrootx/MissionFleet": {
+    "meta": {
+      "year": 2003,
+      "platformLabel": "Windows",
+      "gameTitle": "Navy Field"
+    },
+    "twitchBoxArtId": 20919,
+    "twitchName": "Navy Field"
+  },
+  "skylaralbers/mkd-decomp-local-": {
+    "meta": {
+      "year": 2005,
+      "platformLabel": "Nintendo DS",
+      "gameTitle": "Mario Kart DS"
+    },
+    "twitchBoxArtId": 5993,
+    "twitchName": "Mario Kart DS"
+  },
+  "regratka/mkp": {
+    "meta": {
+      "year": 2008,
+      "platformLabel": "Wii",
+      "gameTitle": "Mario Kart Wii"
+    },
+    "twitchBoxArtId": 18871,
+    "twitchName": "Mario Kart Wii"
+  },
+  "riidefi/mkw": {
+    "meta": {
+      "year": 2008,
+      "platformLabel": "Wii",
+      "gameTitle": "Mario Kart Wii"
+    },
+    "twitchBoxArtId": 18871,
+    "twitchName": "Mario Kart Wii"
+  },
+  "dbalatoni13/nfsmw": {
+    "meta": {
+      "year": 2005,
+      "platformLabel": "GameCube",
+      "gameTitle": "Need for Speed: Most Wanted"
+    }
+  },
+  "Wyrelade/OpenWINGS": {
+    "meta": {
+      "year": 1996,
+      "platformLabel": "DOS",
+      "gameTitle": "Wings"
+    },
+    "twitchBoxArtId": 2355,
+    "twitchName": "Wings"
+  },
+  "emoluvjd2/oregontrail-win32-decomp": {
+    "meta": {
+      "year": 1996,
+      "platformLabel": "Windows",
+      "gameTitle": "The Oregon Trail II"
+    },
+    "twitchBoxArtId": 3538,
+    "twitchName": "Oregon Trail II"
+  },
+  "dreamsailing59-ops/PaintStudioDecomp": {
+    "meta": {
+      "year": 1999,
+      "platformLabel": "Nintendo 64",
+      "gameTitle": "Mario Artist: Paint Studio"
+    },
+    "twitchBoxArtId": 19342,
+    "twitchName": "Mario Artist: Paint Studio"
+  },
+  "ExpansionPak/PaintStudioDecomp": {
+    "meta": {
+      "year": 1999,
+      "platformLabel": "Nintendo 64",
+      "gameTitle": "Mario Artist: Paint Studio"
+    },
+    "twitchBoxArtId": 19342,
+    "twitchName": "Mario Artist: Paint Studio"
+  },
+  "bluisblu/pvz": {
+    "meta": {
+      "year": 2009,
+      "platformLabel": "Windows",
+      "gameTitle": "Plants vs. Zombies"
+    },
+    "twitchBoxArtId": 23239,
+    "twitchName": "Plants vs. Zombies"
+  },
+  "gradenGnostic/pokemoon": {
+    "meta": {
+      "year": 2016,
+      "platformLabel": "Nintendo 3DS",
+      "gameTitle": "Pokémon Moon"
+    },
+    "twitchBoxArtId": 491599,
+    "twitchName": "Pokémon Sun/Moon"
+  },
+  "Lynder063/rac1-decomp": {
+    "meta": {
+      "year": 2002,
+      "platformLabel": "PlayStation 2",
+      "gameTitle": "Ratchet & Clank"
+    },
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "melalawi/ragewars-decomp": {
+    "meta": {
+      "year": 1998,
+      "platformLabel": "PlayStation",
+      "gameTitle": "Rage Wars"
+    },
+    "twitchBoxArtId": 133415,
+    "twitchName": "Rage Wars"
+  },
+  "vetusmagnus/ratchet-uya-decomp": {
+    "meta": {
+      "year": 2004,
+      "platformLabel": "PlayStation 2",
+      "gameTitle": "Ratchet & Clank: Up Your Arsenal"
+    },
+    "twitchBoxArtId": 4540,
+    "twitchName": "Ratchet & Clank: Up Your Arsenal"
+  },
+  "ZounaDecomp/RatDecomp": {
+    "meta": {
+      "year": 2002,
+      "platformLabel": "PlayStation 2",
+      "gameTitle": "Ratchet & Clank"
+    },
+    "twitchBoxArtId": 16791,
+    "twitchName": "Ratchet & Clank"
+  },
+  "AshfordFamily/recvx-decomp": {
+    "meta": {
+      "year": 2000,
+      "platformLabel": "Dreamcast",
+      "gameTitle": "Resident Evil Code: Veronica"
+    },
+    "twitchBoxArtId": 12789,
+    "twitchName": "Resident Evil Code: Veronica"
+  },
+  "fmil95/recvx-decomp": {
+    "meta": {
+      "year": 2000,
+      "platformLabel": "Dreamcast",
+      "gameTitle": "Resident Evil Code: Veronica"
+    },
+    "twitchBoxArtId": 12789,
+    "twitchName": "Resident Evil Code: Veronica"
+  },
+  "fmil95/recvx-gc-decomp": {
+    "meta": {
+      "year": 2003,
+      "platformLabel": "GameCube",
+      "gameTitle": "Resident Evil Code: Veronica X"
+    },
+    "twitchBoxArtId": 12789,
+    "twitchName": "Resident Evil Code: Veronica"
+  },
+  "oohweee/sh2-proto-decomp": {
+    "meta": {
+      "year": 2001,
+      "platformLabel": "PlayStation 2",
+      "gameTitle": "Silent Hill 2"
+    },
+    "twitchBoxArtId": 9891,
+    "twitchName": "Silent Hill 2"
+  },
+  "Vatuu/silent-hill-decomp": {
+    "meta": {
+      "year": 1999,
+      "platformLabel": "PlayStation",
+      "gameTitle": "Silent Hill"
+    },
+    "twitchBoxArtId": 3947,
+    "twitchName": "Silent Hill"
+  },
+  "natebag/Sims2DECOMP": {
+    "meta": {
+      "year": 2004,
+      "platformLabel": "Windows",
+      "gameTitle": "The Sims 2"
+    },
+    "twitchBoxArtId": 2274,
+    "twitchName": "The Sims 2"
+  },
+  "tangosdev/sm64ds-decomp": {
+    "meta": {
+      "year": 2004,
+      "platformLabel": "Nintendo DS",
+      "gameTitle": "Super Mario 64 DS"
+    },
+    "twitchBoxArtId": 1483136307,
+    "twitchName": "Super Mario 64 DS"
+  },
+  "banteg/snail": {
+    "meta": {
+      "year": 2004,
+      "platformLabel": "Windows",
+      "gameTitle": "Snail Mail"
+    },
+    "twitchBoxArtId": 15225,
+    "twitchName": "Snail Mail"
+  },
+  "pakompom/SpaceRangers1_decomp": {
+    "meta": {
+      "year": 2002,
+      "platformLabel": "Windows",
+      "gameTitle": "Space Rangers"
+    },
+    "twitchBoxArtId": 17204,
+    "twitchName": "Space Rangers"
+  },
+  "pakompom/SpaceRangersHD_decomp": {
+    "meta": {
+      "year": 2013,
+      "platformLabel": "Windows",
+      "gameTitle": "Space Rangers HD: A War Apart"
+    },
+    "twitchBoxArtId": 66406,
+    "twitchName": "Space Rangers HD: A War Apart"
+  },
+  "AARosson48/SummonerDecomp": {
+    "meta": {
+      "year": 2001,
+      "platformLabel": "PlayStation 2",
+      "gameTitle": "Summoner"
+    },
+    "twitchBoxArtId": 18156,
+    "twitchName": "Summoner"
+  },
+  "Fuuzetsu/tenchu-decomp": {
+    "meta": {
+      "year": 1998,
+      "platformLabel": "PlayStation",
+      "gameTitle": "Tenchu: Stealth Assassins"
+    },
+    "twitchBoxArtId": 14671,
+    "twitchName": "Tenchu: Stealth Assassins"
+  },
+  "Veradictus/Thief3-Decomp": {
+    "meta": {
+      "year": 2004,
+      "platformLabel": "Windows",
+      "gameTitle": "Thief: Deadly Shadows"
+    },
+    "twitchBoxArtId": 2147,
+    "twitchName": "Thief: Deadly Shadows"
+  },
+  "spongeis5/ToS-Decomp": {
+    "meta": {
+      "year": 2003,
+      "platformLabel": "GameCube",
+      "gameTitle": "Tales of Symphonia"
+    },
+    "twitchBoxArtId": 19369,
+    "twitchName": "Tales of Symphonia"
+  },
+  "Adubbz/DCDecomp": {
+    "meta": {
+      "year": 2000,
+      "platformLabel": "PlayStation 2",
+      "gameTitle": "Dark Cloud"
+    },
+    "twitchBoxArtId": 1705,
+    "twitchName": "Dark Cloud"
+  },
+  "juandav/dw3_decomp": {
+    "meta": {
+      "year": 2002,
+      "platformLabel": "PlayStation",
+      "gameTitle": "Digimon World 3"
+    },
+    "twitchBoxArtId": 3549,
+    "twitchName": "Digimon World 3"
+  },
+  "Yanis002/st-archive": {
+    "meta": {
+      "year": 2009,
+      "platformLabel": "Nintendo DS",
+      "gameTitle": "The Legend of Zelda: Spirit Tracks"
+    },
+    "twitchBoxArtId": 23195,
+    "twitchName": "The Legend of Zelda: Spirit Tracks"
+  }
+}

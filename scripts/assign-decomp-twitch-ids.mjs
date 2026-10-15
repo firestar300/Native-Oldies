@@ -10,11 +10,11 @@
 import { writeFile, readFile, mkdir } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import {
-  DECOMP_DEV,
   DECOMP_DEV_EXCLUDED_PLATFORMS,
   isDecompDevExcludedRepo,
 } from '../src/data/decomp-dev-source.js'
 import { portProjects } from '../src/data/projects.js'
+import { loadDecompDevRemoteProjects } from './decomp-dev-feed.mjs'
 import { cleanGameTitle, isDecompDevGame } from './decomp-dev-metadata.mjs'
 import { loadTwitchCache, saveTwitchCache } from './decomp-dev-twitch-cache.mjs'
 
@@ -304,12 +304,7 @@ const buildIndex = (rows) => {
   return index
 }
 
-const feedResponse = await fetch(DECOMP_DEV.projectsFeedUrl, {
-  headers: { 'User-Agent': 'native-oldies/1.0 (decomp.dev twitch assign)' },
-})
-if (!feedResponse.ok) throw new Error(`decomp.dev feed responded ${feedResponse.status}`)
-
-const { projects: remoteProjects } = await feedResponse.json()
+const { projects: remoteProjects } = await loadDecompDevRemoteProjects()
 const existingRepos = new Set(
   portProjects.map((project) => normalizeRepo(project.repo)).filter(Boolean),
 )
@@ -340,12 +335,13 @@ for (const remote of remoteProjects) {
   if (!repoUrl || existingRepos.has(normalizeRepo(repoUrl))) continue
 
   const gameName = remote.name ?? `${remote.owner}/${remote.repo}`
-  if (!isDecompDevGame(gameName, remote.repo)) continue
+  if (!isDecompDevGame(gameName, remote.repo ?? remote.repository)) continue
   if (remote.platform && DECOMP_DEV_EXCLUDED_PLATFORMS.has(remote.platform)) continue
   if (isDecompDevExcludedRepo(remote.owner, remote.repo)) continue
 
+  const repo = remote.repo ?? remote.repository
   catalog.push({
-    key: `${remote.owner}/${remote.repo}`,
+    key: `${remote.owner}/${repo}`,
     gameName,
     shortName: remote.short_name,
   })
