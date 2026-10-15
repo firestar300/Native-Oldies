@@ -20,4 +20,17 @@ export const decompDevExtraProjects = [
     website: null,
     status: 'wip',
   },
+  {
+    id: 'pret-pokeheartgold',
+    game: 'Pokémon HeartGold and SoulSilver',
+    project: 'pokeheartgold',
+    platform: 'Nintendo DS',
+    approach: 'Decompilation',
+    year: 2009,
+    summary:
+      'Work-in-progress matching decompilation of Pokémon HeartGold and SoulSilver (pret). US HeartGold and SoulSilver ROMs rebuild byte-for-byte when complete.',
+    repo: 'https://github.com/pret/pokeheartgold',
+    website: null,
+    status: 'wip',
+  },
 ]
