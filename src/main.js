@@ -245,6 +245,15 @@ const initApp = () => {
       if (aIncomplete !== bIncomplete) return aIncomplete ? -1 : 1
       return titleSorter(a, b)
     },
+    'newest-catalog': (a, b) => {
+      const aDate = a.catalogPublishedAt
+      const bDate = b.catalogPublishedAt
+      if (!aDate && !bDate) return titleSorter(a, b)
+      if (!aDate) return 1
+      if (!bDate) return -1
+      const byDate = bDate.localeCompare(aDate)
+      return byDate !== 0 ? byDate : titleSorter(a, b)
+    },
   })
 
   const devSorters = catalogDev ? buildDevSorters(SORTERS.title) : {}
@@ -369,6 +378,7 @@ const initApp = () => {
       { value: 'missing-cover', label: 'Dev: no cover first' },
       { value: 'missing-year', label: 'Dev: no year first' },
       { value: 'incomplete-first', label: 'Dev: incomplete first' },
+      { value: 'newest-catalog', label: 'Dev: recently added (decomp.dev)' },
     ]
     for (const { value, label } of devOptions) {
       const option = document.createElement('option')
