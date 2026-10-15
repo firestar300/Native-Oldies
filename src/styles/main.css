@@ -210,11 +210,18 @@ a.card-website-link {
   min-height: 150vh;
 }
 
-.status-tag {
+.card-cover-tags {
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
   z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  max-width: calc(100% - 1rem);
+}
+
+.status-tag {
   border-radius: 9999px;
   padding: 0.2rem 0.55rem;
   font-family: var(--font-pixel);
@@ -238,6 +245,12 @@ a.card-website-link {
 .status-tag--wip {
   background: color-mix(in oklab, #f59e0b 90%, transparent);
   color: #451a03;
+}
+
+.status-tag--ai {
+  background: color-mix(in oklab, var(--color-muted) 35%, var(--color-card));
+  color: var(--color-ink);
+  border: 1px solid color-mix(in oklab, var(--color-line) 80%, transparent);
 }
 
 @media (prefers-reduced-motion: reduce) {

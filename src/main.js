@@ -152,13 +152,22 @@ const renderStatusTag = (project) => {
   return `<span class="status-tag status-tag--${escapeHtml(project.status)}">${escapeHtml(label)}</span>`
 }
 
+const renderAiTag = () =>
+  `<span class="status-tag status-tag--ai" title="Predominantly AI-generated code">AI</span>`
+
+const renderCoverTags = (project) => {
+  const tags = [renderStatusTag(project)]
+  if (project.aiAssisted) tags.push(renderAiTag())
+  return `<div class="card-cover-tags">${tags.join('')}</div>`
+}
+
 const renderCard = (project) => {
   const item = document.createElement('li')
   item.dataset.id = project.id
   item.innerHTML = `
     <article class="group flex h-full flex-col">
       <div class="relative aspect-[3/4] overflow-hidden rounded-xl border border-line bg-card shadow-sm transition duration-300 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-accent/20 group-focus-within:-translate-y-1 group-focus-within:shadow-xl group-focus-within:shadow-accent/20">
-        ${renderStatusTag(project)}
+        ${renderCoverTags(project)}
         ${renderCover(project)}
         <!-- Hover / focus overlay (pointer devices) -->
         <div class="absolute inset-0 flex flex-col justify-end gap-3 bg-gradient-to-t from-black/95 via-black/75 to-black/10 p-3 text-white opacity-0 transition duration-200 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:hidden sm:p-4">

@@ -18,6 +18,7 @@
  * @property {number}      [twitchBoxArtId]  Twitch box art id (`…/ttv-boxart/{id}_IGDB.jpg` on most categories).
  * @property {string}      [twitchCoverUrl]  Full Twitch CDN cover URL when the category does not use the `_IGDB` suffix.
  * @property {'complete'|'playable'|'wip'} status  Port maturity (PCGamingWiki-style); used for filters and card tags.
+ * @property {boolean}   [aiAssisted]    When true, shows an "AI" badge (codebase predominantly AI-generated).
  */
 
 export const APPROACHES = {

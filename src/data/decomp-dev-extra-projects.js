@@ -19,6 +19,7 @@ export const decompDevExtraProjects = [
     repo: 'https://github.com/ctrl-cheeb-del/pokeheartgold',
     website: null,
     status: 'wip',
+    aiAssisted: true,
   },
   {
     id: 'pret-pokeheartgold',
