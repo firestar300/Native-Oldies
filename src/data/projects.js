@@ -604,6 +604,21 @@ export const portProjects = [
     status: 'wip',
   },
   {
+    id: 'super-mario-bros-wonder-recomp',
+    game: 'Super Mario Bros. Wonder',
+    project: 'SuperMarioWonderRecomp',
+    platform: 'Nintendo Switch',
+    approach: APPROACHES.recomp,
+    year: 2023,
+    summary:
+      'Static recompilation of Wonder 1.0.0 for Windows, macOS, Linux and Android: NVN on Vulkan (MoltenVK on Mac); bring your own dump, keys and firmware.',
+    repo: 'https://github.com/BelmanteGu/SuperMarioWonderRecomp',
+    website: null,
+    twitchBoxArtId: 463447553,
+    status: 'playable',
+    aiAssisted: true,
+  },
+  {
     id: 'paper-mario',
     game: 'Paper Mario',
     project: 'PaperBoat',
