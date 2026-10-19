@@ -54,6 +54,7 @@ const sortedKeysByCount = (counts) =>
 
 const SORTERS = {
   title: (a, b) => a.game.localeCompare(b.game) || a.project.localeCompare(b.project),
+  'title-desc': (a, b) => b.game.localeCompare(a.game) || b.project.localeCompare(a.project),
   oldest: (a, b) => a.year - b.year || SORTERS.title(a, b),
   newest: (a, b) => b.year - a.year || SORTERS.title(a, b),
 }
