@@ -223,6 +223,20 @@ export const portProjects = [
     status: 'playable',
   },
   {
+    id: 'super-mario-bros-remastered',
+    game: 'Super Mario Bros.',
+    project: 'Super Mario Bros. Remastered',
+    platform: 'NES',
+    approach: APPROACHES.reimpl,
+    year: 1985,
+    summary:
+      'Godot 4 remake of SMB1 and related classics with new levels, resource packs, custom characters and a level editor; Windows and Linux builds require your own NES ROM.',
+    repo: 'https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public',
+    website: 'https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/releases',
+    twitchBoxArtId: 509508,
+    status: 'playable',
+  },
+  {
     id: 'jak-and-daxter',
     game: 'Jak and Daxter Trilogy',
     project: 'OpenGOAL',
