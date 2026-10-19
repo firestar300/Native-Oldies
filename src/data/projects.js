@@ -673,6 +673,20 @@ export const portProjects = [
     status: 'playable',
   },
   {
+    id: 'windowsmash',
+    game: 'Super Smash Bros. Ultimate',
+    project: 'WindowSmash',
+    platform: 'Nintendo Switch',
+    approach: APPROACHES.recomp,
+    year: 2018,
+    summary:
+      'Experimental Windows x64 port of Ultimate: static AArch64 recompilation, a D3D11 runtime and Local Wireless relay netplay; bring your own game files.',
+    repo: 'https://github.com/SNO2207/WindowSmash',
+    website: null,
+    twitchBoxArtId: 504461,
+    status: 'wip',
+  },
+  {
     id: 'gen1recomp',
     game: 'Pokémon Red / Blue Versions',
     project: 'Gen1Recomp',
