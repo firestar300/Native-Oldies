@@ -12,9 +12,8 @@ import { faqItems } from '../src/data/faq.js'
 import { projects } from '../src/data/projects.js'
 
 const NAME = 'Native Oldies'
-const REPO_URL = 'https://github.com/firestar300/Native-Oldies'
 const SITE_URL = (process.env.SITE_URL ?? 'https://firestar300.github.io/Native-Oldies/').replace(/\/*$/, '/')
-const TITLE = `${NAME} — fan-made native PC ports of classic games`
+const TITLE = `${NAME} — fan-made decompilations, recompilations and reimplementations of classic your games`
 const DESCRIPTION = `A directory of ${projects.length} fan-made native PC ports of classic console games: decompilations, static recompilations and reimplementations. No emulator required.`
 
 /** Fonts used above the fold; matched against emitted asset file names. */
