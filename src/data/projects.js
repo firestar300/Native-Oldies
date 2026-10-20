@@ -726,7 +726,7 @@ export const portProjects = [
     summary:
       'Static recompilation of Ultimate 13.0.4 to a native Windows program: toolchain and runtime only; bring your own dump.',
     repo: 'https://github.com/Denkishi/ssbu-recomp',
-    website: null,
+    website: 'https://denkishi.github.io/opensmash-site/',
     twitchBoxArtId: 504461,
     status: 'wip',
     aiAssisted: true,
