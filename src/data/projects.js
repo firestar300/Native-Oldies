@@ -474,6 +474,7 @@ export const portProjects = [
     website: null,
     twitchBoxArtId: 14835,
     status: 'playable',
+    aiAssisted: true,
   },
   {
     id: 'sonic-unleashed',
@@ -713,6 +714,7 @@ export const portProjects = [
     website: null,
     twitchBoxArtId: 504461,
     status: 'wip',
+    aiAssisted: true,
   },
   {
     id: 'denkishi-ssbu-recomp',
@@ -727,6 +729,7 @@ export const portProjects = [
     website: null,
     twitchBoxArtId: 504461,
     status: 'wip',
+    aiAssisted: true,
   },
   {
     id: 'gen1recomp',
