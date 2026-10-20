@@ -383,6 +383,21 @@ export const portProjects = [
     status: 'playable',
   },
   {
+    id: 'tobiichi-port',
+    game: 'God of War',
+    project: 'Tobiichi-Port',
+    platform: 'PlayStation 2',
+    approach: APPROACHES.recomp,
+    year: 2005,
+    summary:
+      'Static recompilation of the original God of War (PS2) to a native PC build; bring your own legally obtained disc image.',
+    repo: 'https://github.com/YYOzcan/Tobiichi-Port',
+    website: null,
+    twitchBoxArtId: 995720898,
+    status: 'wip',
+    aiAssisted: true,
+  },
+  {
     id: 'goldeneye-recomp',
     game: 'GoldenEye 007',
     project: 'GoldenRecomp',
@@ -540,6 +555,21 @@ export const portProjects = [
     website: null,
     twitchBoxArtId: 15910,
     status: 'complete',
+  },
+  {
+    id: 'takedawn',
+    game: 'Burnout 3: Takedown',
+    project: 'Takedawn',
+    platform: 'Xbox',
+    approach: APPROACHES.recomp,
+    year: 2004,
+    summary:
+      'Unofficial native PC, Mac, Linux, Steam Deck and Android port via static recompilation of the NTSC-U Xbox release; widescreen, HDR and high frame rates; bring your own disc.',
+    repo: 'https://github.com/xenophobentx/takedawn',
+    website: 'https://github.com/xenophobentx/takedawn/releases',
+    twitchBoxArtId: 347,
+    status: 'playable',
+    aiAssisted: true,
   },
   {
     id: 'chameleon-twist-recomp',
