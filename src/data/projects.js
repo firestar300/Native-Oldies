@@ -531,6 +531,20 @@ export const portProjects = [
     status: 'playable',
   },
   {
+    id: 'uncharted-pc',
+    game: 'Uncharted: The Nathan Drake Collection',
+    project: 'uncharted_pc',
+    platform: 'PlayStation 4',
+    approach: APPROACHES.native,
+    year: 2015,
+    summary:
+      'Native Windows port of the PS4 collection (Drake\'s Fortune, Among Thieves, Drake\'s Deception): original game code with Vulkan rendering, 60–120 FPS, DLSS/FSR and remappable controls; bring your own dump.',
+    repo: 'https://github.com/Supermedo/uncharted_pc',
+    website: null,
+    status: 'playable',
+    aiAssisted: true,
+  },
+  {
     id: 'wipeout',
     game: 'Wipeout',
     project: 'wipEout Rewrite',
