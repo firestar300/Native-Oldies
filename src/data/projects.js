@@ -462,6 +462,20 @@ export const portProjects = [
     status: 'playable',
   },
   {
+    id: 'skies-of-arcadia-legends-recomp',
+    game: 'Skies of Arcadia Legends',
+    project: 'SkiesOfArcadiaLegends-Recomp',
+    platform: 'GameCube',
+    approach: APPROACHES.recomp,
+    year: 2003,
+    summary:
+      'Static recompilation of the GameCube release for Windows, Linux, macOS and Android: widescreen, 60 fps, save states and Dolphin-derived hardware support; bring your own disc.',
+    repo: 'https://github.com/ogdanimal/SkiesOfArcadiaLegends-Recomp',
+    website: null,
+    twitchBoxArtId: 14835,
+    status: 'playable',
+  },
+  {
     id: 'sonic-unleashed',
     game: 'Sonic Unleashed',
     project: 'Unleashed Recomp',
@@ -696,6 +710,20 @@ export const portProjects = [
     summary:
       'Experimental Windows x64 port of Ultimate: static AArch64 recompilation, a D3D11 runtime and Local Wireless relay netplay; bring your own game files.',
     repo: 'https://github.com/SNO2207/WindowSmash',
+    website: null,
+    twitchBoxArtId: 504461,
+    status: 'wip',
+  },
+  {
+    id: 'denkishi-ssbu-recomp',
+    game: 'Super Smash Bros. Ultimate',
+    project: 'ssbu-recomp',
+    platform: 'Nintendo Switch',
+    approach: APPROACHES.recomp,
+    year: 2018,
+    summary:
+      'Static recompilation of Ultimate 13.0.4 to a native Windows program: toolchain and runtime only; bring your own dump.',
+    repo: 'https://github.com/Denkishi/ssbu-recomp',
     website: null,
     twitchBoxArtId: 504461,
     status: 'wip',
