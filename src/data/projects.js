@@ -607,6 +607,21 @@ export const portProjects = [
     status: 'playable',
   },
   {
+    id: 'luigis-mansion-pc-port',
+    game: "Luigi's Mansion",
+    project: "luigis-mansion-pc-port",
+    platform: 'GameCube',
+    approach: APPROACHES.recomp,
+    year: 2001,
+    summary:
+      'Native PC port via static recompilation on Aurora: widescreen, interpolated high frame rates, enhanced lighting options and European Hidden Mansion support; bring your own GLME01/GLMP01 disc image.',
+    repo: 'https://github.com/rob646464/luigis-mansion-pc-port',
+    website: null,
+    twitchBoxArtId: 10090,
+    status: 'playable',
+    aiAssisted: true,
+  },
+  {
     id: 'legend-of-dragoon',
     game: 'The Legend of Dragoon',
     project: 'Severed Chains',
