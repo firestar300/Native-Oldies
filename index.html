@@ -64,6 +64,29 @@
       Skip to the games
     </a>
 
+    <dialog id="welcome-dialog" class="welcome-dialog" aria-labelledby="welcome-dialog-title"
+      aria-describedby="welcome-dialog-desc">
+      <form method="dialog" class="welcome-dialog__panel">
+        <div class="welcome-dialog__header">
+          <h2 id="welcome-dialog-title" class="welcome-dialog__title">Staying up to date</h2>
+          <button type="submit" class="welcome-dialog__close" aria-label="Close this message">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <p id="welcome-dialog-desc" class="welcome-dialog__body">
+          With so many new decompilation, static recompilation, and reimplementation projects, it is hard to keep
+          this directory up to date. I recommend visiting
+          <a href="https://recomplauncher.com/" target="_blank" rel="noopener noreferrer"
+            class="font-medium text-accent underline underline-offset-4 hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Recomp Launcher<span
+              class="sr-only"> (opens in a new tab)</span></a>, which maintains a more exhaustive list of these
+          projects.
+        </p>
+        <div class="welcome-dialog__actions">
+          <button type="submit" class="welcome-dialog__primary">Got it</button>
+        </div>
+      </form>
+    </dialog>
+
     <header class="relative overflow-hidden border-b border-line">
       <div class="scanlines pointer-events-none absolute inset-0" aria-hidden="true"></div>
       <div class="relative mx-auto max-w-7xl px-4 pb-14 pt-6 sm:px-6 lg:px-8">

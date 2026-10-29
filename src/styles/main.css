@@ -253,6 +253,106 @@ a.card-website-link {
   border: 1px solid color-mix(in oklab, var(--color-line) 80%, transparent);
 }
 
+.welcome-dialog {
+  border: none;
+  padding: 0;
+  margin: auto;
+  max-width: min(28rem, calc(100vw - 2rem));
+  width: 100%;
+  color: var(--ink);
+  background: transparent;
+}
+
+.welcome-dialog::backdrop {
+  background: color-mix(in oklab, var(--ink) 55%, transparent);
+}
+
+.welcome-dialog__panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--card);
+  box-shadow: 0 24px 48px color-mix(in oklab, var(--ink) 18%, transparent);
+}
+
+.welcome-dialog__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.welcome-dialog__title {
+  font-family: var(--font-pixel);
+  font-size: 0.85rem;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.welcome-dialog__close {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin: -0.35rem -0.35rem 0 0;
+  border: 1px solid var(--line);
+  border-radius: 9999px;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.welcome-dialog__close:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.welcome-dialog__close:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.welcome-dialog__body {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.welcome-dialog__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.welcome-dialog__primary {
+  cursor: pointer;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: var(--on-accent);
+  transition: filter 0.15s;
+}
+
+.welcome-dialog__primary:hover {
+  filter: brightness(1.05);
+}
+
+.welcome-dialog__primary:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

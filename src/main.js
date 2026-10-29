@@ -83,6 +83,24 @@ const initTheme = () => {
   syncLabel()
 }
 
+const WELCOME_DISMISS_KEY = 'native-oldies-welcome-dismissed'
+
+const initWelcomeDialog = () => {
+  const dialog = $('#welcome-dialog')
+  if (!dialog || sessionStorage.getItem(WELCOME_DISMISS_KEY)) return
+  if (typeof dialog.showModal !== 'function') return
+
+  dialog.addEventListener('close', () => {
+    sessionStorage.setItem(WELCOME_DISMISS_KEY, '1')
+  })
+
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) dialog.close()
+  })
+
+  dialog.showModal()
+}
+
 /* -------------------------------------------------------------------------- */
 /* Cards                                                                      */
 /* -------------------------------------------------------------------------- */
@@ -476,4 +494,5 @@ const initApp = () => {
 }
 
 initTheme()
+initWelcomeDialog()
 initApp()
